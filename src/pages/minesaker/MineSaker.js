@@ -5,7 +5,6 @@ import Veilederpanel from "nav-frontend-veilederpanel";
 import AlertStripe from "nav-frontend-alertstriper";
 import Lenke from "nav-frontend-lenker";
 import Panel from "nav-frontend-paneler";
-import PaabegynteIkon from "../../assets/PaabegynteIkon";
 import SaksIkon from "../../assets/SaksIkon";
 import KorsIkon from "../../assets/KorsIkon";
 import "./MineSaker.less";
@@ -14,38 +13,6 @@ const MineSaker = () => {
   return (
     <div style={{ margin: "0 auto", width: "60%", paddingTop: "2rem" }}>
       <Sidetittel style={{ color: "#3E3832", textAlign: "center", marginBottom: "6.25rem" }}>Mine Saker</Sidetittel>
-      <Veilederpanel type="plakat" kompakt svg={<PaabegynteIkon />}>
-        <Systemtittel style={{ color: "#3E3832", paddingBottom: "1em" }}>Påbegynte soknader</Systemtittel>
-        <Normaltekst>
-          Du har en påbegynt soknad hos NAV. Vi kan ikke behandle en søknad før du fullfører innsending. Dersom du ikke
-          har gjort noe på søknaden din i løpet av en viss tid, blir den slette automatisk.
-        </Normaltekst>
-        <div style={{ paddingTop: "1.25em", paddingBottom: "0.45em" }}>
-          <Ingress>
-            <Lenke href="" style={{ textDecoration: "none" }}>
-              <HoyreChevron /> Søknad om dagpenger (ikke permitert)
-            </Lenke>
-            <Undertekst style={{ paddingLeft: "1.625em" }}>Sist endret 8. okt 2021</Undertekst>
-          </Ingress>
-        </div>
-        <div style={{ paddingTop: "0.45em", paddingBottom: "0.45em" }}>
-          <Ingress>
-            <Lenke href="" style={{ textDecoration: "none" }}>
-              <HoyreChevron /> Søknad om dagpenger (ikke permitert)
-            </Lenke>
-            <Undertekst style={{ paddingLeft: "1.625em" }}>Sist endret 8. okt 2021</Undertekst>
-          </Ingress>
-        </div>
-        <div style={{ paddingTop: "0.45em", paddingBottom: "0.45em" }}>
-          <Ingress>
-            <Lenke href="" style={{ textDecoration: "none" }}>
-              <HoyreChevron /> Søknad om dagpenger (ikke permitert)
-            </Lenke>
-            <Undertekst style={{ paddingLeft: "1.625em" }}>Sist endret 8. okt 2021</Undertekst>
-          </Ingress>
-        </div>
-      </Veilederpanel>
-
       <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
         <div style={{ paddingBottom: "1em" }}>
           <Systemtittel style={{ color: "#3E3832" }}>Saksoversikt</Systemtittel>
