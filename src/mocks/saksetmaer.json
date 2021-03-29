@@ -1,0 +1,147 @@
+[
+  {
+    "navn": "Arbeidsavklaringspenger",
+    "kode": "AAP",
+    "journalposter": []
+  },
+  {
+    "navn": "Ajourhold - Grunnopplysninger",
+    "kode": "AGR",
+    "journalposter": []
+  },
+  {
+    "navn": "Barnetrygd",
+    "kode": "BAR",
+    "journalposter": []
+  },
+  {
+    "navn": "Dagpenger",
+    "kode": "DAG",
+    "journalposter": []
+  },
+  {
+    "navn": "Enslig forsørger",
+    "kode": "ENF",
+    "journalposter": []
+  },
+  {
+    "navn": "Erstatning",
+    "kode": "ERS",
+    "journalposter": []
+  },
+  {
+    "navn": "Feilutbetaling",
+    "kode": "FEI",
+    "journalposter": []
+  },
+  {
+    "navn": "Foreldre- og svangerskapspenger",
+    "kode": "FOR",
+    "journalposter": []
+  },
+  {
+    "navn": "Fullmakt",
+    "kode": "FUL",
+    "journalposter": []
+  },
+  {
+    "navn": "Generell",
+    "kode": "GEN",
+    "journalposter": []
+  },
+  {
+    "navn": "Gravferdsstønad",
+    "kode": "GRA",
+    "journalposter": []
+  },
+  {
+    "navn": "Hjelpemidler",
+    "kode": "HJE",
+    "journalposter": []
+  },
+  {
+    "navn": "Tiltakspenger",
+    "kode": "IND",
+    "journalposter": []
+  },
+  {
+    "navn": "Medlemskap",
+    "kode": "MED",
+    "journalposter": []
+  },
+  {
+    "navn": "Mobilitetsfremmende stønad",
+    "kode": "MOB",
+    "journalposter": []
+  },
+  {
+    "navn": "Oppfølging",
+    "kode": "OPP",
+    "journalposter": []
+  },
+  {
+    "navn": "Pensjon",
+    "kode": "PEN",
+    "journalposter": []
+  },
+  {
+    "navn": "Rettferdsvederlag",
+    "kode": "RVE",
+    "journalposter": []
+  },
+  {
+    "navn": "Saksomkostninger",
+    "kode": "SAK",
+    "journalposter": []
+  },
+  {
+    "navn": "Serviceklager",
+    "kode": "SER",
+    "journalposter": []
+  },
+  {
+    "navn": "Sykepenger",
+    "kode": "SYK",
+    "journalposter": []
+  },
+  {
+    "navn": "Sykmeldinger",
+    "kode": "SYM",
+    "journalposter": []
+  },
+  {
+    "navn": "Trekkhåndtering",
+    "kode": "TRK",
+    "journalposter": []
+  },
+  {
+    "navn": "Tilleggsstønad",
+    "kode": "TSO",
+    "journalposter": []
+  },
+  {
+    "navn": "Tilleggsstønad arbeidssøkere",
+    "kode": "TSR",
+    "journalposter": []
+  },
+  {
+    "navn": "Unntak fra medlemskap",
+    "kode": "UFM",
+    "journalposter": []
+  },
+  {
+    "navn": "Uføretrygd",
+    "kode": "UFO",
+    "journalposter": []
+  },
+  {
+    "navn": "Ventelønn",
+    "kode": "VEN",
+    "journalposter": []
+  },
+  {
+    "navn": "Yrkesskade",
+    "kode": "YRK",
+    "journalposter": []
+  }
+]
