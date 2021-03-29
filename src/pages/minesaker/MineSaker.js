@@ -7,9 +7,16 @@ import Lenke from "nav-frontend-lenker";
 import Panel from "nav-frontend-paneler";
 import SaksIkon from "../../assets/SaksIkon";
 import KorsIkon from "../../assets/KorsIkon";
+import { useQuery } from "react-query";
+import fetchData from "../../api";
 import "./MineSaker.less";
+import { sakstemaerUrl } from "../../urls";
 
 const MineSaker = () => {
+  const data = useQuery(sakstemaerUrl, fetchData);
+
+  console.log(data);
+
   return (
     <div style={{ margin: "0 auto", width: "60%", paddingTop: "2rem" }}>
       <Sidetittel style={{ color: "#3E3832", textAlign: "center", marginBottom: "6.25rem" }}>Mine Saker</Sidetittel>
@@ -58,7 +65,10 @@ const MineSaker = () => {
           </Ingress>
         </div>
         <AlertStripe type="advarsel">
-          <Normaltekst>Vi jobber for tiden med nye løsninger...</Normaltekst>
+          <Normaltekst>
+            Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vies her
+            akkurat nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
+          </Normaltekst>
         </AlertStripe>
       </Veilederpanel>
 

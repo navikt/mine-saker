@@ -3,11 +3,11 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { useQuery } from "react-query";
 import fetchData from "./api";
 import ScrollToTop from "./components/scroll/ScrollToTop";
-
 import MineSaker from "./pages/minesaker/MineSaker";
+import { sakstemaerUrl } from "./urls";
 
 const App = () => {
-  useQuery("data", fetchData);
+  useQuery(sakstemaerUrl, fetchData);
 
   return (
     <div className="mine-saker">

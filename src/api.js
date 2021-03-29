@@ -1,9 +1,16 @@
 const withCredentials = { method: "GET", credentials: "include" };
 
-const fetchData = (url) => {
-  fetch(url, withCredentials)
-    .then((result) => result.json())
-    .catch((error) => error);
+const checkResponse = (response) => {
+  if (!response.ok) {
+    throw new Error("HTTP request failed");
+  }
+};
+
+export const fetchData = async ({ queryKey }) => {
+  const response = await fetch(queryKey, withCredentials);
+  checkResponse(response);
+
+  return response.json();
 };
 
 export default fetchData;
