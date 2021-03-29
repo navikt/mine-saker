@@ -101,5 +101,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,json,md}": "prettier --write"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
