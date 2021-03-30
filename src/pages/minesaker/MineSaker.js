@@ -1,19 +1,12 @@
 import React from "react";
-import { Ingress, Normaltekst, Sidetittel, Systemtittel, Undertekst } from "nav-frontend-typografi";
+import { Ingress, Normaltekst, Sidetittel } from "nav-frontend-typografi";
 import AlertStripe from "nav-frontend-alertstriper";
 import Panel from "nav-frontend-paneler";
 import KorsIkon from "../../assets/KorsIkon";
-import { useQuery } from "react-query";
-import fetchData from "../../api";
-import "./MineSaker.less";
-import { sakstemaerUrl } from "../../urls";
 import Sakstemaliste from "../../components/sakstemaliste/Sakstemaliste";
+import "./MineSaker.less";
 
 const MineSaker = () => {
-  const data = useQuery(sakstemaerUrl, fetchData);
-
-  console.log(data);
-
   return (
     <div style={{ margin: "0 auto", width: "60%", paddingTop: "2rem" }}>
       <Sidetittel style={{ color: "#3E3832", textAlign: "center", marginBottom: "6.25rem" }}>Mine Saker</Sidetittel>

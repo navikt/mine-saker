@@ -5,33 +5,34 @@ import SaksIkon from "../../assets/SaksIkon";
 import AlertStripe from "nav-frontend-alertstriper";
 import Veilederpanel from "nav-frontend-veilederpanel";
 import ListeElement from "../liste-element/ListeElement";
+import { useQuery } from "react-query";
+import { sakstemaerUrl } from "../../urls";
+import fetchData from "../../api";
+import "./Sakstemaliste.less";
 
-const Sakstemaliste = () => (
-  <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
-    <div style={{ paddingBottom: "1em" }}>
-      <Systemtittel style={{ color: "#3E3832" }}>Saksoversikt</Systemtittel>
-    </div>
-    <ListeElement sakstema={"Regnskap utbetaling"} link={"https://..."} />
-    <ListeElement sakstema={"Omsorgspenger, pleiepenger og opplæringspenger"} link={"https://..."} />
-    <ListeElement sakstema={"Sykemelding og sykepenger"} link={"https://..."} />
-    <ListeElement sakstema={"Foreldre og svangerskapspenger"} link={"https://..."} />
-    <ListeElement sakstema={"Barnetrygd"} link={"https://..."} />
-    <AlertStripe type="advarsel">
-      <Normaltekst>
-        Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vies her akkurat
-        nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
-      </Normaltekst>
-    </AlertStripe>
-  </Veilederpanel>
-);
+const Sakstemaliste = () => {
+  const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
 
-Sakstemaliste.propTypes = {
-  tittelId: PropTypes.string.isRequired,
-  className: PropTypes.string,
+  return (
+    <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
+      <div style={{ paddingBottom: "1em" }}>
+        <Systemtittel style={{ color: "#3E3832" }}>Saksoversikt</Systemtittel>
+      </div>
+      {sakstemaer?.map((sakstema) => (
+        <ListeElement key={sakstema.kode} sakstema={sakstema.navn} link={"..."} />
+      ))}
+      <AlertStripe type="advarsel">
+        <Normaltekst>
+          Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vies her
+          akkurat nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
+        </Normaltekst>
+      </AlertStripe>
+    </Veilederpanel>
+  );
 };
 
-Sakstemaliste.defaultProps = {
-  className: "",
-};
+Sakstemaliste.propTypes = {};
+
+Sakstemaliste.defaultProps = {};
 
 export default Sakstemaliste;
