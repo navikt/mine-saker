@@ -30,7 +30,7 @@ spec:
       {{/each}}
   ingresses:
   {{#each ingresses}}
-   - {{ingress}}
+   - {{this}}
   {{/each}}
   resources:
     limits:

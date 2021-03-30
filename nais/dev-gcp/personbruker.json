@@ -1,5 +1,5 @@
 {
-  "ingress": [
+  "ingresses": [
     "https://www.dev.nav.no/person/mine-saker",
     "https://mine-saker.dev.nav.no/person/mine-saker"
   ],
