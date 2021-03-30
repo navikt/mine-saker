@@ -109,6 +109,7 @@ build/
 # Editors
 .idea/
 .vscode/
+*.iml
 
 # Mac
 .DS_Store/
