@@ -1,6 +1,5 @@
 import React from "react";
 import { Normaltekst, Systemtittel } from "nav-frontend-typografi";
-import PropTypes from "prop-types";
 import SaksIkon from "../../assets/SaksIkon";
 import AlertStripe from "nav-frontend-alertstriper";
 import Veilederpanel from "nav-frontend-veilederpanel";
@@ -15,8 +14,8 @@ const Sakstemaliste = () => {
 
   return (
     <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
-      <div style={{ paddingBottom: "1em" }}>
-        <Systemtittel style={{ color: "#3E3832" }}>Saksoversikt</Systemtittel>
+      <div className="saksoversikt-tittel">
+        <Systemtittel>Saksoversikt</Systemtittel>
       </div>
       {sakstemaer?.map((sakstema) => (
         <ListeElement key={sakstema.kode} sakstema={sakstema.navn} link={"..."} />
@@ -30,9 +29,5 @@ const Sakstemaliste = () => {
     </Veilederpanel>
   );
 };
-
-Sakstemaliste.propTypes = {};
-
-Sakstemaliste.defaultProps = {};
 
 export default Sakstemaliste;

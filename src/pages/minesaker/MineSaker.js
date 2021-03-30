@@ -8,18 +8,18 @@ import "./MineSaker.less";
 
 const MineSaker = () => {
   return (
-    <div style={{ margin: "0 auto", width: "60%", paddingTop: "2rem" }}>
-      <Sidetittel style={{ color: "#3E3832", textAlign: "center", marginBottom: "6.25rem" }}>Mine Saker</Sidetittel>
+    <div className="mine-saker">
+      <Sidetittel className="mine-saker__tittel">Mine Saker</Sidetittel>
       <Sakstemaliste />
-      <div style={{ paddingTop: "2.25rem", paddingBottom: "2.25rem" }}>
+      <div className="mine-saker__infobox">
         <AlertStripe type="info">
           <Normaltekst>Vi beklager at du ikke kan se ...</Normaltekst>
         </AlertStripe>
       </div>
       <Panel>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div className="infobox-to">
           <KorsIkon />
-          <Ingress style={{ paddingLeft: "0.825em", color: "#0067C5" }}>
+          <Ingress className="infobox-to__tekst">
             Vi beklager at du ikke får se eller åpnet alle dokumentene dine i saken din.
           </Ingress>
         </div>

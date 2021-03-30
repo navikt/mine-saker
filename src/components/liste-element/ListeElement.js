@@ -3,14 +3,15 @@ import { Ingress, Undertekst } from "nav-frontend-typografi";
 import PropTypes from "prop-types";
 import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
+import "./ListeElement.less";
 
 const ListeElement = ({ sakstema, link }) => (
-  <div style={{ paddingTop: "1.625em", paddingBottom: "0.45em", borderBottom: "1px solid #B7B1A9" }}>
+  <div className="liste-element">
     <Ingress>
-      <Lenke href={link} style={{ textDecoration: "none" }}>
+      <Lenke href={link} className="liste-element__lenke">
         <HoyreChevron /> {sakstema}
       </Lenke>
-      <Undertekst style={{ paddingLeft: "1.625em" }}>Sist endret 8. okt 2021</Undertekst>
+      <Undertekst className="liste-element__tekst">Sist endret 8. okt 2021</Undertekst>
     </Ingress>
   </div>
 );
