@@ -4,7 +4,7 @@ const path = require("path");
 const mustacheExpress = require("mustache-express");
 const getDecorator = require("./dekorator");
 const buildPath = path.resolve(__dirname, "../build");
-const basePath = "/mine-saker";
+const basePath = "person/mine-saker";
 const logger = require("./logger");
 const server = express();
 
