@@ -1,0 +1,6 @@
+{
+  "ingress": "https://mine-saker.dev.nav.no/person/mine-saker",
+  "outboundHosts": [
+    "mine-saker.dev.nav.no"
+  ]
+}
