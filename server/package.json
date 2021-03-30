@@ -5,7 +5,8 @@
   "author": "NAV",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "bump": "npx npm-check-updates --target minor -u && npm i"
   },
   "dependencies": {
     "dotenv": "8.0.0",
