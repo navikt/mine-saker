@@ -65,7 +65,6 @@
     "test-ci": "npm run lint && CI=true craco test",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
     "lint": "eslint --ext .js,.jsx src",
-    "podlet": "node podlet.js",
     "bump": "npx npm-check-updates --target minor -u && npm i"
   },
   "eslintConfig": {
