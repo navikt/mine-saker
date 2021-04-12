@@ -1,0 +1,60 @@
+[
+  {
+    "navn": "Sykmeldinger",
+    "kode": "SYM",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "390250712",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-01-10T23:16:17Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-01-10T23:16:17Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "394917536",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "381822750",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-09-24T16:11:52Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-09-24T16:11:53Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "384994361",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

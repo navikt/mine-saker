@@ -1,0 +1,86 @@
+[
+  {
+    "navn": "Yrkesskade",
+    "kode": "YRK",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "458612098",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-07T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-07T17:57:26Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "476148064",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "458498056",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-04T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-04T15:37:16Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "476024911",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "407133200",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-08-25T15:11:49Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2014-03-13T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "364734614",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "navn": "Mobilitetsfremmende stønad",
+    "kode": "MOB",
+    "journalposter": [
+      {
+        "tittel": "Uttalelse",
+        "journalpostId": "401283732",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-01-20T11:30:04Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-06-02T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Uttalelse",
+            "dokumentInfoId": "407966654",
+            "brukerHarTilgang": false
+          }
+        ]
+      }
+    ]
+  }
+]

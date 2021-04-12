@@ -1,0 +1,1354 @@
+[
+  {
+    "navn": "Barnetrygd",
+    "kode": "BAR",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "467891021",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2020-01-24T11:35:47Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2020-01-24T11:35:47Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "486185627",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "466945218",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2020-01-10T16:31:07Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2020-01-10T16:31:08Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2020-01-13T05:59:25Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2020-01-15T12:11:57Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "485157890",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "463358066",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-12-18T17:49:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-12-18T17:49:00Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2020-01-08T01:00:00Z",
+            "type": "AV_RETUR"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "481489250",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460201112",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-11-01T13:55:17Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-11-01T13:55:17Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-11-04T00:58:28Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-11-04T10:24:59Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477855099",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477855325",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477855420",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460200740",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-11-01T13:31:10Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-11-01T13:31:10Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-11-04T00:58:28Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-11-04T10:24:56Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477854753",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460198071",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-11-01T13:18:14Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-11-01T13:18:14Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-11-04T00:58:28Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-11-04T10:24:46Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477851901",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459581019",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-23T10:38:38Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-23T10:38:38Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-24T00:58:27Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-10-24T08:33:53Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477184703",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459568206",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-23T10:37:04Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-23T10:37:04Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-24T00:58:27Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-10-25T07:58:37Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477171195",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459568161",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-23T07:02:52Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-23T07:02:52Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-24T00:58:27Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-10-25T07:58:35Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477171112",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459568046",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-23T07:01:25Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-23T07:01:25Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-24T00:58:27Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-10-25T07:58:33Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477171003",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459567932",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-23T06:59:15Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-23T06:59:15Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-24T00:58:27Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-10-25T07:58:31Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477170813",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "459176221",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-16T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-18T12:46:03Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-16T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "476752567",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "457968243",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-09-26T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-09-26T15:39:15Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-09-26T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "475456830",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "457622225",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-10-30T19:04:12Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-10-30T19:04:13Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-10-31T05:11:12Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-11-01T12:55:42Z",
+            "type": "EKSPEDERT"
+          },
+          {
+            "dato": "2019-12-30T01:00:00Z",
+            "type": "AV_RETUR"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "475085164",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "457533418",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-09-19T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-09-20T16:06:01Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "474990841",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "457486575",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-09-18T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-09-19T09:36:35Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-09-18T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "474940712",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "456343513",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-30T09:20:34Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "473613648",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "456326384",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-29T12:07:42Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "473590488",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "456320479",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-30T15:59:41Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "473581992",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "456315431",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-08-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-29T10:05:25Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "473575033",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "449761940",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-30T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-30T09:03:20Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465693740",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "449748794",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-30T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-30T09:04:38Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465676186",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "449667478",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-04-29T11:37:29Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465574501",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "449667174",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-04-29T11:35:37Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465574172",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "449666357",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-08-30T09:02:50Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465572890",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "448767670",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-09T09:19:19Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-04-09T09:19:19Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-04-09T09:19:17Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "464472593",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "445334141",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-02-15T15:38:06Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-02-15T15:38:06Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-02-18T00:58:57Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2019-02-19T07:24:00Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "460278627",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "444632314",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-02-05T15:57:23Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-10-25T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "419557817",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "433597767",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-09-20T21:55:22Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-09-20T21:55:22Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "446481403",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "423393737",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-03-20T12:12:34Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-03-20T12:12:34Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "434050378",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "422893923",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-03-12T21:32:01Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-03-12T21:32:01Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "433437689",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "422893861",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-03-12T21:27:09Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-03-12T21:27:09Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "433437631",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "413199534",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-11-23T12:11:39Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-11-23T12:11:39Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "422055045",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "412076479",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-10-25T14:42:50Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-10-25T14:42:50Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2018-10-26T00:55:14Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2018-10-29T10:00:44Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "420698985",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Rettskjennelse - barnefordelingssaker",
+        "journalpostId": "405028854",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-01-20T11:33:37Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-07-24T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Rettskjennelse - barnefordelingssaker",
+            "dokumentInfoId": "412254878",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "403471236",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-06-30T11:53:09Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-06-30T11:53:09Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-07-03T00:50:23Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2017-07-03T10:24:43Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "410492188",
+            "brukerHarTilgang": false
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "410492346",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "403470726",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-06-30T11:44:35Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-06-30T11:44:35Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-07-03T00:50:23Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2017-07-03T10:24:42Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "410491314",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "402325983",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-06-16T14:19:56Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-06-16T14:19:56Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-06-19T00:53:17Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2017-06-19T15:49:20Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "409174750",
+            "brukerHarTilgang": false
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "409175073",
+            "brukerHarTilgang": false
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "409175251",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "396233641",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-03-29T07:58:56Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-03-29T07:58:56Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "402057358",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "395099234",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-03-15T10:56:15Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-03-15T10:56:15Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-03-16T00:50:54Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2017-03-17T14:33:04Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "400726143",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "400726287",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "395099010",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-03-15T10:51:58Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-03-15T10:51:58Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-03-16T00:50:54Z",
+            "type": "SENDT_PRINT"
+          },
+          {
+            "dato": "2017-03-17T14:33:04Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "400725977",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "379667313",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-08-26T00:09:34Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-08-26T00:09:34Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "382469589",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "379658782",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-08-25T20:25:28Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-08-25T20:25:28Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "382460083",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "379598183",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-08-25T09:02:02Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-08-25T09:02:02Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "382386933",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

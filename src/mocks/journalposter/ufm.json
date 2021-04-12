@@ -1,0 +1,64 @@
+[
+  {
+    "navn": "Unntak fra medlemskap",
+    "kode": "UFM",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460188175",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "ORGANISASJON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-11-01T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-11-07T12:25:02Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-11-01T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "477841296",
+            "brukerHarTilgang": false
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "410083904",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-10-10T12:46:57Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-10-10T12:46:57Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "418307069",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]
