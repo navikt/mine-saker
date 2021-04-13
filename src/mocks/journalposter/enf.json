@@ -1,0 +1,60 @@
+[
+  {
+    "navn": "Enslig forsørger",
+    "kode": "ENF",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "451041813",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-05-21T17:05:49Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-05-21T17:05:49Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "467240566",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "420044511",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-01-30T23:45:20Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-01-30T23:45:20Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "429908167",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

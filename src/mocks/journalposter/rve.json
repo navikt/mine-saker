@@ -1,0 +1,38 @@
+[
+  {
+    "navn": "Rettferdsvederlag",
+    "kode": "RVE",
+    "journalposter": [
+      {
+        "tittel": "Elektronisk kommunikasjon med NAV ",
+        "journalpostId": "493333224",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-02-09T21:16:34Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2021-02-09T21:16:34Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2021-02-09T21:16:32Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Spørsmål via nav.no",
+            "dokumentInfoId": "515131336",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

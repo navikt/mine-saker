@@ -1,0 +1,60 @@
+[
+  {
+    "navn": "Tiltakspenger",
+    "kode": "IND",
+    "journalposter": [
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493333692",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-02-12T15:10:09Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2021-02-12T15:10:09Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515131863",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "468008262",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2020-01-27T13:05:39Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2020-01-27T13:05:39Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "486313534",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

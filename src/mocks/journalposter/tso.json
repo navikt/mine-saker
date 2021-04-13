@@ -1,0 +1,43 @@
+[
+  {
+    "navn": "Tilleggsstønad",
+    "kode": "TSO",
+    "journalposter": [
+      {
+        "tittel": "Søknad om tilleggsstønader",
+        "journalpostId": "493327587",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-01-21T11:50:39Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2021-01-21T12:02:37Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2021-01-21T01:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om tilleggsstønader",
+            "dokumentInfoId": "515125555",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515125554",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

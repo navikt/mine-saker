@@ -1,0 +1,34 @@
+[
+  {
+    "navn": "Gravferdsstønad",
+    "kode": "GRA",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "379147552",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-08-18T10:59:40Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-08-18T10:59:40Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "381849955",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

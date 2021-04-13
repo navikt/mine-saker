@@ -1,0 +1,38 @@
+[
+  {
+    "navn": "Ventelønn",
+    "kode": "VEN",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "468249040",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2020-01-30T10:27:05Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-04-29T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "465574501",
+            "brukerHarTilgang": false
+          }
+        ]
+      }
+    ]
+  }
+]

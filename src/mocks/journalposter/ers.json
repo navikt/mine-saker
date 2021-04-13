@@ -1,0 +1,38 @@
+[
+  {
+    "navn": "Erstatning",
+    "kode": "ERS",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "410092212",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2017-04-23T00:00:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2017-10-10T13:59:47Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2017-04-23T00:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "404222033",
+            "brukerHarTilgang": false
+          }
+        ]
+      }
+    ]
+  }
+]

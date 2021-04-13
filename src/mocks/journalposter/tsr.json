@@ -1,0 +1,43 @@
+[
+  {
+    "navn": "Tilleggsstønad arbeidssøkere",
+    "kode": "TSR",
+    "journalposter": [
+      {
+        "tittel": "Søknad om tilleggsstønader arbeidssøker",
+        "journalpostId": "493351373",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2021-03-16T08:44:00Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2021-03-16T09:03:34Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2021-03-16T01:00:00Z",
+            "type": "REGISTRERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om tilleggsstønader arbeidssøker",
+            "dokumentInfoId": "515150008",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515150009",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

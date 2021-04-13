@@ -1,0 +1,34 @@
+[
+  {
+    "navn": "Trekkhåndtering",
+    "kode": "TRK",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "380593892",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2016-09-08T12:16:29Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2016-09-08T12:16:29Z",
+            "type": "JOURNALFORT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "383574586",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

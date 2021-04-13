@@ -1,0 +1,68 @@
+[
+  {
+    "navn": "Ajourhold - Grunnopplysninger",
+    "kode": "AGR",
+    "journalposter": [
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "443172687",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2019-01-15T13:24:23Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2019-01-15T13:24:23Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2019-01-15T13:24:22Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "457611621",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "434042672",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "relevanteDatoer": [
+          {
+            "dato": "2018-09-28T09:28:29Z",
+            "type": "DOKUMENT"
+          },
+          {
+            "dato": "2018-09-28T09:28:29Z",
+            "type": "JOURNALFORT"
+          },
+          {
+            "dato": "2018-09-28T09:28:28Z",
+            "type": "EKSPEDERT"
+          }
+        ],
+        "arkiverteDokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "447026687",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]
