@@ -7,12 +7,12 @@ const getEnvironment = () => {
 
 const SAKSTEMAER_URL = {
   development: "https://www.api.nav.no/person/mine-saker-api/sakstemaer",
-  production: "https://mine-saker-api.dev.nav.no/mine-saker-api/sakstemaer",
+  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/sakstemaer",
 };
 
 const JOURNALPOSTER_URL = {
   development: "https://www.api.nav.no/person/mine-saker-api/journalposter",
-  production: "https://mine-saker-api.dev.nav.no/mine-saker-api/journalposter",
+  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/journalposter",
 };
 
 export const sakstemaerUrl = SAKSTEMAER_URL[getEnvironment()];
