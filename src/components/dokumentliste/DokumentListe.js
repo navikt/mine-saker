@@ -3,7 +3,6 @@ import { useQueries } from "react-query";
 import { Systemtittel } from "nav-frontend-typografi";
 import SaksIkon from "../../assets/SaksIkon";
 import Veilederpanel from "nav-frontend-veilederpanel";
-import ListeElement from "../liste-element/ListeElement";
 import { fetchBySakstemaKode } from "../../api";
 import "./Dokumentliste.less";
 
@@ -16,6 +15,8 @@ const DokumentListe = ({ sakstemaer }) => {
       };
     })
   );
+
+  console.log(queries);
 
   return (
     <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
