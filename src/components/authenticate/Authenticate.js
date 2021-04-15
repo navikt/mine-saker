@@ -4,7 +4,7 @@ import fetchData from "../../api";
 import { loginUrl, mineSakerUrl, statusUrl } from "../../urls";
 
 const redirectToLogin = () => {
-  window.location.assign(`${loginUrl}&redirect_uri=${mineSakerUrl}`);
+  window.location.assign(`${loginUrl}?redirect_uri=${mineSakerUrl}`);
 };
 
 const Authenticate = ({ children }) => {
