@@ -26,8 +26,8 @@ const STATUS_URL = {
 };
 
 const LOGIN_URL = {
-  development: `https://www.api.nav.no/person/mine-saker-api/login?level=4`,
-  production: `https://mine-saker-api.dev.nav.no/person/mine-saker-api/login?level=4`,
+  development: `https://www.api.nav.no/person/mine-saker-api/login`,
+  production: `https://mine-saker-api.dev.nav.no/person/mine-saker-api/login`,
 };
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
