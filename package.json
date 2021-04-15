@@ -67,7 +67,7 @@
     "lint": "eslint --ext .js,.jsx src",
     "bump": "npx npm-check-updates --target minor -u && npm i"
   },
-  "homepage": ".",
+  "homepage": "person/mine-saker",
   "eslintConfig": {
     "plugins": [
       "jsx-a11y"
