@@ -3,8 +3,9 @@ import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
 import { useQueries, useQuery } from "react-query";
 import { fetchBySakstemaKode } from "../../api";
+import "./Sakstemabase.less";
 
-const Sakstemabase = ({ sakstemaer, kode }) => {
+const Sakstemabase = ({ sakstemaer, temakode }) => {
   useQueries(
     sakstemaer.map((sakstema) => {
       return {
@@ -14,7 +15,7 @@ const Sakstemabase = ({ sakstemaer, kode }) => {
     })
   );
 
-  const { data: result, isSuccess } = useQuery(["sakstemakode", kode]);
+  const { data: result, isSuccess } = useQuery(["sakstemakode", temakode]);
 
   if (!isSuccess) {
     return null;
@@ -22,7 +23,10 @@ const Sakstemabase = ({ sakstemaer, kode }) => {
 
   return (
     <div className="sakstema">
-      <Sidetittel className="sakstema__tittel">{result[0].navn}</Sidetittel>
+      <div className="sakstemabase-tittel">
+        <Sidetittel>{result[0].navn}</Sidetittel>
+      </div>
+      <DokumentListe journalposter={result[0].journalposter} />
     </div>
   );
 };

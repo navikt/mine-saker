@@ -1,11 +1,10 @@
 import React from "react";
-import { useQueries, useQuery } from "react-query";
+import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
-import { Sidetittel } from "nav-frontend-typografi";
 import { sakstemaerUrl } from "../../urls";
-import fetchData, { fetchBySakstemaKode } from "../../api";
-import DokumentListe from "../../components/dokumentliste/DokumentListe";
+import fetchData from "../../api";
 import "./Sakstema.less";
+import Sakstemabase from "../../components/sakstemabase/Sakstemabase";
 
 const Sakstema = () => {
   const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData, { onSuccess: (data) => {} });
@@ -17,8 +16,7 @@ const Sakstema = () => {
 
   return (
     <div className="sakstema">
-      <Sidetittel className="sakstema__tittel">{temakode}</Sidetittel>
-      <DokumentListe sakstemaer={sakstemaer} temakode={temakode} />
+      <Sakstemabase sakstemaer={sakstemaer} temakode={temakode} />
     </div>
   );
 };
