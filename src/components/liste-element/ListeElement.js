@@ -3,7 +3,7 @@ import { Ingress, Undertekst } from "nav-frontend-typografi";
 import PropTypes from "prop-types";
 import { HoyreChevron } from "nav-frontend-chevron";
 import { Link } from "react-router-dom";
-import Lenke from "nav-frontend-lenker";
+import "nav-frontend-lenker";
 import "./ListeElement.less";
 
 const ListeElement = ({ sakstema, kode }) => {
