@@ -59,7 +59,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "NODE_ENV=development craco start",
+    "start": "NODE_ENV=development PUBLIC_URL=/ craco start",
     "build": "craco build",
     "test": "node --version",
     "test-ci": "npm run lint && CI=true craco test",
