@@ -7,7 +7,7 @@ import "./Sakstema.less";
 import Sakstemabase from "../../components/sakstemabase/Sakstemabase";
 
 const Sakstema = () => {
-  const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData, { onSuccess: (data) => {} });
+  const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
   const { temakode } = useParams();
 
   if (!sakstemaer) {
