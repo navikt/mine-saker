@@ -24,7 +24,7 @@ const DokumentListe = ({ journalposter }) => {
           <Systemtittel>Dokumentliste</Systemtittel>
         </div>
         {journalposter.map((journalpost) => {
-          return <ListeElement key={journalpost.journalpostId} sakstema={journalpost.tittel} link={"..."} />;
+          return <ListeElement key={journalpost.journalpostId} sakstema={journalpost.tittel} kode={"..."} />;
         })}
         <AlertStripe type="info">
           <Normaltekst>Vi beklager at du ikke kan se alle dokumentene dine i saken din.</Normaltekst>

@@ -18,7 +18,7 @@ const Sakstemaliste = () => {
         <Systemtittel>Saksoversikt</Systemtittel>
       </div>
       {sakstemaer?.map((sakstema) => (
-        <ListeElement key={sakstema.kode} sakstema={sakstema.navn} link={"..."} />
+        <ListeElement key={sakstema.kode} sakstema={sakstema.navn} kode={sakstema.kode} />
       ))}
       <AlertStripe type="advarsel">
         <Normaltekst>
