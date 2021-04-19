@@ -1,22 +1,29 @@
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
-import { sakstemaerUrl } from "../../urls";
+import { journalposterURL, sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
+import { Sidetittel } from "nav-frontend-typografi";
+import DokumentListe from "../../components/dokumentliste/DokumentListe";
 import "./Sakstema.less";
-import Sakstemabase from "../../components/sakstemabase/Sakstemabase";
 
 const Sakstema = () => {
-  const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
   const { temakode } = useParams();
+  const { isSuccess } = useQuery(sakstemaerUrl, fetchData);
+  const { data } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData, {
+    enabled: isSuccess,
+  });
 
-  if (!sakstemaer) {
+  if (!data) {
     return null;
   }
 
   return (
     <div className="sakstema">
-      <Sakstemabase sakstemaer={sakstemaer} temakode={temakode} />
+      <div className="sakstema-tittel">
+        <Sidetittel>{data[0].navn}</Sidetittel>
+      </div>
+      <DokumentListe journalposter={data[0].journalposter} />
     </div>
   );
 };
