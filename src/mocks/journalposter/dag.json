@@ -4,6 +4,512 @@
     "kode": "DAG",
     "journalposter": [
       {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356490",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:52:07Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155889",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155890",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356479",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:30Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155876",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155877",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356348",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:22Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155738",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155739",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356337",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:24Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155726",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155727",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356335",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:20Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155723",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155724",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356331",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:23Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155718",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155719",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356312",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:21Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155696",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155697",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356311",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:23Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155694",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155695",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356291",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-16T14:44:22Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155673",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155674",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356213",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-15T14:55:23Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155594",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155595",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356208",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-15T14:55:23Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155588",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155589",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356207",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-15T14:55:24Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155586",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155587",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356200",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-15T09:03:25Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155577",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155578",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356195",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-15T08:48:05Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155571",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155572",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493356083",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T14:23:47Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155448",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155449",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493355993",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T10:59:49Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155356",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155357",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+        "journalpostId": "493355970",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T10:17:37Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+            "dokumentInfoId": "515155331",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155332",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+        "journalpostId": "493355969",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T10:17:16Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+            "dokumentInfoId": "515155329",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155330",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+        "journalpostId": "493355966",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T10:16:55Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om gjenopptak av dagpenger ved permittering",
+            "dokumentInfoId": "515155325",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155326",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493355930",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T09:11:41Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155286",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155287",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493355910",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-14T08:22:54Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155264",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155265",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493355805",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-13T15:56:28Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155158",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155159",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Søknad om dagpenger (ikke permittert)",
+        "journalpostId": "493355768",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-13T14:54:28Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Søknad om dagpenger (ikke permittert)",
+            "dokumentInfoId": "515155115",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Kvitteringsside for dokumentinnsending",
+            "dokumentInfoId": "515155116",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
         "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
         "journalpostId": "493355045",
         "journalposttype": "INNGAAENDE",
@@ -11,20 +517,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-04-08T10:45:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-04-08T10:45:55Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-04-08T10:45:46Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-04-08T10:45:55Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -51,20 +544,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-04-06T08:36:01Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-04-06T08:36:15Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-04-06T08:36:01Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-04-06T08:36:15Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -86,20 +566,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-04-06T08:25:50Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-04-06T08:26:15Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-04-06T08:25:50Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-04-06T08:26:15Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -121,20 +588,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-29T07:43:48Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-29T07:44:06Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-29T07:43:48Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-29T07:44:06Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -156,20 +610,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T19:10:47Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T19:10:59Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-26T19:10:47Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T19:10:59Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -196,20 +637,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T14:06:33Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T14:06:49Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-26T14:06:33Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T14:06:49Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -236,16 +664,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T12:31:07Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T12:31:07Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T12:31:07Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Uten tittel",
@@ -272,16 +691,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T12:03:20Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T12:03:20Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T12:03:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Uten tittel",
@@ -308,16 +718,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T11:04:13Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T11:04:13Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T11:04:13Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Uten tittel",
@@ -344,16 +745,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-26T10:09:42Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-26T10:09:42Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-26T10:09:42Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -375,20 +767,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T21:10:20Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T21:10:31Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-25T21:10:20Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T21:10:31Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -415,20 +794,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T20:18:12Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T20:18:19Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-25T20:18:12Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T20:18:19Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -455,20 +821,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T20:01:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T20:02:00Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-25T20:01:46Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T20:02:00Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -495,20 +848,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T19:33:23Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T19:33:29Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-25T19:33:23Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T19:33:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -535,16 +875,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T19:08:48Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T19:08:48Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T19:08:48Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -571,20 +902,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T15:38:28Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T15:38:34Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-25T15:38:28Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T15:38:34Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -611,16 +929,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T15:16:40Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T15:16:40Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T15:16:40Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -647,16 +956,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-25T14:58:33Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-25T14:58:33Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-25T14:58:33Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -683,16 +983,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-24T10:03:51Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-24T10:03:51Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-24T10:03:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -714,16 +1005,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-24T10:01:33Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-24T10:01:33Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-24T10:01:33Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -745,20 +1027,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T21:27:42Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T21:27:50Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T21:27:42Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T21:27:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -785,16 +1054,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T21:25:34Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T21:25:34Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T21:25:34Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -816,16 +1076,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T21:21:40Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T21:21:40Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T21:21:40Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -847,20 +1098,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T21:00:41Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T21:00:49Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T21:00:41Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T21:00:49Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -887,16 +1125,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T20:58:10Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T20:58:10Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T20:58:10Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -923,20 +1152,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T20:39:19Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T20:39:28Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T20:39:19Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T20:39:28Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -963,20 +1179,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T20:28:36Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T20:28:48Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T20:28:36Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T20:28:48Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1003,20 +1206,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T19:52:50Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T20:10:29Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T19:52:50Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T20:10:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1043,20 +1233,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T19:17:21Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T19:17:29Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T19:17:21Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T19:17:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1083,16 +1260,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T15:31:49Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T15:31:49Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T15:31:49Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1114,20 +1282,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T14:45:44Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T14:45:50Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-18T14:45:44Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T14:45:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1154,16 +1309,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T14:40:04Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T14:40:04Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T14:40:04Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1185,16 +1331,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T14:21:29Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T14:21:29Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T14:21:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger ved permittering",
@@ -1216,16 +1353,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T14:13:50Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T14:13:50Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T14:13:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1247,16 +1375,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T14:06:02Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T14:06:02Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T14:06:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1278,16 +1397,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-18T13:41:06Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-18T13:41:06Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-18T13:41:06Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1309,16 +1419,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-17T15:13:03Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-17T15:13:03Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-17T15:13:03Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -1335,20 +1436,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-17T14:14:31Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-17T14:14:38Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-17T14:14:31Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-17T14:14:38Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -1365,16 +1453,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-17T11:01:12Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-17T11:01:12Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-17T11:01:12Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1396,16 +1475,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-17T08:58:59Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-17T08:58:59Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-17T08:58:59Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1427,20 +1497,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-16T12:14:27Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-16T12:14:39Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-16T12:14:27Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-16T12:14:39Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -1457,20 +1514,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-15T09:07:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-15T09:07:52Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-15T09:07:46Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-15T09:07:52Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1497,20 +1541,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-15T09:04:07Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-15T09:04:15Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-15T09:04:07Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-15T09:04:15Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1532,20 +1563,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-12T14:36:32Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-12T14:36:38Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-12T14:36:32Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-12T14:36:38Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1572,20 +1590,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-12T14:35:22Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-12T14:35:30Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-12T14:35:22Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-12T14:35:30Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1612,20 +1617,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-12T14:06:04Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-12T14:06:11Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-12T14:06:04Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-12T14:06:11Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -1652,20 +1644,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-12T12:53:43Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-12T12:53:58Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-12T12:53:43Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-12T12:53:58Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1692,20 +1671,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-12T10:02:22Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-12T10:02:40Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-12T10:02:22Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-12T10:02:40Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1727,20 +1693,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-11T10:05:37Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-11T10:05:44Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-11T10:05:37Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-11T10:05:44Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1767,20 +1720,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-11T09:28:35Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-11T09:28:45Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-11T09:28:35Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-11T09:28:45Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1802,20 +1742,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-08T22:18:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-08T22:18:57Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-08T22:18:46Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-08T22:18:57Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1837,20 +1764,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-08T10:35:11Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-08T10:35:37Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-08T10:35:11Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-08T10:35:37Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1877,20 +1791,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-08T10:20:32Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-08T10:21:00Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-08T10:20:32Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-08T10:21:00Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1912,20 +1813,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-08T08:57:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-08T08:57:07Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-08T08:57:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-08T08:57:07Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1947,20 +1835,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-08T08:45:31Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-08T08:45:39Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-08T08:45:31Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-08T08:45:39Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -1987,20 +1862,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-05T19:28:36Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-05T19:28:49Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-05T19:28:36Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-05T19:28:49Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2027,20 +1889,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-05T15:38:57Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-05T15:39:03Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-05T15:38:57Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-05T15:39:03Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2067,20 +1916,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-05T15:35:24Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-05T15:37:44Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-05T15:35:24Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-05T15:37:44Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2107,20 +1943,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-05T14:09:49Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-05T14:09:56Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-05T14:09:49Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-05T14:09:56Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2147,20 +1970,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-03T08:52:23Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-03T08:52:29Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-03T08:52:23Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-03T08:52:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2187,20 +1997,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-03T08:49:28Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-03T08:49:37Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-03T08:49:28Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-03T08:49:37Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2227,20 +2024,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T14:04:34Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T14:04:42Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T14:04:34Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T14:04:42Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2262,20 +2046,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T13:21:41Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T13:21:50Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T13:21:41Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T13:21:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2297,20 +2068,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T11:00:17Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T11:00:29Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T11:00:17Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T11:00:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2332,20 +2090,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T09:47:03Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T09:47:08Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T09:47:03Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T09:47:08Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2372,20 +2117,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T09:44:56Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T09:45:08Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T09:44:56Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T09:45:08Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2412,20 +2144,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T09:42:33Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T09:42:44Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T09:42:33Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T09:42:44Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2447,20 +2166,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-02T09:23:49Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-02T09:24:05Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-02T09:23:49Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-02T09:24:05Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om gjenopptak av dagpenger",
@@ -2482,20 +2188,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-26T12:45:15Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-26T12:45:23Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-26T12:45:15Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-26T12:45:23Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2517,20 +2210,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-26T12:25:56Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-26T12:26:08Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-26T12:25:56Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-26T12:26:08Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Ettersendelse til søknad om dagpenger ved arbeidsledighet (ikke permittert)",
@@ -2557,20 +2237,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-26T12:14:31Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-26T12:14:48Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-26T12:14:31Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-26T12:14:48Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2592,16 +2259,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-18T15:37:29Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-18T15:37:29Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-18T15:37:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2633,20 +2291,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-10T13:32:11Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-12T16:17:40Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-10T13:32:11Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-12T16:17:40Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger ved permittering",
@@ -2668,20 +2313,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-04T16:46:14Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-04T16:46:18Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-04T16:46:14Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-04T16:46:18Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2698,20 +2330,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-03T11:21:57Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-03T11:22:10Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-03T11:21:57Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-03T11:22:10Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2743,20 +2362,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-29T12:37:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-29T12:37:51Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-29T12:37:46Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-29T12:37:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2773,20 +2379,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-28T18:32:52Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-28T21:12:56Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-28T18:32:52Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-28T21:12:56Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2808,20 +2401,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-28T13:58:25Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-28T14:42:02Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-28T13:58:25Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-28T14:42:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2838,20 +2418,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-26T15:34:43Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-28T10:35:53Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-26T15:34:43Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-28T10:35:53Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om dagpenger (ikke permittert)",
@@ -2873,20 +2440,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-27T14:48:30Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-27T14:48:41Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-27T14:48:30Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-27T14:48:41Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2908,20 +2462,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-27T13:56:18Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-27T13:56:30Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-27T13:56:18Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-27T13:56:30Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2938,20 +2479,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-27T09:19:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-27T09:21:07Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-27T09:19:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-27T09:21:07Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Klage/Anke",
@@ -2968,16 +2496,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-02-03T09:46:01Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-02-04T07:54:46Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2020-02-04T07:54:46Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -2994,20 +2513,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-31T13:39:12Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-02-03T09:48:23Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2020-01-31T13:39:12Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2020-02-03T09:48:23Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3024,20 +2530,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-30T15:17:47Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-30T15:17:47Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2020-01-30T15:17:47Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2020-01-30T15:17:47Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3054,16 +2547,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-30T12:56:37Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-30T12:57:50Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2020-01-30T12:57:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3080,20 +2564,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-30T12:33:32Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-30T12:56:58Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2020-01-30T12:33:32Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2020-01-30T12:56:58Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3110,20 +2581,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-18T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-30T10:25:50Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-18T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2020-01-30T10:25:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3140,16 +2598,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-27T13:04:25Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-27T13:04:25Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2020-01-27T13:04:25Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3166,20 +2615,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-07T11:10:39Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2020-01-07T11:10:39Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3201,20 +2637,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-11-11T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-11-11T10:41:02Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-11-11T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-11-11T10:41:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3231,16 +2654,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-11-06T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-11-06T18:19:14Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-11-06T18:19:14Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3257,16 +2671,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-11-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-11-01T14:33:06Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-11-01T14:33:06Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3283,20 +2688,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-11-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-12-03T11:44:47Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-11-01T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-12-03T11:44:47Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3313,16 +2705,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-09-12T18:32:04Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-09-12T18:32:04Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-09-12T18:32:04Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3339,20 +2722,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-08-22T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T10:51:51Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-08-22T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T10:51:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3369,20 +2739,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-08-22T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T10:51:15Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-08-22T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T10:51:15Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3399,20 +2756,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-08-09T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-26T09:51:53Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-08-09T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-08-26T09:51:53Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3429,16 +2773,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-08-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-01T11:59:05Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-01T11:59:05Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3455,16 +2790,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-08-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-01T11:46:22Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-01T11:46:22Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3481,20 +2807,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-18T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T13:57:04Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-18T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T13:57:04Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3511,20 +2824,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-16T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T13:50:30Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-16T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T13:50:30Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3541,16 +2841,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-15T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T09:16:20Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T09:16:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3567,20 +2858,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T13:56:36Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T13:56:36Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3602,20 +2880,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T13:57:51Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-13T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T13:57:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3632,16 +2897,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-11T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T09:07:58Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T09:07:58Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3658,20 +2914,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-11T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-09-05T12:59:02Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-11T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-09-05T12:59:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3688,20 +2931,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-05T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-05T10:43:20Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-05T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-05T10:43:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3718,16 +2948,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-05T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:50:22Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:50:22Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3744,20 +2965,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-05T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-05T09:05:57Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-05T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-05T09:05:57Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3774,20 +2982,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-04T14:48:16Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-04T14:48:16Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3804,20 +2999,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-04T13:54:40Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-04T13:54:40Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3834,16 +3016,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:48:24Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:48:24Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3860,16 +3033,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-04T07:46:31Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-07-04T07:46:31Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3886,16 +3050,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-04T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-04T07:43:59Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-07-04T07:43:59Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3912,20 +3067,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-02T16:40:06Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-02T16:40:06Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3942,20 +3084,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-02T16:33:02Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-02T16:33:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -3972,20 +3101,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T14:06:42Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T14:06:42Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4002,16 +3118,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-02T13:54:24Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-07-02T13:54:24Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4028,16 +3135,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:47:51Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:47:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4054,20 +3152,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T14:07:11Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-07-02T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T14:07:11Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4084,16 +3169,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-01T12:29:32Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-07-01T12:29:32Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4110,16 +3186,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-01T12:26:30Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-07-01T12:26:30Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4136,16 +3203,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:46:16Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:46:16Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4162,16 +3220,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-07-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:45:45Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:45:45Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4188,20 +3237,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T15:11:56Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T15:11:56Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4218,16 +3254,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T13:17:20Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T13:17:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4244,16 +3271,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T13:13:46Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T13:13:46Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4270,16 +3288,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T13:11:09Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T13:11:09Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4296,16 +3305,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T13:08:43Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T13:08:43Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4322,16 +3322,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T13:04:20Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T13:04:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4348,20 +3339,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-07-18T13:54:12Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-06-28T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-07-18T13:54:12Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4378,20 +3356,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-26T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-28T09:18:14Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-06-26T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-06-28T09:18:14Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4408,16 +3373,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-26T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-26T09:46:11Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-26T09:46:11Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4434,16 +3390,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-21T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-08-30T08:45:20Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-08-30T08:45:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4460,20 +3407,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-20T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-20T16:51:35Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-02-21T01:00:00Z",
-            "type": "AV_RETUR"
-          }
-        ],
+        "sisteEndret": "2019-06-20T16:51:35Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4490,16 +3424,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-14T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-14T10:12:23Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-14T10:12:23Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4516,20 +3441,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-12T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-12T11:14:32Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-06-12T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-06-12T11:14:32Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4546,16 +3458,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-05T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-05T14:42:57Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-05T14:42:57Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4572,16 +3475,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-03T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-03T10:52:19Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-06-03T10:52:19Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4598,20 +3492,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-06-03T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-06-03T08:09:41Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-06-03T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-06-03T08:09:41Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4628,16 +3509,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-05-31T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-05-31T15:51:04Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-05-31T15:51:04Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4654,16 +3526,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-05-31T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-05-31T13:19:38Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-05-31T13:19:38Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4680,16 +3543,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-05-06T09:19:28Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-05-06T09:19:28Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-05-06T09:19:28Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4706,16 +3560,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-04-18T09:04:22Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-04-18T09:04:22Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-04-18T09:04:22Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4732,16 +3577,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-03-12T21:29:54Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-03-12T21:29:54Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-03-12T21:29:54Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4758,16 +3594,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-11-15T21:17:19Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-11-15T21:17:19Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2017-11-15T21:17:19Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4784,20 +3611,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-04-23T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-11-10T09:43:09Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2017-04-23T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2017-11-10T09:43:09Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4814,16 +3628,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-10-04T08:52:42Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-10-04T08:52:42Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2017-10-04T08:52:42Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4840,24 +3645,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-01-06T22:22:41Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-01-06T22:22:42Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2017-01-07T15:04:27Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2017-01-09T14:54:52Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2017-01-09T14:54:52Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4874,24 +3662,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-12-21T11:17:12Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-12-21T11:17:12Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-12-22T01:00:52Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-12-23T09:36:18Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-12-23T09:36:18Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4908,24 +3679,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-12-13T19:34:04Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-12-13T19:34:04Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-12-14T01:00:57Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-12-14T15:41:52Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-12-14T15:41:52Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4942,24 +3696,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-12-13T19:29:22Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-12-13T19:29:23Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-12-14T01:00:53Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-12-14T15:41:34Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-12-14T15:41:34Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -4976,24 +3713,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-12-13T19:28:14Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-12-13T19:28:14Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-12-14T01:01:16Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-12-15T09:54:48Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-12-15T09:54:48Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5010,16 +3730,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-12-13T14:12:49Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-12-13T14:12:51Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-12-13T14:12:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5036,24 +3747,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-30T14:23:53Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-30T14:23:53Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-12-01T01:01:46Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-12-01T11:03:30Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-12-01T11:03:30Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5070,24 +3764,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-26T22:21:30Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-26T22:21:31Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-11-28T01:00:20Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-11-29T19:26:19Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-11-29T19:26:19Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5104,24 +3781,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-26T21:26:41Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-26T21:26:42Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-11-28T01:00:21Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-11-30T09:48:14Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-11-30T09:48:14Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5138,24 +3798,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-26T20:10:48Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-28T07:43:13Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-11-29T01:00:40Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-11-29T19:21:56Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-11-29T19:21:56Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5172,24 +3815,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-26T17:51:05Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-26T17:57:07Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-11-26T20:27:09Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-11-29T12:10:31Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-11-29T12:10:31Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5211,24 +3837,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-11-26T17:47:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-11-26T17:47:47Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2016-11-26T20:27:09Z",
-            "type": "SENDT_PRINT"
-          },
-          {
-            "dato": "2016-11-29T12:14:19Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2016-11-29T12:14:19Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5245,16 +3854,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-06-16T08:51:59Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-06-16T08:51:59Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-06-16T08:51:59Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5271,16 +3871,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-06-10T08:45:13Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-06-10T08:45:13Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-06-10T08:45:13Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -5297,16 +3888,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-06-08T08:32:37Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-06-08T08:32:37Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-06-08T08:32:37Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

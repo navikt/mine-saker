@@ -11,20 +11,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-09T12:30:43Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-09T12:30:43Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-09T12:30:43Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-09T12:30:43Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Serviceklage",
@@ -41,20 +28,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-15T12:02:59Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-15T12:02:59Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-15T12:02:59Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-02-15T12:02:59Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Serviceklage",
@@ -71,16 +45,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-05-28T08:25:15Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-05-28T08:25:15Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-05-28T08:25:15Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -97,16 +62,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-09-08T12:07:50Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-09-08T12:07:50Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-09-08T12:07:50Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -123,16 +79,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-08-19T11:20:56Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-08-19T11:20:56Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-08-19T11:20:56Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

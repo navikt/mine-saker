@@ -11,16 +11,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-10-10T14:03:21Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2014-03-13T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2017-10-10T14:03:21Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

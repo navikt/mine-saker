@@ -11,20 +11,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-03-16T08:44:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-03-16T09:03:34Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-03-16T01:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-03-16T09:03:34Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om tilleggsstønader arbeidssøker",

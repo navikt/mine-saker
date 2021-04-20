@@ -11,16 +11,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-05-21T17:05:49Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-05-21T17:05:49Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-05-21T17:05:49Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -37,16 +28,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-01-30T23:45:20Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-01-30T23:45:20Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-01-30T23:45:20Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

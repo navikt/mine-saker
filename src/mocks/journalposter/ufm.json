@@ -11,20 +11,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "ORGANISASJON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-11-01T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-11-07T12:25:02Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-11-01T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-11-07T12:25:02Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -41,16 +28,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-10-10T12:46:57Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-10-10T12:46:57Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2017-10-10T12:46:57Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

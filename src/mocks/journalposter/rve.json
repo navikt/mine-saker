@@ -11,20 +11,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-09T21:16:34Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-09T21:16:34Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-02-09T21:16:32Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2021-02-09T21:16:34Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Spørsmål via nav.no",

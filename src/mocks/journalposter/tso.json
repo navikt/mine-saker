@@ -11,20 +11,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-01-21T11:50:39Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-01-21T12:02:37Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2021-01-21T01:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2021-01-21T12:02:37Z",
         "arkiverteDokumenter": [
           {
             "tittel": "Søknad om tilleggsstønader",
