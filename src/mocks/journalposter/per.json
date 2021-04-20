@@ -1,0 +1,59 @@
+[
+  {
+    "navn": "Permittering og masseoppsigelser",
+    "kode": "PER",
+    "journalposter": [
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493333822",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-02-15T11:11:45Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515131996",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493333815",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-02-15T10:43:58Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515131988",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493333634",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-02-12T11:33:04Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515131780",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]

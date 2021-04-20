@@ -1,0 +1,59 @@
+[
+  {
+    "navn": "Supplerende stønad",
+    "kode": "SUP",
+    "journalposter": [
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493353667",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-03-24T16:00:21Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515152828",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493353666",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-03-24T16:00:18Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515152827",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "Klage/Anke",
+        "journalpostId": "493353591",
+        "journalposttype": "INNGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-03-24T12:08:07Z",
+        "arkiverteDokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515152745",
+            "brukerHarTilgang": true
+          }
+        ]
+      }
+    ]
+  }
+]
