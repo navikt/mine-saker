@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
-import { journalposterURL, sakstemaerUrl } from "../../urls";
+import { journalposterURL } from "../../urls";
 import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
@@ -9,10 +9,7 @@ import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { isSuccess } = useQuery(sakstemaerUrl, fetchData);
-  const { data } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData, {
-    enabled: isSuccess,
-  });
+  const { data } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
 
   if (!data) {
     return null;
