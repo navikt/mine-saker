@@ -11,16 +11,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2016-09-08T12:16:29Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2016-09-08T12:16:29Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2016-09-08T12:16:29Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",

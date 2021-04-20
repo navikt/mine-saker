@@ -11,16 +11,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2021-02-03T13:53:26Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2021-02-03T13:53:27Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2021-02-03T13:53:27Z",
         "arkiverteDokumenter": [
           {
             "tittel": "a-inntekt_2021-02-03",

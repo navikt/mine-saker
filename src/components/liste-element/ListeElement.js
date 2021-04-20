@@ -29,8 +29,12 @@ const ListeElement = ({ sakstema, kode, dato }) => {
 
 ListeElement.propTypes = {
   sakstema: PropTypes.string.isRequired,
-  kode: PropTypes.string.isRequired,
+  kode: PropTypes.string,
   dato: PropTypes.string.isRequired,
+};
+
+ListeElement.defaultProps = {
+  kode: "",
 };
 
 export default ListeElement;

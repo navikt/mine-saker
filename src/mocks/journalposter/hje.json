@@ -11,16 +11,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-02-12T07:03:09Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-02-12T07:03:09Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2020-02-12T07:03:09Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -37,20 +28,7 @@
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2020-01-17T09:56:37Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2020-01-17T09:56:38Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2020-01-17T09:56:36Z",
-            "type": "EKSPEDERT"
-          }
-        ],
+        "sisteEndret": "2020-01-17T09:56:38Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -67,20 +45,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-04-23T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-11-01T10:58:41Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2019-11-01T10:58:41Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2019-11-01T10:58:41Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -97,16 +62,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2019-03-27T12:59:42Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2019-03-27T12:59:42Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2019-03-27T12:59:42Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -123,16 +79,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-11-02T10:32:46Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-11-02T10:35:13Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-11-02T10:35:13Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -149,16 +96,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-11-02T10:26:26Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-11-02T10:26:26Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-11-02T10:26:26Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -175,16 +113,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-11-01T15:24:51Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-11-01T15:24:51Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-11-01T15:24:51Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -201,16 +130,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-11-01T15:16:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-11-01T15:16:00Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-11-01T15:16:00Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -227,16 +147,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2018-08-30T10:47:33Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2018-08-30T10:47:33Z",
-            "type": "JOURNALFORT"
-          }
-        ],
+        "sisteEndret": "2018-08-30T10:47:33Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
@@ -253,20 +164,7 @@
           "innloggetBrukerErAvsender": false,
           "type": "PERSON"
         },
-        "relevanteDatoer": [
-          {
-            "dato": "2017-04-23T00:00:00Z",
-            "type": "DOKUMENT"
-          },
-          {
-            "dato": "2017-11-22T13:33:33Z",
-            "type": "JOURNALFORT"
-          },
-          {
-            "dato": "2017-04-23T00:00:00Z",
-            "type": "REGISTRERT"
-          }
-        ],
+        "sisteEndret": "2017-11-22T13:33:33Z",
         "arkiverteDokumenter": [
           {
             "tittel": "MASKERT_FELT",
