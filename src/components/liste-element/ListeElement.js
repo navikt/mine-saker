@@ -13,7 +13,7 @@ const ListeElement = ({ sakstema, kode, dato }) => {
   dayjs.extend(localeData);
   dayjs.locale("nb");
 
-  const formattedDate = dayjs(dato).format("DD MMMM YYYY");
+  const formattedDate = dayjs(dato).format("DD. MMMM YYYY");
 
   return (
     <div className="liste-element">
