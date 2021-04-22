@@ -20,6 +20,11 @@ const JOURNALPOSTER_URL = {
   production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/journalposter",
 };
 
+const DOKUMENT_URL = {
+  development: "https://www.api.nav.no/person/mine-saker-api/dokumenter",
+  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/dokumenter",
+};
+
 const STATUS_URL = {
   development: "https://www.api.nav.no/person/mine-saker-api/login/status",
   production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/login/status",
@@ -33,5 +38,6 @@ const LOGIN_URL = {
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const sakstemaerUrl = SAKSTEMAER_URL[getEnvironment()];
 export const journalposterURL = JOURNALPOSTER_URL[getEnvironment()];
+export const dokumentURL = DOKUMENT_URL[getEnvironment()];
 export const statusUrl = STATUS_URL[getEnvironment()];
 export const loginUrl = LOGIN_URL[getEnvironment()];
