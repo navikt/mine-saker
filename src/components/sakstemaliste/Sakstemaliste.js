@@ -7,7 +7,7 @@ import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
-import SakstemaLenke from "../chevronlenke/SakstemaLenke/SakstemaLenke";
+import SakstemaLenke from "../chevronlenke/sakstema-lenke/SakstemaLenke";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {

@@ -5,7 +5,7 @@ import DokumentIkon from "../../assets/DokumentIkon";
 import InformasjoIkon from "../../assets/InformasjonIkon";
 import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import AlertStripe from "nav-frontend-alertstriper";
-import DokumentLenke from "../chevronlenke/DokumentLenke/DokumentLenke";
+import DokumentLenke from "../chevronlenke/dokument-lenke/DokumentLenke";
 import "./Dokumentliste.less";
 
 const DokumentListe = ({ journalposter }) => {
