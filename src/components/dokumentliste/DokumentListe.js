@@ -27,11 +27,7 @@ const DokumentListe = ({ journalposter }) => {
         {journalposter.map((journalpost) =>
           journalpost.arkiverteDokumenter.map((arkivertTema) => {
             return (
-              <ChevronlenkeBase
-                key={journalpost.journalpostId}
-                sakstema={journalpost.tittel}
-                dato={journalpost.sisteEndret}
-              >
+              <ChevronlenkeBase key={journalpost.journalpostId} dato={journalpost.sisteEndret}>
                 <DokumentLenke
                   journalpostId={journalpost.journalpostId}
                   dokumentId={arkivertTema.dokumentInfoId}
