@@ -7,7 +7,7 @@ import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
-import SakstemaLenke from "../chevronlenke/sakstema-lenke/SakstemaLenke";
+import Sakstemalenke from "../chevronlenke/sakstemalenke/Sakstemalenke";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -20,7 +20,7 @@ const Sakstemaliste = () => {
       </div>
       {sakstemaer?.map((sakstema) => (
         <ChevronlenkeBase key={sakstema.kode} dato={sakstema.sistEndret}>
-          <SakstemaLenke sakstema={sakstema.navn} kode={sakstema.kode} />
+          <Sakstemalenke sakstema={sakstema.navn} kode={sakstema.kode} />
         </ChevronlenkeBase>
       ))}
       <AlertStripe type="advarsel">

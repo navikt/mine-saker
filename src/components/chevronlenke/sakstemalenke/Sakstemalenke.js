@@ -3,19 +3,19 @@ import PropTypes from "prop-types";
 import { HoyreChevron } from "nav-frontend-chevron";
 import { Link } from "react-router-dom";
 import "nav-frontend-lenker";
-import "./SakstemaLenke.less";
+import "./Sakstemalenke.less";
 
-const SakstemaLenke = ({ sakstema, kode }) => {
+const Sakstemalenke = ({ sakstema, kode }) => {
   return (
-    <Link className="lenke sakstema-lenke" to={`/person/mine-saker/tema/${kode}`}>
+    <Link className="lenke sakstemalenke" to={`/person/mine-saker/tema/${kode}`}>
       <HoyreChevron /> {sakstema}
     </Link>
   );
 };
 
-SakstemaLenke.propTypes = {
+Sakstemalenke.propTypes = {
   sakstema: PropTypes.string.isRequired,
   kode: PropTypes.string.isRequired,
 };
 
-export default SakstemaLenke;
+export default Sakstemalenke;

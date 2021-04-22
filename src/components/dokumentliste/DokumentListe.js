@@ -5,7 +5,7 @@ import DokumentIkon from "../../assets/DokumentIkon";
 import InformasjoIkon from "../../assets/InformasjonIkon";
 import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import AlertStripe from "nav-frontend-alertstriper";
-import DokumentLenke from "../chevronlenke/dokument-lenke/DokumentLenke";
+import Dokumentlenke from "../chevronlenke/dokumentlenke/Dokumentlenke";
 import "./Dokumentliste.less";
 
 const DokumentListe = ({ journalposter }) => {
@@ -28,7 +28,7 @@ const DokumentListe = ({ journalposter }) => {
           journalpost.arkiverteDokumenter.map((arkivertTema) => {
             return (
               <ChevronlenkeBase key={journalpost.journalpostId} dato={journalpost.sisteEndret}>
-                <DokumentLenke
+                <Dokumentlenke
                   journalpostId={journalpost.journalpostId}
                   dokumentId={arkivertTema.dokumentInfoId}
                   sakstema={journalpost.tittel}
