@@ -5,16 +5,16 @@ import Lenke from "nav-frontend-lenker";
 import { dokumentURL } from "../../../urls";
 import "./Dokumentlenke.less";
 
-const Dokumentlenke = ({ sakstema, journalpostId, dokumentId }) => {
+const Dokumentlenke = ({ tekst, journalpostId, dokumentId }) => {
   return (
     <Lenke className="dokumentlenke" href={`${dokumentURL}/${journalpostId}/${dokumentId}`}>
-      <HoyreChevron /> {sakstema}
+      <HoyreChevron /> {tekst}
     </Lenke>
   );
 };
 
 Dokumentlenke.propTypes = {
-  sakstema: PropTypes.string.isRequired,
+  tekst: PropTypes.string.isRequired,
   journalpostId: PropTypes.string.isRequired,
 };
 

@@ -20,7 +20,7 @@ const Sakstemaliste = () => {
       </div>
       {sakstemaer?.map((sakstema) => (
         <ChevronlenkeBase key={sakstema.kode} dato={sakstema.sistEndret}>
-          <Sakstemalenke sakstema={sakstema.navn} kode={sakstema.kode} />
+          <Sakstemalenke tekst={sakstema.navn} kode={sakstema.kode} />
         </ChevronlenkeBase>
       ))}
       <AlertStripe type="advarsel">
