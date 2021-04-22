@@ -17,7 +17,7 @@ const Sakstema = () => {
 
   return (
     <div className="sakstema">
-      <div className="sakstema-tittel">
+      <div className="sakstema__tittel">
         <Sidetittel>{data[0].navn}</Sidetittel>
       </div>
       <DokumentListe journalposter={data[0].journalposter} />
