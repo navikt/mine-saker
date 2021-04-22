@@ -3,10 +3,11 @@ import { Normaltekst, Systemtittel } from "nav-frontend-typografi";
 import SaksIkon from "../../assets/SaksIkon";
 import AlertStripe from "nav-frontend-alertstriper";
 import Veilederpanel from "nav-frontend-veilederpanel";
-import ListeElement from "../liste-element/ListeElement";
+import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
+import Sakstemalenke from "../chevronlenke/sakstemalenke/Sakstemalenke";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -18,7 +19,9 @@ const Sakstemaliste = () => {
         <Systemtittel>Saksoversikt</Systemtittel>
       </div>
       {sakstemaer?.map((sakstema) => (
-        <ListeElement key={sakstema.kode} sakstema={sakstema.navn} kode={sakstema.kode} dato={sakstema.sistEndret} />
+        <ChevronlenkeBase key={sakstema.kode} dato={sakstema.sistEndret}>
+          <Sakstemalenke tekst={sakstema.navn} kode={sakstema.kode} />
+        </ChevronlenkeBase>
       ))}
       <AlertStripe type="advarsel">
         <Normaltekst>

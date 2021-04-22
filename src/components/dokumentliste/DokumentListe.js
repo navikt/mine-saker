@@ -3,8 +3,9 @@ import { Normaltekst, Systemtittel } from "nav-frontend-typografi";
 import Veilederpanel from "nav-frontend-veilederpanel";
 import DokumentIkon from "../../assets/DokumentIkon";
 import InformasjoIkon from "../../assets/InformasjonIkon";
-import ListeElement from "../liste-element/ListeElement";
+import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
 import AlertStripe from "nav-frontend-alertstriper";
+import Dokumentlenke from "../chevronlenke/dokumentlenke/Dokumentlenke";
 import "./Dokumentliste.less";
 
 const DokumentListe = ({ journalposter }) => {
@@ -23,15 +24,19 @@ const DokumentListe = ({ journalposter }) => {
         <div className="panel-tittel">
           <Systemtittel>Dokumentliste</Systemtittel>
         </div>
-        {journalposter.map((journalpost) => {
-          return (
-            <ListeElement
-              key={journalpost.journalpostId}
-              sakstema={journalpost.tittel}
-              dato={journalpost.sisteEndret}
-            />
-          );
-        })}
+        {journalposter.map((journalpost) =>
+          journalpost.arkiverteDokumenter.map((arkivertTema) => {
+            return (
+              <ChevronlenkeBase key={journalpost.journalpostId} dato={journalpost.sisteEndret}>
+                <Dokumentlenke
+                  tekst={journalpost.tittel}
+                  journalpostId={journalpost.journalpostId}
+                  dokumentId={arkivertTema.dokumentInfoId}
+                />
+              </ChevronlenkeBase>
+            );
+          })
+        )}
         <AlertStripe type="info">
           <Normaltekst>Vi beklager at du ikke kan se alle dokumentene dine i saken din.</Normaltekst>
         </AlertStripe>
