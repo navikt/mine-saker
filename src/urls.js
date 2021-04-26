@@ -21,8 +21,8 @@ const JOURNALPOSTER_URL = {
 };
 
 const DOKUMENT_URL = {
-  development: "https://www.api.nav.no/person/mine-saker-api/dokumenter",
-  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/dokumenter",
+  development: "https://www.api.nav.no/person/mine-saker-api/dokument",
+  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/dokument",
 };
 
 const STATUS_URL = {
