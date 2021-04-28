@@ -8,7 +8,7 @@ import "./Dokumentlenke.less";
 const Dokumentlenke = ({ tekst, journalpostId, dokumentId }) => {
   return (
     <Lenke className="dokumentlenke" href={`${dokumentURL}/${journalpostId}/${dokumentId}`}>
-      <HoyreChevron /> {tekst}
+      <HoyreChevron className="dokumentlenke__chevron" /> {tekst}
     </Lenke>
   );
 };

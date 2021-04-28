@@ -1,3 +1,16 @@
 .dokumentlenke {
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    .dokumentlenke__chevron {
+      left: 0.25em;
+    }
+  }
+
+  &__chevron {
+    transition: left 250ms;
+    top: -1px;
+    left: -2px;
+  }
 }

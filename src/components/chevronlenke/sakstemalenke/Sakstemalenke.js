@@ -8,7 +8,7 @@ import "./Sakstemalenke.less";
 const Sakstemalenke = ({ tekst, kode }) => {
   return (
     <Link className="lenke sakstemalenke" to={`/person/mine-saker/tema/${kode}`}>
-      <HoyreChevron /> {tekst}
+      <HoyreChevron className="sakstemalenke__chevron" /> {tekst}
     </Link>
   );
 };
