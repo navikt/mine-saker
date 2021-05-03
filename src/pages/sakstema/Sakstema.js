@@ -6,10 +6,11 @@ import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
 import "./Sakstema.less";
+import Spinner from "../../components/spinner/Spinner";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { data } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
+  const { data, isLoading } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
 
   if (!data) {
     return null;
@@ -17,6 +18,7 @@ const Sakstema = () => {
 
   return (
     <div className="sakstema">
+      {isLoading ? <Spinner message="Laster inn siden..." /> : null}
       <div className="sakstema__tittel">
         <Sidetittel>{data[0].navn}</Sidetittel>
       </div>
