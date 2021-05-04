@@ -5,14 +5,15 @@ import { journalposterURL } from "../../urls";
 import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
+import Spinner from "../../components/spinner/Spinner";
 import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { data } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
+  const { data, isLoading } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
 
-  if (!data) {
-    return null;
+  if (isLoading) {
+    return <Spinner message="Laster inn siden..." />;
   }
 
   return (

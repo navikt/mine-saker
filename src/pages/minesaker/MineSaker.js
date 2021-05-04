@@ -4,9 +4,19 @@ import AlertStripe from "nav-frontend-alertstriper";
 import Panel from "nav-frontend-paneler";
 import KorsIkon from "../../assets/KorsIkon";
 import Sakstemaliste from "../../components/sakstemaliste/Sakstemaliste";
+import { useQuery } from "react-query";
+import { sakstemaerUrl } from "../../urls";
+import fetchData from "../../api";
+import Spinner from "../../components/spinner/Spinner";
 import "./MineSaker.less";
 
 const MineSaker = () => {
+  const { isLoading } = useQuery(sakstemaerUrl, fetchData);
+
+  if (isLoading) {
+    return <Spinner message="Laster inn siden..." />;
+  }
+
   return (
     <div className="mine-saker">
       <Sidetittel className="mine-saker__tittel">Mine Saker</Sidetittel>
