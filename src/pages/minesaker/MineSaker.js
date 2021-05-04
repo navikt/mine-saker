@@ -8,7 +8,7 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
 import Spinner from "../../components/spinner/Spinner";
-import FeilMelding from "../../components/Feilmelding/Feilmelding";
+import FeilMelding from "../../components/feilmelding/Feilmelding";
 import "./MineSaker.less";
 
 const MineSaker = () => {

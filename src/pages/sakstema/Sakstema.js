@@ -6,7 +6,7 @@ import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
 import Spinner from "../../components/spinner/Spinner";
-import FeilMelding from "../../components/Feilmelding/Feilmelding";
+import FeilMelding from "../../components/feilmelding/Feilmelding";
 import "./Sakstema.less";
 
 const Sakstema = () => {
