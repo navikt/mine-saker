@@ -8,10 +8,11 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
 import Spinner from "../../components/spinner/Spinner";
+import FeilMelding from "../../components/Feilmelding/Feilmelding";
 import "./MineSaker.less";
 
 const MineSaker = () => {
-  const { isLoading } = useQuery(sakstemaerUrl, fetchData);
+  const { isLoading, isError } = useQuery(sakstemaerUrl, fetchData);
 
   if (isLoading) {
     return <Spinner message="Laster inn siden..." />;
@@ -19,6 +20,7 @@ const MineSaker = () => {
 
   return (
     <div className="mine-saker">
+      {isError ? <FeilMelding /> : null}
       <Sidetittel className="mine-saker__tittel">Mine Saker</Sidetittel>
       <Sakstemaliste />
       <div className="mine-saker__infobox">
