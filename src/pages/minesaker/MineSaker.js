@@ -13,9 +13,12 @@ import "./MineSaker.less";
 const MineSaker = () => {
   const { isLoading } = useQuery(sakstemaerUrl, fetchData);
 
+  if (isLoading) {
+    return <Spinner message="Laster inn siden..." />;
+  }
+
   return (
     <div className="mine-saker">
-      {isLoading ? <Spinner message="Laster inn siden..." /> : null}
       <Sidetittel className="mine-saker__tittel">Mine Saker</Sidetittel>
       <Sakstemaliste />
       <div className="mine-saker__infobox">
