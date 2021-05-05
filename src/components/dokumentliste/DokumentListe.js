@@ -29,7 +29,7 @@ const DokumentListe = ({ journalposter }) => {
             return (
               <ChevronlenkeBase key={journalpost.journalpostId} dato={journalpost.sisteEndret}>
                 <Dokumentlenke
-                  tekst={journalpost.tittel}
+                  tekst={arkivertTema.tittel}
                   journalpostId={journalpost.journalpostId}
                   dokumentId={arkivertTema.dokumentInfoId}
                 />
