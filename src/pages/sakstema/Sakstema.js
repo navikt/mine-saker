@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
-import { journalposterURL } from "../../urls";
+import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/dokumentliste/DokumentListe";
@@ -11,7 +11,7 @@ import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { data, isLoading, isError } = useQuery(`${journalposterURL}?sakstemakode=${temakode}`, fetchData);
+  const { data, isLoading, isError } = useQuery(`${journalposterUrl}?sakstemakode=${temakode}`, fetchData);
 
   if (isLoading) {
     return <Spinner message="Laster inn siden..." />;

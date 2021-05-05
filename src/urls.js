@@ -1,43 +1,21 @@
-const getEnvironment = () => {
-  if (process.env.NODE_ENV === "production") {
-    return "production";
-  }
-  return "development";
-};
+import getEnvironment from "./utils/environmnet";
 
 const MINE_SAKER_URL = {
-  development: "https://localhost:3000/person/mine-saker",
-  production: "https://mine-saker.dev.nav.no/person/mine-saker",
+  local: "https://localhost:3000/person/mine-saker",
+  development: "https://mine-saker.dev.nav.no/person/mine-saker",
+  production: "https://www.intern.nav.no/person/mine-saker",
 };
 
-const SAKSTEMAER_URL = {
-  development: "https://www.api.nav.no/person/mine-saker-api/sakstemaer",
-  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/sakstemaer",
-};
-
-const JOURNALPOSTER_URL = {
-  development: "https://www.api.nav.no/person/mine-saker-api/journalposter",
-  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/journalposter",
-};
-
-const DOKUMENT_URL = {
-  development: "https://www.api.nav.no/person/mine-saker-api/dokument",
-  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/dokument",
-};
-
-const STATUS_URL = {
-  development: "https://www.api.nav.no/person/mine-saker-api/login/status",
-  production: "https://mine-saker-api.dev.nav.no/person/mine-saker-api/login/status",
-};
-
-const LOGIN_URL = {
-  development: `https://www.api.nav.no/person/mine-saker-api/login`,
-  production: `https://mine-saker-api.dev.nav.no/person/mine-saker-api/login`,
+const MINE_SAKER_API_URL = {
+  local: "https://www.api.nav.no/person/mine-saker-api",
+  development: "https://mine-saker-api.dev.nav.no/person/mine-saker-api",
+  production: "https://mine-saker-api.intern.nav.no/person/mine-saker-api",
 };
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
-export const sakstemaerUrl = SAKSTEMAER_URL[getEnvironment()];
-export const journalposterURL = JOURNALPOSTER_URL[getEnvironment()];
-export const dokumentURL = DOKUMENT_URL[getEnvironment()];
-export const statusUrl = STATUS_URL[getEnvironment()];
-export const loginUrl = LOGIN_URL[getEnvironment()];
+export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
+export const sakstemaerUrl = `${mineSakerApiUrl}/sakstemaer`;
+export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
+export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
+export const statusUrl = `${mineSakerApiUrl}/login/status`;
+export const loginUrl = `${mineSakerApiUrl}/login`;
