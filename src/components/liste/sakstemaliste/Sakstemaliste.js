@@ -1,13 +1,12 @@
 import React from "react";
-import { Normaltekst } from "nav-frontend-typografi";
-import SaksIkon from "../../../assets/SaksIkon";
-import AlertStripe from "nav-frontend-alertstriper";
-import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import { useQuery } from "react-query";
-import { sakstemaerUrl } from "../../../urls";
+import { Normaltekst } from "nav-frontend-typografi";
+import AlertStripe from "nav-frontend-alertstriper";
 import fetchData from "../../../api";
-import Sakstemalenke from "../../chevronlenke/sakstemalenke/Sakstemalenke";
+import { sakstemaerUrl } from "../../../urls";
+import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
+import ListeElement from "../../listelement/ListeElement";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -16,9 +15,13 @@ const Sakstemaliste = () => {
   return (
     <Liste classname="saksoversikt" tittel="Saksoversikt" ikon={<SaksIkon />}>
       {sakstemaer?.map((sakstema) => (
-        <ChevronlenkeBase key={sakstema.kode} dato={sakstema.sistEndret}>
-          <Sakstemalenke tekst={sakstema.navn} kode={sakstema.kode} />
-        </ChevronlenkeBase>
+        <ListeElement
+          type="sakstema"
+          key={sakstema.kode}
+          dato={sakstema.sistEndret}
+          tekst={sakstema.navn}
+          kode={sakstema.kode}
+        />
       ))}
       <AlertStripe type="advarsel">
         <Normaltekst>

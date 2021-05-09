@@ -2,11 +2,10 @@ import React from "react";
 import { Normaltekst } from "nav-frontend-typografi";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
-import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import AlertStripe from "nav-frontend-alertstriper";
-import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
-import "./Dokumentliste.less";
 import Liste from "../Liste";
+import ListeElement from "../../listelement/ListeElement";
+import "./Dokumentliste.less";
 
 const DokumentListe = ({ journalposter }) => {
   return (
@@ -21,13 +20,14 @@ const DokumentListe = ({ journalposter }) => {
         {journalposter.map((journalpost) =>
           journalpost.arkiverteDokumenter.map((arkivertTema) => {
             return (
-              <ChevronlenkeBase key={journalpost.journalpostId} dato={journalpost.sisteEndret}>
-                <Dokumentlenke
-                  tekst={arkivertTema.tittel}
-                  journalpostId={journalpost.journalpostId}
-                  dokumentId={arkivertTema.dokumentInfoId}
-                />
-              </ChevronlenkeBase>
+              <ListeElement
+                type="dokument"
+                key={journalpost.journalpostId}
+                dato={journalpost.sisteEndret}
+                tekst={arkivertTema.tittel}
+                journalpostId={journalpost.journalpostId}
+                dokumentId={arkivertTema.dokumentInfoId}
+              />
             );
           })
         )}
