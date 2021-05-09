@@ -1,23 +1,20 @@
 import React from "react";
-import { Normaltekst, Systemtittel } from "nav-frontend-typografi";
-import SaksIkon from "../../assets/SaksIkon";
+import { Normaltekst } from "nav-frontend-typografi";
+import SaksIkon from "../../../assets/SaksIkon";
 import AlertStripe from "nav-frontend-alertstriper";
-import Veilederpanel from "nav-frontend-veilederpanel";
-import ChevronlenkeBase from "../chevronlenke/ChevronlenkeBase";
+import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import { useQuery } from "react-query";
-import { sakstemaerUrl } from "../../urls";
-import fetchData from "../../api";
-import Sakstemalenke from "../chevronlenke/sakstemalenke/Sakstemalenke";
+import { sakstemaerUrl } from "../../../urls";
+import fetchData from "../../../api";
+import Sakstemalenke from "../../chevronlenke/sakstemalenke/Sakstemalenke";
+import Liste from "../Liste";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
   const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
 
   return (
-    <Veilederpanel type="plakat" kompakt svg={<SaksIkon />}>
-      <div className="saksoversikt-tittel">
-        <Systemtittel>Saksoversikt</Systemtittel>
-      </div>
+    <Liste classname="saksoversikt" tittel="Saksoversikt" ikon={<SaksIkon />}>
       {sakstemaer?.map((sakstema) => (
         <ChevronlenkeBase key={sakstema.kode} dato={sakstema.sistEndret}>
           <Sakstemalenke tekst={sakstema.navn} kode={sakstema.kode} />
@@ -29,7 +26,7 @@ const Sakstemaliste = () => {
           akkurat nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
         </Normaltekst>
       </AlertStripe>
-    </Veilederpanel>
+    </Liste>
   );
 };
 

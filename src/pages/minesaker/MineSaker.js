@@ -3,7 +3,7 @@ import { Ingress, Normaltekst, Sidetittel } from "nav-frontend-typografi";
 import AlertStripe from "nav-frontend-alertstriper";
 import Panel from "nav-frontend-paneler";
 import KorsIkon from "../../assets/KorsIkon";
-import Sakstemaliste from "../../components/sakstemaliste/Sakstemaliste";
+import Sakstemaliste from "../../components/liste/sakstemaliste/Sakstemaliste";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
