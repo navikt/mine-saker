@@ -1,3 +1,5 @@
+@import (reference) "~nav-frontend-core/less/_variabler";
+
 .lenkeliste {
   display: flex;
   flex-direction: row;
@@ -25,7 +27,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: @screen-sm) {
   .lenkeliste {
     flex-direction: column;
   }
