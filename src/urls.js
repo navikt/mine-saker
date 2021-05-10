@@ -14,8 +14,15 @@ const MINE_SAKER_API_URL = {
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
+
 export const sakstemaerUrl = `${mineSakerApiUrl}/sakstemaer`;
 export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
 export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
+
+export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
+export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
+export const opplysningspliktUrl =
+  "https://www.nav.no/no/nav-og-samfunn/om-nav/relatert-informasjon/du-har-plikt-til-a-gi-nav-riktige-opplysninger";
+export const saksbehandlingstiderUrl = "https://www.nav.no/no/nav-og-samfunn/om-nav/saksbehandlingstider-i-nav";
