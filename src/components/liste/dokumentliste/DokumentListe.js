@@ -5,6 +5,7 @@ import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
+import Lenkeliste from "../../om-saken/Lenkeliste";
 import "./Dokumentliste.less";
 
 const toListElements = (journalpost) => {
@@ -25,6 +26,7 @@ const DokumentListe = ({ journalposter }) => {
           Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
           informasjon som har betydning når NAV skal behandle saken.
         </Normaltekst>
+        <Lenkeliste />
       </Liste>
       <Liste tittel="Dokumentliste" classname="panel" ikon={<DokumentIkon />}>
         {journalposter.map(toListElements)}
