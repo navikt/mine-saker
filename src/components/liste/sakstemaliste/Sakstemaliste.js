@@ -25,7 +25,7 @@ const Sakstemaliste = () => {
       ))}
       <AlertStripe type="advarsel">
         <Normaltekst>
-          Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vies her
+          Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vises her
           akkurat nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
         </Normaltekst>
       </AlertStripe>
