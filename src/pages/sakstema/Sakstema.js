@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
 import { Sidetittel } from "nav-frontend-typografi";
-import DokumentListe from "../../components/dokumentliste/DokumentListe";
+import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
 import Spinner from "../../components/spinner/Spinner";
 import FeilMelding from "../../components/feilmelding/Feilmelding";
 import "./Sakstema.less";

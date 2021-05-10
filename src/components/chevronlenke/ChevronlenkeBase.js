@@ -7,14 +7,14 @@ import localeData from "dayjs/plugin/localeData";
 import "dayjs/locale/nb";
 import "./ChevronlenkeBase.less";
 
-const ChevronlenkeBase = ({ dato, children }) => {
+const ChevronlenkeBase = ({ dato, hideBorder, children }) => {
   dayjs.extend(localeData);
   dayjs.locale("nb");
 
   const formattedDate = dayjs(dato).format("DD. MMMM YYYY");
 
   return (
-    <div className="chevronlenke-base">
+    <div className={`chevronlenke-base ${hideBorder ? "" : "chevronlenke-base__border"}`}>
       <Ingress>
         {children}
         <Undertekst className="chevronlenke-base__tekst">{`Sist endret ${formattedDate}`}</Undertekst>
