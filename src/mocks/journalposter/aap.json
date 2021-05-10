@@ -7,6 +7,7 @@
         "tittel": "Klage/Anke",
         "journalpostId": "493356699",
         "journalposttype": "INNGAAENDE",
+        "harVedlegg": true,
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
@@ -16,6 +17,17 @@
           {
             "tittel": "Klage/Anke",
             "dokumentInfoId": "515156126",
+            "brukerHarTilgang": true,
+            "erHoveddokument": true
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "515156128",
+            "brukerHarTilgang": true
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "5151561248",
             "brukerHarTilgang": true
           }
         ]
