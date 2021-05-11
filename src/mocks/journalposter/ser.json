@@ -12,7 +12,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2021-03-09T12:30:43Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "Serviceklage",
             "dokumentInfoId": "515145405",
@@ -29,7 +29,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2021-02-15T12:02:59Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "Serviceklage",
             "dokumentInfoId": "515132006",
@@ -46,7 +46,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-05-28T08:25:15Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "467852110",
@@ -63,7 +63,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2016-09-08T12:07:50Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "383573855",
@@ -80,7 +80,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2016-08-19T11:20:56Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "381954384",

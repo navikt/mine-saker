@@ -4,13 +4,13 @@ import VedleggslisteItem from "./VedleggslisteItem";
 import "./Vedleggsliste.less";
 
 const Vedleggsliste = ({ journalpost }) => {
-  const byVedlegg = (dokument) => !dokument.erHoveddokument;
+  const byVedlegg = (dokument) => dokument.dokumenttype === "VEDLEGG";
 
   return (
     <React.Fragment>
       <Normaltekst>Med følgende vedlegg:</Normaltekst>
       <ul className="vedleggsliste">
-        {journalpost.arkiverteDokumenter.filter(byVedlegg).map((dokument) => {
+        {journalpost.dokumenter.filter(byVedlegg).map((dokument) => {
           return (
             <VedleggslisteItem
               key={dokument.dokumentInfoId}

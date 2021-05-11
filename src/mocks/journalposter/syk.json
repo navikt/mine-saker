@@ -12,7 +12,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-10-31T13:18:41Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477753395",
@@ -29,7 +29,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-10-31T10:38:08Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477734990",
@@ -46,7 +46,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-07-31T11:16:13Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "471768558",
@@ -63,7 +63,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-10-17T15:03:27Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "448437674",
@@ -80,7 +80,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2017-10-19T23:41:44Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "419150182",
@@ -97,7 +97,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2017-08-16T15:45:22Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "364734591",
@@ -114,7 +114,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2016-09-13T08:33:59Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "383954111",
@@ -131,7 +131,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2016-06-09T08:42:03Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "376960117",
