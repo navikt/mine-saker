@@ -12,7 +12,7 @@ const toListElements = (journalpost) => {
   if (journalpost.harVedlegg) {
     return <ListeElement type="vedlegg" key={journalpost.journalpostId} journalpost={journalpost} />;
   } else {
-    return journalpost.arkiverteDokumenter.map((dokument) => (
+    return journalpost.dokumenter.map((dokument) => (
       <ListeElement type="dokument" key={journalpost.journalpostId} journalpost={journalpost} dokument={dokument} />
     ));
   }

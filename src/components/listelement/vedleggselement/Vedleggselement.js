@@ -5,8 +5,8 @@ import Vedleggsliste from "../../liste/vedleggsliste/Vedleggsliste";
 import "./Vedleggselement.less";
 
 const Vedleggselement = ({ journalpost }) => {
-  const byErHoveddokument = (dokument) => dokument.erHoveddokument;
-  const hoveddokument = journalpost.arkiverteDokumenter.find(byErHoveddokument);
+  const byErHoveddokument = (dokument) => dokument.dokumenttype === "HOVED";
+  const hoveddokument = journalpost.dokumenter.find(byErHoveddokument);
 
   return (
     <React.Fragment>

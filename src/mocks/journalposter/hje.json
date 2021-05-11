@@ -12,7 +12,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2020-02-12T07:03:09Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "487560599",
@@ -29,7 +29,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2020-01-17T09:56:38Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "485620875",
@@ -46,7 +46,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-11-01T10:58:41Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "404222033",
@@ -63,7 +63,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-03-27T12:59:42Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "463479118",
@@ -80,7 +80,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-11-02T10:35:13Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "449678741",
@@ -97,7 +97,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-11-02T10:26:26Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "449678050",
@@ -114,7 +114,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-11-01T15:24:51Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "449607424",
@@ -131,7 +131,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-11-01T15:16:00Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "449606275",
@@ -148,7 +148,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-08-30T10:47:33Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "444876653",
@@ -165,7 +165,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2017-11-22T13:33:33Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "404222033",

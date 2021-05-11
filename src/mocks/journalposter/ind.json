@@ -12,7 +12,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2021-02-12T15:10:09Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "Klage/Anke",
             "dokumentInfoId": "515131863",
@@ -29,7 +29,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2020-01-27T13:05:39Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "486313534",

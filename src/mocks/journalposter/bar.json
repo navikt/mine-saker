@@ -12,7 +12,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2020-01-24T11:35:47Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "486185627",
@@ -29,7 +29,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2020-01-15T12:11:57Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "485157890",
@@ -46,7 +46,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2020-01-08T01:00:00Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "481489250",
@@ -63,7 +63,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-11-04T10:24:59Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477855099",
@@ -90,7 +90,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-11-04T10:24:56Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477854753",
@@ -107,7 +107,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-11-04T10:24:46Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477851901",
@@ -124,7 +124,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-10-24T08:33:53Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477184703",
@@ -141,7 +141,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-10-25T07:58:37Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477171195",
@@ -158,7 +158,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-10-25T07:58:35Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477171112",
@@ -175,7 +175,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-10-25T07:58:33Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477171003",
@@ -192,7 +192,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-10-25T07:58:31Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "477170813",
@@ -209,7 +209,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-10-18T12:46:03Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "476752567",
@@ -226,7 +226,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-09-26T15:39:15Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "475456830",
@@ -243,7 +243,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-12-30T01:00:00Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "475085164",
@@ -260,7 +260,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-09-20T16:06:01Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "474990841",
@@ -277,7 +277,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-09-19T09:36:35Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "474940712",
@@ -294,7 +294,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-08-30T09:20:34Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "473613648",
@@ -311,7 +311,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-08-29T12:07:42Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "473590488",
@@ -328,7 +328,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-08-30T15:59:41Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "473581992",
@@ -345,7 +345,7 @@
           "type": "ORGANISASJON"
         },
         "sisteEndret": "2019-08-29T10:05:25Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "473575033",
@@ -362,7 +362,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-08-30T09:03:20Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "465693740",
@@ -379,7 +379,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-08-30T09:04:38Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "465676186",
@@ -396,7 +396,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-04-29T11:37:29Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "465574501",
@@ -413,7 +413,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-04-29T11:35:37Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "465574172",
@@ -430,7 +430,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-08-30T09:02:50Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "465572890",
@@ -447,7 +447,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-04-09T09:19:19Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "464472593",
@@ -464,7 +464,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2019-02-19T07:24:00Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "460278627",
@@ -481,7 +481,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2019-02-05T15:57:23Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "419557817",
@@ -498,7 +498,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-09-20T21:55:22Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "446481403",
@@ -515,7 +515,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-03-20T12:12:34Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "434050378",
@@ -532,7 +532,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-03-12T21:32:01Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "433437689",
@@ -549,7 +549,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2018-03-12T21:27:09Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "433437631",
@@ -566,7 +566,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2017-11-23T12:11:39Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "422055045",
@@ -583,7 +583,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2018-10-29T10:00:44Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "420698985",
@@ -600,7 +600,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2021-01-20T11:33:37Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "Rettskjennelse - barnefordelingssaker",
             "dokumentInfoId": "412254878",
@@ -617,7 +617,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2017-07-03T10:24:43Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "410492188",
@@ -639,7 +639,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2017-07-03T10:24:42Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "410491314",
@@ -656,7 +656,7 @@
           "type": "UKJENT"
         },
         "sisteEndret": "2017-06-19T15:49:20Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "409174750",
@@ -683,7 +683,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2017-03-29T07:58:56Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "402057358",
@@ -700,7 +700,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2017-03-17T14:33:04Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "400726143",
@@ -722,7 +722,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2017-03-17T14:33:04Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "400725977",
@@ -739,7 +739,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2016-08-26T00:09:34Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "382469589",
@@ -756,7 +756,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2016-08-25T20:25:28Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "382460083",
@@ -773,7 +773,7 @@
           "type": "PERSON"
         },
         "sisteEndret": "2016-08-25T09:02:02Z",
-        "arkiverteDokumenter": [
+        "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
             "dokumentInfoId": "382386933",
