@@ -11,7 +11,7 @@ import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { data, isLoading, isError } = useQuery(`${journalposterUrl}?sakstemakode=${temakode}`, fetchData);
+  const { data, isLoading, isError } = useQuery(`${journalposterUrl}/${temakode}`, fetchData);
 
   if (isLoading) {
     return <Spinner message="Laster inn siden..." />;
