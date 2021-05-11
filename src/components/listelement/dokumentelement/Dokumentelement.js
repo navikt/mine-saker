@@ -4,7 +4,7 @@ import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import MaskertIkon from "../../../assets/MaskertIkon";
 import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
-import { formatToDate, setLocaleDate } from "../../../utils/date";
+import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
 import "./Dokumentelement.less";
 
 const Dokumentelement = ({ journalpost, dokument }) => {
@@ -19,7 +19,7 @@ const Dokumentelement = ({ journalpost, dokument }) => {
         </div>
         <div className="maskert-etiketter">
           <Undertekst className="maskert-etiketter__dato">
-            {`Sist endret ${formatToDate(journalpost.sisteEndret)}`}
+            {`Sist endret ${formatToReadableDate(journalpost.sisteEndret)}`}
           </Undertekst>
           <EtikettAdvarsel className="maskert-etiketter__advarsel" mini>
             Dokumentet kan ikke vises

@@ -7,6 +7,6 @@ export const setLocaleDate = () => {
   dayjs.locale("nb");
 };
 
-export const formatToDate = (date) => {
+export const formatToReadableDate = (date) => {
   return dayjs(date).format("DD. MMMM YYYY");
 };
