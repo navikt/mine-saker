@@ -1,4 +1,4 @@
-import { kontaktOssUrl, opplysningspliktUrl, saksbehandlingstiderUrl, tilbakemeldingerUrl } from "../../urls";
+import { kontaktOssUrl, opplysningspliktUrl, saksbehandlingstiderUrl, tilbakemeldingerUrl } from "../../../urls";
 
 const generelleLenker = [
   {

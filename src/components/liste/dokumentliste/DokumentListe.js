@@ -5,7 +5,7 @@ import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
-import Lenkeliste from "../../om-saken/Lenkeliste";
+import Lenkeliste from "../lenkeliste/Lenkeliste";
 import "./Dokumentliste.less";
 
 const toListElements = (journalpost) => {
