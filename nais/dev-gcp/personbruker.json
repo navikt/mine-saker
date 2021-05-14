@@ -1,4 +1,4 @@
 {
   "ingresses": ["https://www.dev.nav.no/person/mine-saker", "https://mine-saker.dev.nav.no/person/mine-saker"],
-  "outboundHosts": ["mine-saker.dev.nav.no", "dekoratoren.dev.nav.no"]
+  "outboundHosts": ["www.dev.nav.no", "mine-saker.dev.nav.no", "dekoratoren.dev.nav.no"]
 }
