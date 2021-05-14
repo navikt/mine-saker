@@ -8,8 +8,8 @@ const MINE_SAKER_URL = {
 
 const MINE_SAKER_API_URL = {
   local: "https://www.api.nav.no/person/mine-saker-api",
-  development: "https://mine-saker-api.dev.nav.no/person/mine-saker-api",
-  production: "https://mine-saker-api.intern.nav.no/person/mine-saker-api",
+  development: "https://www.dev.nav.no/person/mine-saker-api",
+  production: "https://www.intern.nav.no/person/mine-saker-api",
 };
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
