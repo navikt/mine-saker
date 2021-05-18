@@ -30,7 +30,7 @@ const DokumentListe = ({ journalposter }) => {
       </Liste>
       <Liste tittel="Dokumentliste" classname="panel" ikon={<DokumentIkon />}>
         {journalposter.map(toListElements)}
-        <AlertStripe type="info">
+        <AlertStripe type="info" className="info-box">
           <Normaltekst>Vi beklager at du ikke kan se alle dokumentene dine i saken din.</Normaltekst>
         </AlertStripe>
       </Liste>
