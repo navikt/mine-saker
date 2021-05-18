@@ -3,10 +3,8 @@ import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
-import { Sidetittel } from "nav-frontend-typografi";
 import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
-import Spinner from "../../components/spinner/Spinner";
-import FeilMelding from "../../components/feilmelding/Feilmelding";
+import PageBase from "../../components/pagebase/PageBase";
 import "./Sakstema.less";
 
 const Sakstema = () => {
@@ -14,17 +12,13 @@ const Sakstema = () => {
   const { data, isLoading, isError } = useQuery(`${journalposterUrl}?sakstemakode=${temakode}`, fetchData);
 
   if (isLoading) {
-    return <Spinner message="Laster inn siden..." />;
+    return null;
   }
 
   return (
-    <div className="sakstema">
-      {isError ? <FeilMelding /> : null}
-      <div className="sakstema__tittel">
-        <Sidetittel>{data[0].navn}</Sidetittel>
-      </div>
+    <PageBase tittel={data[0].navn} isLoading={isLoading} isError={isError}>
       <DokumentListe journalposter={data[0].journalposter} />
-    </div>
+    </PageBase>
   );
 };
 

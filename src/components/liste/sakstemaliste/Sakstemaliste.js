@@ -23,7 +23,7 @@ const Sakstemaliste = () => {
           kode={sakstema.kode}
         />
       ))}
-      <AlertStripe type="advarsel">
+      <AlertStripe type="advarsel" className="advarsel-box">
         <Normaltekst>
           Vi jobber for tiden med nye løsninger for innsyn i sak, og det er ikke sikkert alle sakene dine vises her
           akkurat nå. Vi beklager dette, ta kontakt dersom du lurer på noe.
