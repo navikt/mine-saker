@@ -3,10 +3,11 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/scroll/ScrollToTop";
 import MineSaker from "./pages/minesaker/MineSaker";
 import Sakstema from "./pages/sakstema/Sakstema";
+import "./App.less";
 
 const App = () => {
   return (
-    <div className="mine-saker">
+    <div className="app">
       <Router>
         <ScrollToTop />
         <Switch>

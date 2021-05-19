@@ -1,32 +1,27 @@
-import React, { PropTypes } from "react";
-import DocumentTitle from "react-document-title";
-import TypografiBase from "nav-frontend-typografi";
-import { setBreadcrumbs } from "@navikt/nav-dekoratoren-moduler";
+import React from "react";
+import PropTypes from "prop-types";
+import { Sidetittel } from "nav-frontend-typografi";
+import FeilMelding from "../feilmelding/Feilmelding";
+import "./PageBase.less";
 
-const PageBase = ({ tittel, tittelType, brodsmulesti, children }) => {
-  const postfix = formatMessage({ id: "tittel.postfix" });
-  setBreadcrumbs(brodsmulesti);
-
+const PageBase = ({ tittel, isError, children }) => {
   return (
-    <DocumentTitle title={`${tittel} ${postfix}`}>
-      <div className="page-base">
-        <TypografiBase className="page-base__tittel" type={tittelType}>
-          {tittel}
-        </TypografiBase>
+    <div className="page-base">
+      <div className="page-wrapper">
+        {isError ? <FeilMelding /> : null}
+        <Sidetittel className="page-base__tittel">{tittel}</Sidetittel>
         {children}
       </div>
-    </DocumentTitle>
+    </div>
   );
 };
 
 PageBase.propTypes = {
   tittel: PropTypes.string.isRequired,
-  tittelType: PropTypes.string,
-  brodsmulesti: PropTypes.any,
+  isError: PropTypes.bool.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
-PageBase.defaultProps = {
-  tittelType: "sidetittel",
-};
+PageBase.defaultProps = {};
 
 export default PageBase;
