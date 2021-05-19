@@ -7,13 +7,18 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
 import PageBase from "../../components/pagebase/PageBase";
+import Spinner from "../../components/spinner/Spinner";
 import "./MineSaker.less";
 
 const MineSaker = () => {
   const { isLoading, isError } = useQuery(sakstemaerUrl, fetchData);
 
+  if (isLoading) {
+    return <Spinner message="Laster inn siden..." />;
+  }
+
   return (
-    <PageBase tittel="Mine Saker" isLoading={isLoading} isError={isError}>
+    <PageBase tittel="Mine Saker" isError={isError}>
       <Sakstemaliste />
       <Panel className="infopanel">
         <div className="infopanel-box">

@@ -5,6 +5,7 @@ import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
 import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
 import PageBase from "../../components/pagebase/PageBase";
+import Spinner from "../../components/spinner/Spinner";
 import "./Sakstema.less";
 
 const Sakstema = () => {
@@ -12,7 +13,7 @@ const Sakstema = () => {
   const { data, isLoading, isError } = useQuery(`${journalposterUrl}?sakstemakode=${temakode}`, fetchData);
 
   if (isLoading) {
-    return null;
+    return <Spinner message="Laster inn siden..." />;
   }
 
   return (

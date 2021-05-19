@@ -2,14 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Sidetittel } from "nav-frontend-typografi";
 import FeilMelding from "../feilmelding/Feilmelding";
-import Spinner from "../spinner/Spinner";
 import "./PageBase.less";
 
-const PageBase = ({ tittel, isLoading, isError, children }) => {
-  if (isLoading) {
-    return <Spinner message="Laster inn siden..." />;
-  }
-
+const PageBase = ({ tittel, isError, children }) => {
   return (
     <div className="page-base">
       <div className="page-wrapper">
@@ -23,12 +18,10 @@ const PageBase = ({ tittel, isLoading, isError, children }) => {
 
 PageBase.propTypes = {
   tittel: PropTypes.string.isRequired,
-  tittelType: PropTypes.string,
-  brodsmulesti: PropTypes.any,
+  isError: PropTypes.bool.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
-PageBase.defaultProps = {
-  tittelType: "sidetittel",
-};
+PageBase.defaultProps = {};
 
 export default PageBase;
