@@ -7,7 +7,7 @@ const redirectToLogin = () => {
   window.location.assign(`${loginUrl}?redirect_uri=${mineSakerUrl}`);
 };
 
-const Authenticate = ({ children }) => {
+const Authentication = ({ children }) => {
   const { data: status, isLoading, isError } = useQuery(statusUrl, fetchData);
 
   if (isLoading) {
@@ -21,4 +21,4 @@ const Authenticate = ({ children }) => {
   return <React.Fragment>{children}</React.Fragment>;
 };
 
-export default Authenticate;
+export default Authentication;

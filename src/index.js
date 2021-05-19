@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import Providers from "./providers/Providers";
 import "./index.less";
-import Authenticate from "./components/authenticate/Authenticate";
 
 if (process.env.NODE_ENV === "development") {
   const { worker } = require("./mocks/browser");
@@ -12,9 +11,7 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.render(
   <Providers>
-    <Authenticate>
-      <App />
-    </Authenticate>
+    <App />
   </Providers>,
   document.getElementById("mine-saker")
 );
