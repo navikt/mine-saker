@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Sidetittel } from "nav-frontend-typografi";
-import FeilMelding from "../feilmelding/Feilmelding";
+import FeilMelding from "../../components/feilmelding/Feilmelding";
 import "./PageBase.less";
 
 const PageBase = ({ tittel, isError, children }) => {

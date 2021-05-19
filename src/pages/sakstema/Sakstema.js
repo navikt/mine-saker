@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
 import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
-import PageBase from "../../components/pagebase/PageBase";
+import PageBase from "../pagebase/PageBase";
 import Spinner from "../../components/spinner/Spinner";
 import "./Sakstema.less";
 

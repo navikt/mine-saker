@@ -6,7 +6,7 @@ import Sakstemaliste from "../../components/liste/sakstemaliste/Sakstemaliste";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
-import PageBase from "../../components/pagebase/PageBase";
+import PageBase from "../pagebase/PageBase";
 import Spinner from "../../components/spinner/Spinner";
 import "./MineSaker.less";
 
