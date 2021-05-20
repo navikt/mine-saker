@@ -23,7 +23,7 @@ const DokumentListe = ({ journalposter }) => {
     <React.Fragment>
       <section>
         <Liste tittel="Om saken" classname="panel" style={{ marginBottom: "20px" }} ikon={<InformasjoIkon />}>
-          <Normaltekst className="om-saken-ingress">
+          <Normaltekst className="om-saken-ingress blokk-xs">
             Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
             informasjon som har betydning når NAV skal behandle saken.
           </Normaltekst>
