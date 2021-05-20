@@ -8,7 +8,7 @@ const Lenkeliste = () => {
   return (
     <div className="lenkeliste">
       {generelleLenker.map((lenke) => (
-        <Lenke className="lenkeliste-item" href={lenke.url}>
+        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url}>
           <HoyreChevron className="lenkeliste-item__chevron" /> {lenke.tekst}
         </Lenke>
       ))}
