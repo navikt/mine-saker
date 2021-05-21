@@ -6,6 +6,7 @@ import fetchData from "../../api";
 import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
 import PageBase from "../pagebase/PageBase";
 import Spinner from "../../components/spinner/Spinner";
+import { createCrumb } from "../../hooks/breadcrumbs";
 import "./Sakstema.less";
 
 const Sakstema = () => {
@@ -16,8 +17,11 @@ const Sakstema = () => {
     return <Spinner message="Laster inn siden..." />;
   }
 
+  const tittel = data[0].navn;
+  const crumb = createCrumb(`person/mine-saker/${temakode}`, data[0].journalposter.tittel);
+
   return (
-    <PageBase tittel={data[0].navn} isLoading={isLoading} isError={isError}>
+    <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
       <DokumentListe journalposter={data[0].journalposter} />
     </PageBase>
   );

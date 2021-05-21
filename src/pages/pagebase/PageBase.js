@@ -2,9 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Sidetittel } from "nav-frontend-typografi";
 import FeilMelding from "../../components/feilmelding/Feilmelding";
+import useBreadcrumbs from "../../hooks/useBreadcrumbs";
 import "./PageBase.less";
 
-const PageBase = ({ tittel, isError, children }) => {
+const PageBase = ({ tittel, breadcrumb, isError, children }) => {
+  useBreadcrumbs(breadcrumb);
+
   return (
     <div className="page-base">
       <div className="page-wrapper">
