@@ -17,8 +17,9 @@ const Sakstema = () => {
     return <Spinner message="Laster inn siden..." />;
   }
 
+  console.log(data[0].navn);
   const tittel = data[0].navn;
-  const crumb = createCrumb(`person/mine-saker/${temakode}`, data[0].journalposter.tittel);
+  const crumb = createCrumb(`person/mine-saker/${temakode}`, tittel);
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
