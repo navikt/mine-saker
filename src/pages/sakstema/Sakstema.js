@@ -19,7 +19,7 @@ const Sakstema = () => {
 
   console.log(data[0].navn);
   const tittel = data[0].navn;
-  const crumb = createCrumb(`person/mine-saker/${temakode}`, tittel);
+  const crumb = createCrumb(`https://www.nav.no/person/mine-saker/${temakode}`, tittel);
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
