@@ -15,8 +15,8 @@ const useBreadcrumbs = (breadcrumb) => {
   useEffect(() => {
     const breadcrumbs = breadcrumb ? baseBreadcrumbs.concat(breadcrumb) : baseBreadcrumbs;
     setBreadcrumbs(breadcrumbs);
-    console.log("breadcrumb: " + breadcrumb);
-    console.log("breadcrumbs: " + breadcrumbs);
+    console.log("breadcrumb: " + JSON.stringify(breadcrumb));
+    console.log("breadcrumbs: " + JSON.stringify(breadcrumbs));
   }, [location, breadcrumb]);
 };
 
