@@ -17,7 +17,6 @@ const Sakstema = () => {
     return <Spinner message="Laster inn siden..." />;
   }
 
-  console.log(data[0].navn);
   const tittel = data[0].navn;
   const crumb = createCrumb(`${mineSakerUrl}/${temakode}`, tittel);
 
