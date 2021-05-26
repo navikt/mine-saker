@@ -12,7 +12,7 @@ const BeklagerPanel = () => {
         Dokumenter som du har sendt inn via vanlig post til NAV og dokumenter sendt inn via tredjepart (leger/andre
         behandlere, advokater, verger, fullmektiger og lignende), vises dessverre ikke her. Vi jobber for å finne en
         løsning, og beklager ulempene dette måtte medføre. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er
-        noe du lurer på noe.
+        noe du lurer på.
       </Normaltekst>
     </AlertStripe>
   );
