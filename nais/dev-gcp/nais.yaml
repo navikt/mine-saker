@@ -1,0 +1,40 @@
+apiVersion: "nais.io/v1alpha1"
+kind: "Application"
+metadata:
+  name: mine-saker
+  namespace: personbruker
+  labels:
+    team: personbruker
+spec:
+  envFrom:
+    - secret: mine-saker-secrets
+  image: {{version}}
+  port: 8080
+  liveness:
+    path: /person/mine-saker/internal/isAlive
+    initialDelay: 10
+  readiness:
+    path: /person/mine-saker/internal/isReady
+    initialDelay: 10
+  prometheus:
+    enabled: true
+    path: /person/mine-saker/internal/metrics
+  replicas:
+    min: 2
+    max: 4
+  accessPolicy:
+    outbound:
+      external:
+        - host: "www.dev.nav.no"
+        - host: "mine-saker-api.dev.nav.no"
+        - host: "dekoratoren.dev.nav.no"
+  ingresses:
+    - "https://www.dev.nav.no/person/mine-saker"
+    - "https://mine-saker.dev.nav.no/person/mine-saker"
+  resources:
+    limits:
+      cpu: "3"
+      memory: 768Mi
+    requests:
+      cpu: "500m"
+      memory: 512Mi
