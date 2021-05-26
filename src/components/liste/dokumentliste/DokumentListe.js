@@ -22,7 +22,7 @@ const DokumentListe = ({ journalposter }) => {
   return (
     <React.Fragment>
       <section>
-        <Liste tittel="Om saken" classname="panel" style={{ marginBottom: "20px" }} ikon={<InformasjoIkon />}>
+        <Liste tittel="Om saken" style={{ marginBottom: "20px" }} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
             Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
             informasjon som har betydning når NAV skal behandle saken.
@@ -31,7 +31,7 @@ const DokumentListe = ({ journalposter }) => {
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel="Dokumentliste" classname="panel" ikon={<DokumentIkon />}>
+        <Liste tittel="Dokumentliste" ikon={<DokumentIkon />}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>
