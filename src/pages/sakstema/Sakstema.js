@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
-import { journalposterUrl, mineSakerUrl } from "../../urls";
+import { journalposterUrl } from "../../urls";
 import fetchData from "../../api";
 import DokumentListe from "../../components/liste/dokumentliste/DokumentListe";
 import PageBase from "../pagebase/PageBase";
@@ -18,7 +18,7 @@ const Sakstema = () => {
   }
 
   const tittel = data[0].navn;
-  const crumb = createCrumb(`${mineSakerUrl}/${temakode}`, tittel);
+  const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel);
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>

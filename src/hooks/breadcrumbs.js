@@ -5,7 +5,7 @@ export const baseBreadcrumbs = [
     handleInApp: false,
   },
   {
-    url: "https://www.nav.no/person/mine-saker",
+    url: "/person/mine-saker",
     title: "Mine Saker",
     handleInApp: true,
   },
