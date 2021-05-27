@@ -10,10 +10,10 @@ import ListeElement from "../../listelement/ListeElement";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
-  const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
+  const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
 
   return (
-    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={true}>
+    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={isLoading}>
       {sakstemaer?.map((sakstema) => (
         <ListeElement
           type="sakstema"

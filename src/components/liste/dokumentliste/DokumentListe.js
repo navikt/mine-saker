@@ -20,8 +20,8 @@ const toListElements = (journalpost) => {
   }
 };
 
-const DokumentListe = ({ queryKey }) => {
-  const { data, isLoading } = useQuery(queryKey, fetchData);
+const DokumentListe = ({ sakstemaKey }) => {
+  const { data, isLoading } = useQuery(sakstemaKey, fetchData);
   const journalposter = Array.isArray(data) ? data[0].journalposter : [];
 
   return (
