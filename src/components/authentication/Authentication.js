@@ -1,5 +1,6 @@
-import React from "react";
-import { useQuery } from "react-query";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { useQuery, useQueryClient } from "react-query";
 import fetchData from "../../api";
 import { loginUrl, mineSakerUrl, statusUrl } from "../../urls";
 
@@ -9,6 +10,12 @@ const redirectToLogin = () => {
 
 const Authentication = ({ children }) => {
   const { data: status, isLoading, isError } = useQuery(statusUrl, fetchData);
+  const queryClient = useQueryClient();
+  const location = useLocation();
+
+  useEffect(() => {
+    queryClient.invalidateQueries(statusUrl);
+  }, [location, queryClient]);
 
   if (isLoading) {
     return null;
