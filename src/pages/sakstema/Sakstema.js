@@ -11,8 +11,8 @@ import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const querykey = `${journalposterUrl}?sakstemakode=${temakode}`;
-  const { data, isLoading, isError } = useQuery(querykey, fetchData);
+  const queryKey = `${journalposterUrl}?sakstemakode=${temakode}`;
+  const { data, isLoading, isError } = useQuery(queryKey, fetchData);
 
   if (isLoading) {
     return <Spinner message="Laster inn siden..." />;
@@ -23,7 +23,7 @@ const Sakstema = () => {
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
-      <DokumentListe queryKey={querykey} />
+      <DokumentListe queryKey={queryKey} />
     </PageBase>
   );
 };
