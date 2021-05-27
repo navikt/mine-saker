@@ -11,18 +11,19 @@ import "./Sakstema.less";
 
 const Sakstema = () => {
   const { temakode } = useParams();
-  const { data, isLoading, isError } = useQuery(`${journalposterUrl}?sakstemakode=${temakode}`, fetchData);
+  const queryKey = `${journalposterUrl}?sakstemakode=${temakode}`;
+  const { data, isLoading, isError } = useQuery(queryKey, fetchData);
 
   if (isLoading) {
     return <Spinner message="Laster inn siden..." />;
   }
 
-  const tittel = data[0].navn;
+  const tittel = Array.isArray(data) ? data[0].navn : "";
   const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel);
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
-      <DokumentListe journalposter={data[0].journalposter} />
+      <DokumentListe queryKey={queryKey} />
     </PageBase>
   );
 };
