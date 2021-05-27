@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Systemtittel } from "nav-frontend-typografi";
 import Veilederpanel from "nav-frontend-veilederpanel";
+import Spinner from "../spinner/Spinner";
 import "./Liste.less";
 
-const Liste = ({ tittel, ikon, children }) => {
+const Liste = ({ tittel, ikon, children, isLoading }) => {
   const listeIkon = <div className="liste-ikon">{ikon}</div>;
 
   return (
@@ -13,7 +14,7 @@ const Liste = ({ tittel, ikon, children }) => {
         <div className={`liste-tittel`}>
           <Systemtittel>{tittel}</Systemtittel>
         </div>
-        {children}
+        {isLoading ? <Spinner message="Laster inn siden..." /> : children}
       </div>
     </Veilederpanel>
   );
@@ -22,6 +23,7 @@ const Liste = ({ tittel, ikon, children }) => {
 Liste.propTypes = {
   tittel: PropTypes.string.isRequired,
   ikon: PropTypes.node,
+  isLoading: PropTypes.bool,
   children: PropTypes.node,
 };
 

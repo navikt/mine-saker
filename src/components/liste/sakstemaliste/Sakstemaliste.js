@@ -13,7 +13,7 @@ const Sakstemaliste = () => {
   const { data: sakstemaer } = useQuery(sakstemaerUrl, fetchData);
 
   return (
-    <Liste tittel="Saksoversikt" ikon={<SaksIkon />}>
+    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={true}>
       {sakstemaer?.map((sakstema) => (
         <ListeElement
           type="sakstema"

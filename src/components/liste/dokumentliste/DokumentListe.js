@@ -21,7 +21,7 @@ const toListElements = (journalpost) => {
 };
 
 const DokumentListe = ({ queryKey }) => {
-  const { data } = useQuery(queryKey, fetchData);
+  const { data, isLoading } = useQuery(queryKey, fetchData);
   const journalposter = Array.isArray(data) ? data[0].journalposter : [];
 
   return (
@@ -36,7 +36,7 @@ const DokumentListe = ({ queryKey }) => {
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel="Dokumentliste" ikon={<DokumentIkon />}>
+        <Liste tittel="Dokumentliste" ikon={<DokumentIkon />} isLoading={isLoading}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>
