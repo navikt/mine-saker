@@ -18,11 +18,12 @@ const Sakstema = () => {
   }
 
   const tittel = Array.isArray(data) ? data[0].navn : "";
+  const journalposter = Array.isArray(data) ? data[0].journalposter : [];
   const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel);
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} isError={isError}>
-      <DokumentListe journalposter={data[0].journalposter} />
+      <DokumentListe journalposter={journalposter} />
     </PageBase>
   );
 };
