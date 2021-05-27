@@ -23,6 +23,7 @@ const Authentication = ({ children }) => {
 
   if (!status?.authenticated || isError) {
     redirectToLogin();
+    return null;
   }
 
   return <React.Fragment>{children}</React.Fragment>;

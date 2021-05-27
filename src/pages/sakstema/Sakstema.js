@@ -17,7 +17,7 @@ const Sakstema = () => {
     return <Spinner message="Laster inn siden..." />;
   }
 
-  const tittel = data[0].navn;
+  const tittel = Array.isArray(data) ? data[0].navn : "";
   const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel);
 
   return (
