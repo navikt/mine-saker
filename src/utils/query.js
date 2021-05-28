@@ -1,9 +1,10 @@
 import { QueryClient } from "react-query";
 import { redirectToLogin } from "../components/authentication/Authentication";
+import { mineSakerUrl } from "../urls";
 
 const onError = (error) => {
   if (error.response.status === 401) {
-    redirectToLogin();
+    redirectToLogin(mineSakerUrl);
   }
 };
 

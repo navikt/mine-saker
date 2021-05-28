@@ -1,3 +1,5 @@
+import { statusUrl } from "./urls";
+
 const withCredentials = { method: "GET", credentials: "include" };
 
 class FetchError extends Error {
@@ -15,6 +17,13 @@ const checkResponse = (response) => {
 
 export const fetchData = async ({ queryKey }) => {
   const response = await fetch(queryKey, withCredentials);
+  checkResponse(response);
+
+  return response.json();
+};
+
+export const fetchStatus = async () => {
+  const response = await fetch(statusUrl, withCredentials);
   checkResponse(response);
 
   return response.json();

@@ -5,8 +5,8 @@ import fetchData from "../../api";
 import { loginUrl, mineSakerUrl, statusUrl } from "../../urls";
 import Spinner from "../spinner/Spinner";
 
-export const redirectToLogin = () => {
-  window.location.assign(`${loginUrl}?redirect_uri=${mineSakerUrl}`);
+export const redirectToLogin = (redirectUri) => {
+  window.location.assign(`${loginUrl}?redirect_uri=${redirectUri}`);
 };
 
 const Authentication = ({ children }) => {
@@ -23,7 +23,7 @@ const Authentication = ({ children }) => {
   }
 
   if (!status?.authenticated || isError) {
-    redirectToLogin();
+    redirectToLogin(mineSakerUrl);
     return null;
   }
 
