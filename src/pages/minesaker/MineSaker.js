@@ -7,15 +7,10 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import fetchData from "../../api";
 import PageBase from "../pagebase/PageBase";
-import Spinner from "../../components/spinner/Spinner";
 import "./MineSaker.less";
 
 const MineSaker = () => {
-  const { isLoading, isError } = useQuery(sakstemaerUrl, fetchData);
-
-  if (isLoading) {
-    return <Spinner message="Laster inn siden..." />;
-  }
+  const { isError } = useQuery(sakstemaerUrl, fetchData);
 
   return (
     <PageBase tittel="Mine Saker" isError={isError}>
