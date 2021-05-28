@@ -5,7 +5,7 @@ import fetchData from "../../api";
 import { loginUrl, mineSakerUrl, statusUrl } from "../../urls";
 import Spinner from "../spinner/Spinner";
 
-const redirectToLogin = () => {
+export const redirectToLogin = () => {
   window.location.assign(`${loginUrl}?redirect_uri=${mineSakerUrl}`);
 };
 
