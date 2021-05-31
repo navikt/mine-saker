@@ -2,12 +2,9 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useQuery, useQueryClient } from "react-query";
 import fetchData from "../../api";
-import { loginUrl, mineSakerUrl, statusUrl } from "../../urls";
+import { mineSakerUrl, statusUrl } from "../../urls";
+import { redirectToIdPorten } from "../../utils/redirect";
 import Spinner from "../spinner/Spinner";
-
-export const redirectToLogin = (redirectUri) => {
-  window.location.assign(`${loginUrl}?redirect_uri=${redirectUri}`);
-};
 
 const Authentication = ({ children }) => {
   const { data: status, isLoading, isError } = useQuery(statusUrl, fetchData);
@@ -23,7 +20,7 @@ const Authentication = ({ children }) => {
   }
 
   if (!status?.authenticated || isError) {
-    redirectToLogin(mineSakerUrl);
+    redirectToIdPorten(mineSakerUrl);
     return null;
   }
 
