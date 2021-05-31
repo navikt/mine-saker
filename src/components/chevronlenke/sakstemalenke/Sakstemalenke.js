@@ -8,15 +8,15 @@ import "nav-frontend-lenker";
 import "./Sakstemalenke.less";
 
 const Sakstemalenke = ({ tekst, kode }) => {
-  const uri = `/person/mine-saker/tema/${kode}`;
-  const url = `${mineSakerUrl}/${uri}`;
+  const redirectUri = `/tema/${kode}`;
+  const redirectUrl = `${mineSakerUrl}/${redirectUri}`;
 
   const onClick = async () => {
-    await checkAuthenticationStatus(url);
+    await checkAuthenticationStatus(redirectUrl);
   };
 
   return (
-    <Link className="lenke sakstemalenke" onClick={onClick} to={uri}>
+    <Link className="lenke sakstemalenke" onClick={onClick} to={`/person/mine-saker/tema/${kode}`}>
       <HoyreChevron className="sakstemalenke__chevron" /> {tekst}
     </Link>
   );
