@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { HoyreChevron } from "nav-frontend-chevron";
 import Lenke from "nav-frontend-lenker";
 import { dokumentUrl } from "../../../urls";
-import "./Dokumentlenke.less";
 import checkAuthenticationStatus from "../../../utils/redirect";
+import "./Dokumentlenke.less";
 
 const Dokumentlenke = ({ tekst, journalpostId, dokumentId }) => {
   const url = `${dokumentUrl}/${journalpostId}/${dokumentId}`;

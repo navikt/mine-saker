@@ -8,8 +8,7 @@ import "nav-frontend-lenker";
 import "./Sakstemalenke.less";
 
 const Sakstemalenke = ({ tekst, kode }) => {
-  const redirectUri = `/tema/${kode}`;
-  const redirectUrl = `${mineSakerUrl}/${redirectUri}`;
+  const redirectUrl = `${mineSakerUrl}/tema/${kode}`;
 
   const onClick = async () => {
     await checkAuthenticationStatus(redirectUrl);
