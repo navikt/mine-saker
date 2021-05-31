@@ -3,19 +3,14 @@ import PropTypes from "prop-types";
 import { HoyreChevron } from "nav-frontend-chevron";
 import Lenke from "nav-frontend-lenker";
 import { dokumentUrl } from "../../../urls";
-import { redirectToLogin } from "../../authentication/Authentication";
-import { fetchStatus } from "../../../api";
 import "./Dokumentlenke.less";
+import checkAuthenticationStatus from "../../../utils/redirect";
 
 const Dokumentlenke = ({ tekst, journalpostId, dokumentId }) => {
   const url = `${dokumentUrl}/${journalpostId}/${dokumentId}`;
 
   const onClick = async () => {
-    const status = await fetchStatus();
-
-    if (!status.authenticated) {
-      redirectToLogin(url);
-    }
+    await checkAuthenticationStatus(url);
   };
 
   return (
