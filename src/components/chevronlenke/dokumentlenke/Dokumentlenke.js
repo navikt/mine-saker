@@ -14,7 +14,7 @@ const Dokumentlenke = ({ tekst, journalpostId, dokumentId }) => {
   };
 
   return (
-    <Lenke onClick={onClick} className="dokumentlenke" href={url}>
+    <Lenke onClick={onClick} className="dokumentlenke" href={url} target="_blank" rel="noopener noreferrer">
       <HoyreChevron className="dokumentlenke__chevron" /> {tekst}
     </Lenke>
   );
