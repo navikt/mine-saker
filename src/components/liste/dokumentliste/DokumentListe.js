@@ -6,8 +6,6 @@ import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
 import BeklagerPanel from "../../panel/BeklagerPanel";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
-import { useQuery } from "react-query";
-import fetchData from "../../../api";
 import "./Dokumentliste.less";
 
 const toListElements = (journalpost) => {
@@ -20,10 +18,7 @@ const toListElements = (journalpost) => {
   }
 };
 
-const DokumentListe = ({ sakstemaKey }) => {
-  const { data, isLoading } = useQuery(sakstemaKey, fetchData);
-  const journalposter = Array.isArray(data) ? data[0].journalposter : [];
-
+const DokumentListe = ({ journalposter, isLoading }) => {
   return (
     <React.Fragment>
       <section>

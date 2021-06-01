@@ -1,4 +1,4 @@
-import { statusUrl } from "./urls";
+import { journalposterUrl, statusUrl } from "./urls";
 
 const withCredentials = { method: "GET", credentials: "include" };
 
@@ -24,6 +24,13 @@ export const fetchData = async ({ queryKey }) => {
 
 export const fetchStatus = async () => {
   const response = await fetch(statusUrl, withCredentials);
+  checkResponse(response);
+
+  return response.json();
+};
+
+export const fetchBySakstemaKode = async (sakstemakode) => {
+  const response = await fetch(`${journalposterUrl}?sakstemakode=${sakstemakode}`, withCredentials);
   checkResponse(response);
 
   return response.json();
