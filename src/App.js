@@ -3,24 +3,15 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/scroll/ScrollToTop";
 import MineSaker from "./pages/minesaker/MineSaker";
 import Sakstema from "./pages/sakstema/Sakstema";
-import { useQueries, useQuery } from "react-query";
-import fetchData, { fetchBySakstemaKode } from "./api";
+import { useQuery } from "react-query";
+import fetchData from "./api";
 import { sakstemaerUrl } from "./urls";
+import useSakstemaerQueries from "./hooks/useSakstemaerQueries";
 import "./App.less";
 
 const App = () => {
   const { data } = useQuery(sakstemaerUrl, fetchData);
-  const sakstemaer = Array.isArray(data) ? data : [];
-
-  useQueries(
-    sakstemaer.map((sakstema) => {
-      return {
-        queryKey: ["sakstemakode", sakstema.kode],
-        queryFn: () => fetchBySakstemaKode(sakstema.kode),
-        onError: () => console.log(sakstema.kode),
-      };
-    })
-  );
+  useSakstemaerQueries(data);
 
   return (
     <div className="app">
