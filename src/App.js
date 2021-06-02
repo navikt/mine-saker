@@ -6,12 +6,12 @@ import Sakstema from "./pages/sakstema/Sakstema";
 import { useQuery } from "react-query";
 import fetchData from "./api";
 import { sakstemaerUrl } from "./urls";
-import useSakstemaerQueries from "./hooks/useSakstemaerQueries";
+import useSakstemaer from "./hooks/useSakstemaer";
 import "./App.less";
 
 const App = () => {
   const { data } = useQuery(sakstemaerUrl, fetchData);
-  useSakstemaerQueries(data);
+  useSakstemaer(data);
 
   return (
     <div className="app">

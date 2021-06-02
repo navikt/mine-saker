@@ -1,7 +1,7 @@
 import { useQueries } from "react-query";
 import { fetchBySakstemaKode } from "../api";
 
-const useSakstemaerQueries = (data) => {
+const useSakstemaer = (data) => {
   const sakstemaer = Array.isArray(data) ? data : [];
 
   useQueries(
@@ -14,4 +14,4 @@ const useSakstemaerQueries = (data) => {
   );
 };
 
-export default useSakstemaerQueries;
+export default useSakstemaer;
