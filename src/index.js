@@ -11,7 +11,7 @@ const startMockWorker = async () => {
   await worker.start();
 };
 
-const injectDecorator = async () => {
+const startDecorator = async () => {
   await injectDecoratorClientSide({
     env: "dev",
   });
@@ -19,7 +19,7 @@ const injectDecorator = async () => {
 
 if (process.env.NODE_ENV === "development") {
   startMockWorker();
-  injectDecorator();
+  startDecorator();
 }
 
 ReactDOM.render(
