@@ -3,11 +3,23 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import Providers from "./providers/Providers";
 import Authentication from "./components/authentication/Authentication";
+import { injectDecoratorClientSide } from "@navikt/nav-dekoratoren-moduler/csr";
 import "./index.less";
 
-if (process.env.NODE_ENV === "development") {
+const startMockWorker = async () => {
   const { worker } = require("./mocks/browser");
-  worker.start();
+  await worker.start();
+};
+
+const startDecorator = async () => {
+  await injectDecoratorClientSide({
+    env: "dev",
+  });
+};
+
+if (process.env.NODE_ENV === "development") {
+  startMockWorker();
+  startDecorator();
 }
 
 ReactDOM.render(
