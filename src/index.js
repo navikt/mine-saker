@@ -6,6 +6,11 @@ import Authentication from "./components/authentication/Authentication";
 import { injectDecoratorClientSide } from "@navikt/nav-dekoratoren-moduler/csr";
 import "./index.less";
 
+const startMockWorker = async () => {
+  const { worker } = require("./mocks/browser");
+  await worker.start();
+};
+
 const injectDecorator = async () => {
   await injectDecoratorClientSide({
     env: "dev",
@@ -13,8 +18,7 @@ const injectDecorator = async () => {
 };
 
 if (process.env.NODE_ENV === "development") {
-  const { worker } = require("./mocks/browser");
-  worker.start();
+  startMockWorker();
   injectDecorator();
 }
 
