@@ -12,6 +12,11 @@ const MINE_SAKER_API_URL = {
   production: "https://mine-saker-api.intern.nav.no/person/mine-saker-api",
 };
 
+const LOGINSERVICE_URL = {
+  development: "https://loginservice.dev.nav.no/login?level=Level4",
+  production: "https://loginservice.nav.no/login?level=Level4",
+};
+
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
 
@@ -20,6 +25,8 @@ export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
 export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
+
+export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
