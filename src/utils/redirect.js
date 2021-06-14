@@ -1,5 +1,5 @@
 import { fetchStatus } from "../api";
-import { loginserviceUrl, loginUrl } from "../urls";
+import { loginserviceUrl } from "../urls";
 
 export const redirectToIdPorten = (redirectUri) => {
   // const loginserviceUri = `${loginserviceUrl}&redirect=${redirectUri}`;
