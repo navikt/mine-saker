@@ -1,8 +1,10 @@
 import { fetchStatus } from "../api";
+import { loginserviceUrl, loginUrl } from "../urls";
 
-export const redirectToIdPorten = () => {
-  // const loginserviceUri = `${loginserviceUrl}&redirect=${redirectUri}`;
-  // window.location.assign(`${loginUrl}?redirect_uri=${loginserviceUri}`);
+export const redirectToIdPorten = (redirectUri) => {
+  const loginserviceUri = `${loginserviceUrl}&redirect=${redirectUri}`;
+
+  window.location.assign(`${loginUrl}?redirect_uri=${loginserviceUri}`);
 };
 
 const checkAuthenticationStatus = async (redirectUrl) => {
