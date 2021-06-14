@@ -1,3 +1,16 @@
+@import "~nav-frontend-core/less/_variabler";
+
 .panel-feil {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 4rem;
+
+  @media (max-width: @screen-md) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  @media (max-width: @screen-sm) {
+    margin: 0.65rem 0;
+  }
 }
+
+
