@@ -13,8 +13,15 @@ const MINE_SAKER_API_URL = {
 };
 
 const LOGINSERVICE_URL = {
+  local: "https://www.api.loginservice.nav.no/login",
   development: "https://loginservice.dev.nav.no/login?level=Level4",
   production: "https://loginservice.nav.no/login?level=Level4",
+};
+
+const INNLOGGINGSSTATUS = {
+  local: "https://www.api.innlogginsstatus.nav.no/auth",
+  development: "https://innloggingsstatus.dev.nav.no/person/innloggingsstatus/auth",
+  production: "https://www.nav.no/person/innloggingsstatus/auth",
 };
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
@@ -27,6 +34,7 @@ export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
 
 export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
+export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
