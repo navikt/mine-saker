@@ -24,6 +24,12 @@ const INNLOGGINGSSTATUS = {
   production: "https://www.nav.no/person/innloggingsstatus/auth",
 };
 
+const SOSIALHJELP = {
+  local: "https://localhost:3000/sosialhjelp/innsyn",
+  development: "https://www-q1.dev.nav.no/sosialhjelp/innsyn",
+  production: "https://www.nav.no/sosialhjelp/innsyn",
+};
+
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
 
@@ -35,6 +41,8 @@ export const loginUrl = `${mineSakerApiUrl}/login`;
 
 export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
 export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
+
+export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
