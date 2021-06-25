@@ -30,6 +30,12 @@ const SOSIALHJELP = {
   production: "https://www.nav.no/sosialhjelp/innsyn",
 };
 
+const DAGPENGER = {
+  local: "https://localhost:3000/arbeid/dagpenger/mine-dagpenger",
+  development: "https://arbeid.dev.nav.no/arbeid/dagpenger/mine-dagpenger",
+  production: "https://www.nav.no/arbeid/dagpenger/mine-dagpenger",
+};
+
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
 
@@ -43,6 +49,7 @@ export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
 export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
 
 export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
+export const dagpengerUrl = DAGPENGER[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
