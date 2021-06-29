@@ -24,7 +24,7 @@ const Authentication = ({ children }) => {
   }
 
   if (innloggingsstatus?.securityLevel === "3") {
-    redirectToIdPorten(mineSakerUrl);
+    redirectToLoginService(mineSakerUrl);
     return null;
   }
 
