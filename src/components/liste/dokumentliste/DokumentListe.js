@@ -32,7 +32,7 @@ const DokumentListe = ({ sakstemaKey }) => {
             Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
             informasjon som har betydning når NAV skal behandle saken.
           </Normaltekst>
-          <Lenkeliste />
+          <Lenkeliste data={data} />
         </Liste>
       </section>
       <section id="dokumentliste">
