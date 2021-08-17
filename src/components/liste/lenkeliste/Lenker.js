@@ -1,4 +1,10 @@
-import { kontaktOssUrl, opplysningspliktUrl, saksbehandlingstiderUrl, tilbakemeldingerUrl } from "../../../urls";
+import {
+  kontaktOssUrl,
+  lastOppVedleggUrl,
+  opplysningspliktUrl,
+  saksbehandlingstiderUrl,
+  tilbakemeldingerUrl,
+} from "../../../urls";
 
 const generelleLenker = [
   {
@@ -16,6 +22,10 @@ const generelleLenker = [
   {
     url: saksbehandlingstiderUrl,
     tekst: "Saksbehandlingstider",
+  },
+  {
+    url: lastOppVedleggUrl,
+    tekst: "Last opp vedlegg",
   },
 ];
 
