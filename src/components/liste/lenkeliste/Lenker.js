@@ -31,26 +31,7 @@ const generelleLenker = [
 ];
 
 export const dagpengeLenker = [
-  {
-    url: kontaktOssUrl,
-    tekst: "Kontakt oss",
-  },
-  {
-    url: tilbakemeldingerUrl,
-    tekst: "Tilbakemeldinger",
-  },
-  {
-    url: opplysningspliktUrl,
-    tekst: "Opplysningsplikt",
-  },
-  {
-    url: saksbehandlingstiderUrl,
-    tekst: "Saksbehandlingstider",
-  },
-  {
-    url: lastOppVedleggUrl,
-    tekst: "Last opp vedlegg",
-  },
+  ...generelleLenker,
   {
     url: dagpengerUrl,
     tekst: "Mine dagpenger",
