@@ -56,4 +56,4 @@ export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbak
 export const opplysningspliktUrl =
   "https://www.nav.no/no/nav-og-samfunn/om-nav/relatert-informasjon/du-har-plikt-til-a-gi-nav-riktige-opplysninger";
 export const saksbehandlingstiderUrl = "https://www.nav.no/no/nav-og-samfunn/om-nav/saksbehandlingstider-i-nav";
-export const lastOppVedleggUrl = "https://www.nav.no/person/...";
+export const lastOppVedleggUrl = "https://tjenester.nav.no/saksoversikt/ettersending";
