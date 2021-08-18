@@ -30,7 +30,7 @@ const generelleLenker = [
   },
 ];
 
-export const dagpengeLenker = [
+const dagpengeLenker = [
   ...generelleLenker,
   {
     url: dagpengerUrl,
@@ -38,4 +38,9 @@ export const dagpengeLenker = [
   },
 ];
 
-export default generelleLenker;
+const lenker = {
+  GENERELLE: generelleLenker,
+  DAG: dagpengeLenker,
+};
+
+export default lenker;
