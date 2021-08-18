@@ -14,19 +14,19 @@ const generelleLenker = [
   },
   {
     url: tilbakemeldingerUrl,
-    tekst: "Tilbakemeldinger",
+    tekst: "Send klage",
   },
   {
     url: opplysningspliktUrl,
-    tekst: "Opplysningsplikt",
-  },
-  {
-    url: saksbehandlingstiderUrl,
-    tekst: "Saksbehandlingstider",
+    tekst: "Meld fra om endringer",
   },
   {
     url: lastOppVedleggUrl,
     tekst: "Last opp vedlegg",
+  },
+  {
+    url: saksbehandlingstiderUrl,
+    tekst: "Saksbehandlingstider",
   },
 ];
 
