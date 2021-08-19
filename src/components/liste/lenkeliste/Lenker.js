@@ -7,6 +7,7 @@ import {
   opplysningspliktUrl,
   saksbehandlingstiderUrl,
   tilbakemeldingerUrl,
+  arbeidsavklaringspengerUrl
 } from "../../../urls";
 
 const generelleLenker = [
@@ -40,6 +41,14 @@ const dagpengeLenker = [
   ...generelleLenker,
 ];
 
+const arbeidsavklaringspengerLenker = [
+  {
+    url: arbeidsavklaringspengerUrl,
+    tekst: "AAP",
+  },
+  ...generelleLenker,
+];
+
 const hjelpemidlerLenker = [
   {
     url: hjelpemidlerUrl,
@@ -61,6 +70,7 @@ const lenker = {
   DAG: dagpengeLenker,
   HJE: hjelpemidlerLenker,
   FOR: foreldrepengerLenker,
+  AAP: arbeidsavklaringspengerLenker
 };
 
 export default lenker;
