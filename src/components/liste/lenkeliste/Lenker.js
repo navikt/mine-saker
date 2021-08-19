@@ -1,5 +1,7 @@
 import {
   dagpengerUrl,
+  foreldrepengerUrl,
+  hjelpemidlerUrl,
   kontaktOssUrl,
   lastOppVedleggUrl,
   opplysningspliktUrl,
@@ -31,16 +33,34 @@ const generelleLenker = [
 ];
 
 const dagpengeLenker = [
-  ...generelleLenker,
   {
     url: dagpengerUrl,
     tekst: "Mine dagpenger",
   },
+  ...generelleLenker,
+];
+
+const hjelpemidlerLenker = [
+  {
+    url: hjelpemidlerUrl,
+    tekst: "Dine hjelpemidler",
+  },
+  ...generelleLenker,
+];
+
+const foreldrepengerLenker = [
+  {
+    url: foreldrepengerUrl,
+    tekst: "Dine foreldrepenger",
+  },
+  ...generelleLenker,
 ];
 
 const lenker = {
   GENERELLE: generelleLenker,
   DAG: dagpengeLenker,
+  HJE: hjelpemidlerLenker,
+  FOR: foreldrepengerLenker,
 };
 
 export default lenker;
