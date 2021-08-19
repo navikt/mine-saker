@@ -1,6 +1,7 @@
 import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
+import { arbeidsavklaringspengerUrl } from "../../../urls";
 
 const generelleLenker = [
   {
@@ -29,6 +30,14 @@ const dagpengeLenker = [
   {
     url: dagpengerUrl,
     tekst: "Mine dagpenger",
+  },
+  ...generelleLenker,
+];
+
+const arbeidsavklaringspengerLenker = [
+  {
+    url: arbeidsavklaringspengerUrl,
+    tekst: "Om Arbeidsavklaringspenger",
   },
   ...generelleLenker,
 ];
@@ -82,6 +91,7 @@ const lenker = {
   HJE: hjelpemidlerLenker,
   FOR: foreldrepengerLenker,
   KOM: sosialhjelpLenker,
+  AAP: arbeidsavklaringspengerLenker,
 };
 
 export default lenker;
