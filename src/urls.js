@@ -65,3 +65,6 @@ export const opplysningspliktUrl =
 export const saksbehandlingstiderUrl = "https://www.nav.no/no/nav-og-samfunn/om-nav/saksbehandlingstider-i-nav";
 export const hjelpemidlerUrl = "https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler";
 export const foreldrepengerUrl = "https://foreldrepenger.nav.no/";
+export const sosialhjelpVeiviserUrl = "https://tjenester.nav.no/veivisersosialhjelp";
+export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav/klage-ris-og-ros/klagerettigheter";
+export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
