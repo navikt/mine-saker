@@ -81,7 +81,7 @@ const lenker = {
   DAG: dagpengeLenker,
   HJE: hjelpemidlerLenker,
   FOR: foreldrepengerLenker,
-  GEN: sosialhjelpLenker,
+  KOM: sosialhjelpLenker,
 };
 
 export default lenker;
