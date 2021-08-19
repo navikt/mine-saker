@@ -44,7 +44,7 @@ const dagpengeLenker = [
 const arbeidsavklaringspengerLenker = [
   {
     url: arbeidsavklaringspengerUrl,
-    tekst: "AAP",
+    tekst: "Om Arbeidsavklaringspenger",
   },
   ...generelleLenker,
 ];
