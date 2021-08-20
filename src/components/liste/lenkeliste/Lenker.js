@@ -1,14 +1,7 @@
-import {
-  dagpengerUrl,
-  foreldrepengerUrl,
-  hjelpemidlerUrl,
-  kontaktOssUrl,
-  lastOppVedleggUrl,
-  opplysningspliktUrl,
-  saksbehandlingstiderUrl,
-  tilbakemeldingerUrl,
-  arbeidsavklaringspengerUrl
-} from "../../../urls";
+import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl } from "../../../urls";
+import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
+import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
+import { arbeidsavklaringspengerUrl } from "../../../urls";
 
 const generelleLenker = [
   {
@@ -65,12 +58,40 @@ const foreldrepengerLenker = [
   ...generelleLenker,
 ];
 
+const sosialhjelpLenker = [
+  {
+    url: kontaktOssUrl,
+    tekst: "Kontakt oss",
+  },
+  {
+    url: klagerettigheterUrl,
+    tekst: "Klagerettigheter",
+  },
+  {
+    url: opplysningspliktUrl,
+    tekst: "Meld fra om endringer",
+  },
+  {
+    url: lastOppVedleggUrl,
+    tekst: "Last opp vedlegg",
+  },
+  {
+    url: sosialhjelpVeiviserUrl,
+    tekst: "Les mer om økonomisk sosialhjelp",
+  },
+  {
+    url: sosialhjelpAktivitetUrl,
+    tekst: "Krav om aktivitet",
+  },
+];
+
 const lenker = {
   GENERELLE: generelleLenker,
   DAG: dagpengeLenker,
   HJE: hjelpemidlerLenker,
   FOR: foreldrepengerLenker,
-  AAP: arbeidsavklaringspengerLenker
+  KOM: sosialhjelpLenker,
+  AAP: arbeidsavklaringspengerLenker,
 };
 
 export default lenker;
