@@ -29,4 +29,11 @@ export const fetchStatus = async () => {
   return response.json();
 };
 
+export const fetchResponse = async ({ queryKey }) => {
+  const response = await fetch(queryKey, withCredentials);
+  checkResponse(response);
+
+  return response;
+};
+
 export default fetchData;
