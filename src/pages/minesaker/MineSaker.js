@@ -13,9 +13,10 @@ const MineSaker = () => {
   const { isError } = useQuery(sakstemaerUrl, fetchData);
 
   const response = useQuery(sakstemaerUrl, fetchResponse);
+  const status = 206;
 
   return (
-    <PageBase tittel="Mine Saker" isError={isError} statusCode={response.status}>
+    <PageBase tittel="Mine Saker" isError={isError} statusCode={status}>
       <Sakstemaliste />
     </PageBase>
   );

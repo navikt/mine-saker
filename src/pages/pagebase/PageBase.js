@@ -14,7 +14,7 @@ const PageBase = ({ tittel, breadcrumb, isError, children, statusCode }) => {
   return (
     <div className="page-base">
       <div className="page-wrapper">
-        {visFeilmelding ? <GenerellFeilmelding statusCode={statusCode}/> : null}
+        {true ? <GenerellFeilmelding status={statusCode}/> : null}
         <Sidetittel className="page-base__tittel">{tittel}</Sidetittel>
         {children}
       </div>
