@@ -1,4 +1,4 @@
-import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl } from "../../../urls";
+import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, sykemeldingerUrl } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
 import { arbeidsavklaringspengerUrl } from "../../../urls";
