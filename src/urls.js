@@ -69,3 +69,4 @@ export const sosialhjelpVeiviserUrl = "https://tjenester.nav.no/veivisersosialhj
 export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav/klage-ris-og-ros/klagerettigheter";
 export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
 export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
+export const sykemeldingerUrl = "https://tjenester.nav.no/sykefravaer/sykmeldinger";

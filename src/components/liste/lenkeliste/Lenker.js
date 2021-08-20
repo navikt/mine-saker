@@ -58,6 +58,14 @@ const foreldrepengerLenker = [
   ...generelleLenker,
 ];
 
+const sykefravaerLenker = [
+  {
+    url: sykemeldingerUrl,
+    tekst: "Dine sykemeldinger",
+  },
+  ...generelleLenker,
+];
+
 const sosialhjelpLenker = [
   {
     url: kontaktOssUrl,
@@ -92,6 +100,7 @@ const lenker = {
   FOR: foreldrepengerLenker,
   KOM: sosialhjelpLenker,
   AAP: arbeidsavklaringspengerLenker,
+  SYK: sykefravaerLenker,
 };
 
 export default lenker;

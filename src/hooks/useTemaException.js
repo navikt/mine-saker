@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const exceptions = ["DAG", "HJE", "FOR", "KOM", "AAP"];
+const exceptions = ["DAG", "HJE", "FOR", "KOM", "AAP", "SYK"];
 
 const useTemaException = (temakode) => {
   const [isException, setIsException] = useState(false);
