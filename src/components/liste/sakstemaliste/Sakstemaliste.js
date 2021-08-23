@@ -9,13 +9,11 @@ import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import "./Sakstemaliste.less";
 
-const Sakstemaliste = ( setStatus ) => {
+const Sakstemaliste = ( {setStatus} ) => {
   //const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
   const [sakstemaer, setSakstemaer] = useState([]);
 
-  console.log("#sakstemaliste------");
   useEffect(() => {
-    console.log("sakstemaliste useeffect")
     const fetchSakstema = async () => {
     try {
       const { data: sakstemaerListe, status } = await getData(sakstemaerUrl);
@@ -28,7 +26,7 @@ const Sakstemaliste = ( setStatus ) => {
         setStatus(status);
       }
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   }
     fetchSakstema();

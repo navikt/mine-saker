@@ -11,11 +11,6 @@ const PageBase = ({ tittel, breadcrumb, children, statusCode }) => {
   const visFeilmelding = (statusCode === 206) || (statusCode === 503);
   useBreadcrumbs(breadcrumb);
 
-  /*
-  if(statusCode !== 200) {
-    setVisFeilmelding(true);
-  }*/
-
   return (
     <div className="page-base">
       <div className="page-wrapper">
