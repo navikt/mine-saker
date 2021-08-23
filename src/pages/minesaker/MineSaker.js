@@ -13,7 +13,6 @@ const MineSaker = ( ) => {
   //const { isError } = useQuery(sakstemaerUrl, fetchData);
   const [fetchStatus, setFetchStatus] = useState();
 
-
   return (
     <PageBase tittel="Mine Saker" statusCode={fetchStatus}>
       <Sakstemaliste setStatus={setFetchStatus}/>

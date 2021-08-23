@@ -13,7 +13,7 @@ const Sakstemaliste = ( setStatus ) => {
   //const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
   const [sakstemaer, setSakstemaer] = useState([]);
 
-  console.log("sakstemaliste");
+  console.log("#sakstemaliste------");
   useEffect(() => {
     console.log("sakstemaliste useeffect")
     const fetchSakstema = async () => {
@@ -28,7 +28,7 @@ const Sakstemaliste = ( setStatus ) => {
         setStatus(status);
       }
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   }
     fetchSakstema();

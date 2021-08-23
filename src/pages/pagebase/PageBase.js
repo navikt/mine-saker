@@ -7,14 +7,14 @@ import useBreadcrumbs from "../../hooks/useBreadcrumbs";
 import "./PageBase.less";
 
 const PageBase = ({ tittel, breadcrumb, children, statusCode }) => {
-
-  const [visFeilmelding, setVisFeilmelding] = useState(false);
-
+  //const [visFeilmelding, setVisFeilmelding] = useState(false);
+  const visFeilmelding = (statusCode === 206) || (statusCode === 503);
   useBreadcrumbs(breadcrumb);
 
+  /*
   if(statusCode !== 200) {
     setVisFeilmelding(true);
-  }
+  }*/
 
   return (
     <div className="page-base">
