@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Sidetittel } from "nav-frontend-typografi";
 import FeilMelding from "../../components/feilmelding/Feilmelding";
@@ -6,15 +6,20 @@ import GenerellFeilmelding from "../../components/feilmelding/GenerellFeilmeldin
 import useBreadcrumbs from "../../hooks/useBreadcrumbs";
 import "./PageBase.less";
 
-const PageBase = ({ tittel, breadcrumb, isError, children, statusCode }) => {
+const PageBase = ({ tittel, breadcrumb, children, statusCode }) => {
+
+  const [visFeilmelding, setVisFeilmelding] = useState(false);
+
   useBreadcrumbs(breadcrumb);
 
-  const visFeilmelding = (isError || statusCode === 206);
+  if(statusCode !== 200) {
+    setVisFeilmelding(true);
+  }
 
   return (
     <div className="page-base">
       <div className="page-wrapper">
-        {true ? <GenerellFeilmelding status={statusCode}/> : null}
+        {visFeilmelding ? <GenerellFeilmelding status={statusCode}/> : null}
         <Sidetittel className="page-base__tittel">{tittel}</Sidetittel>
         {children}
       </div>
@@ -24,7 +29,6 @@ const PageBase = ({ tittel, breadcrumb, isError, children, statusCode }) => {
 
 PageBase.propTypes = {
   tittel: PropTypes.string.isRequired,
-  isError: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
 };
 

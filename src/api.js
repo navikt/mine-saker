@@ -1,3 +1,4 @@
+import Axios from 'axios';
 import { statusUrl } from "./urls";
 
 const withCredentials = { method: "GET", credentials: "include" };
@@ -29,11 +30,12 @@ export const fetchStatus = async () => {
   return response.json();
 };
 
-export const fetchResponse = async ({ queryKey }) => {
-  const response = await fetch(queryKey, withCredentials);
-  checkResponse(response);
-
-  return response;
+export const getData = async (url) => {
+  try {
+    return await Axios.get(url);
+  } catch (err) {
+    return err.response;
+  }
 };
 
 export default fetchData;
