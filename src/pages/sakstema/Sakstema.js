@@ -12,6 +12,7 @@ import "./Sakstema.less";
 const Sakstema = () => {
   const { temakode } = useParams();
   const sakstemaKey = `${journalposterUrl}?sakstemakode=${temakode}`;
+  //const response = useQuery(sakstemaKey, fetchResponse)
 
   const { data, isLoading, isError } = useQuery(sakstemaKey, fetchData, {
     onError: (error) => {

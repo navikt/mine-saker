@@ -30,12 +30,15 @@ export const fetchStatus = async () => {
   return response.json();
 };
 
-export const getData = async (url) => {
-  try {
-    return await Axios.get(url);
-  } catch (err) {
-    return err.response;
-  }
+export const fetchResponse = async ({ queryKey }) => {
+  const response = await fetch(queryKey, withCredentials);
+  //checkResponse(response);
+  const res = {
+    statusCode: response.status,
+    data: await response.json()
+  };
+
+  return res;
 };
 
 export default fetchData;

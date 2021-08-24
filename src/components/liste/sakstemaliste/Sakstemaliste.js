@@ -1,40 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useQuery } from "react-query";
-import { Normaltekst } from "nav-frontend-typografi";
-import AlertStripe from "nav-frontend-alertstriper";
-import fetchData, {getData} from "../../../api";
+import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
 import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import "./Sakstemaliste.less";
 
-const Sakstemaliste = ( {setStatus} ) => {
+const Sakstemaliste = () => {
   //const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
-  const [sakstemaer, setSakstemaer] = useState([]);
-
-  useEffect(() => {
-    const fetchSakstema = async () => {
-    try {
-      const { data: sakstemaerListe, status } = await getData(sakstemaerUrl);
-      if(status === 200) {
-        setSakstemaer(sakstemaerListe);
-        setStatus(status);
-      }
-      else if (status === 206) {
-        setSakstemaer(sakstemaerListe);
-        setStatus(status);
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  }
-    fetchSakstema();
-  }, [])
+  const {data:sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchResponse);
 
   return (
-    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} >
-      {sakstemaer?.map((sakstema) => (
+    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={isLoading}>
+      {sakstemaer?.data?.map((sakstema) => (
         <ListeElement
           type="sakstema"
           key={sakstema.kode}
