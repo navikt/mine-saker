@@ -8,7 +8,6 @@ import ListeElement from "../../listelement/ListeElement";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
-  //const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
   const {data:sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchResponse);
 
   return (
