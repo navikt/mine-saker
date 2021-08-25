@@ -7,10 +7,10 @@ import PageBase from "../pagebase/PageBase";
 import "./MineSaker.less";
 
 const MineSaker = () => {
-  const {data,isError}= useQuery(sakstemaerUrl, fetchResponse);
+  const { data } = useQuery(sakstemaerUrl, fetchResponse);
 
   return (
-    <PageBase tittel="Mine Saker" isError={false} statusCode={data?.statusCode}>
+    <PageBase tittel="Mine Saker" statusCode={data?.statusCode}>
       <Sakstemaliste />
     </PageBase>
   );
