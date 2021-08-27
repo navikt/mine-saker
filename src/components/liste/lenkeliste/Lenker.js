@@ -1,4 +1,4 @@
-import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, sykemeldingerUrl } from "../../../urls";
+import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
 import { arbeidsavklaringspengerUrl } from "../../../urls";
@@ -30,6 +30,10 @@ const dagpengeLenker = [
   {
     url: dagpengerUrl,
     tekst: "Mine dagpenger",
+  },
+  {
+    url: lesmeromdagpengerUrl,
+    tekst: "Les mer om dagpenger",
   },
   ...generelleLenker,
 ];
@@ -93,6 +97,14 @@ const sosialhjelpLenker = [
   },
 ];
 
+const tiltakspengerLenker = [
+  {
+    url: stonadervedtiltakUrl,
+    tekst: "Les mer om tiltakspenger",
+  },
+  ...generelleLenker,
+];
+
 const lenker = {
   GENERELLE: generelleLenker,
   DAG: dagpengeLenker,
@@ -101,6 +113,7 @@ const lenker = {
   KOM: sosialhjelpLenker,
   AAP: arbeidsavklaringspengerLenker,
   SYK: sykefravaerLenker,
+  IND: tiltakspengerLenker,
 };
 
 export default lenker;

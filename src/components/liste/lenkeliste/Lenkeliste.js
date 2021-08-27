@@ -13,6 +13,7 @@ const Lenkeliste = () => {
 
   return (
     <div className="lenkeliste">
+      {console.log(temakode)}
       {lenker[lenkeKey].map((lenke) => (
         <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url}>
           <HoyreChevron className="lenkeliste-item__chevron" /> {lenke.tekst}
