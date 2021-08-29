@@ -1,21 +1,21 @@
 import React from "react";
-import { AlertStripeFeil, AlertStripeAdvarsel } from "nav-frontend-alertstriper";
+import AlertStripe from "nav-frontend-alertstriper";
 import "./GenerellFeilmelding.less";
 
-const GenerellFeilmelding = ({status}) => {
-  const advarselMelding = (
-    <AlertStripeAdvarsel className="panel-feil">
-      Vi fikk dessverre ikke tak i alle dine dokumenter. Ta kontakt hvis du har noen spørsmål.
-    </AlertStripeAdvarsel>
-  );
+const GenerellFeilmelding = ({ status }) => {
+  const typeMelding = status === 503 ? "feil" : "advarsel";
 
-  const feilMelding = (
-    <AlertStripeFeil className="panel-feil">
-      Vi har for øyeblikket tekniske problemer. Vennligst prøv igjen senere eller ta kontakt med oss hvis du har noen
-      spørsmål.
-    </AlertStripeFeil>
+  const tekst = {
+    feil: "Vi fikk dessverre ikke tak i alle dine dokumenter. Ta kontakt hvis du har noen spørsmål.",
+    advarsel:
+      "Vi har for øyeblikket tekniske problemer. Vennligst prøv igjen senere eller ta kontakt med oss hvis du har noen spørsmål.",
+  };
+
+  return (
+    <AlertStripe className="panel-feil" type={typeMelding}>
+      {tekst[typeMelding]}
+    </AlertStripe>
   );
-  return <>{(status === 206) ? advarselMelding : feilMelding}</>;
 };
 
 export default GenerellFeilmelding;
