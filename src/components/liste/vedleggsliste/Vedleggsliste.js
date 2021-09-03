@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import VedleggslisteItem from "./VedleggslisteItem";
 import "./Vedleggsliste.less";
@@ -24,6 +25,10 @@ const Vedleggsliste = ({ journalpost }) => {
       </ul>
     </React.Fragment>
   );
+};
+
+Vedleggsliste.prototype = {
+  journalpost: PropTypes.object.isRequired,
 };
 
 export default Vedleggsliste;

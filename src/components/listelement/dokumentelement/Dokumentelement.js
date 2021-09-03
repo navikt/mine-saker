@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import MaskertIkon from "../../../assets/MaskertIkon";
@@ -38,6 +39,11 @@ const Dokumentelement = ({ journalpost, dokument }) => {
       />
     </ChevronlenkeBase>
   );
+};
+
+Dokumentelement.prototype = {
+  journalpost: PropTypes.object.isRequired,
+  document: PropTypes.object.isRequired,
 };
 
 export default Dokumentelement;

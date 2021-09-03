@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import Vedleggsliste from "../../liste/vedleggsliste/Vedleggsliste";
@@ -22,6 +24,10 @@ const Vedleggselement = ({ journalpost }) => {
       </div>
     </React.Fragment>
   );
+};
+
+Vedleggselement.propTypes = {
+  journalpost: PropTypes.object,
 };
 
 export default Vedleggselement;
