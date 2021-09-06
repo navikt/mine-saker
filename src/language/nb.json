@@ -1,3 +1,34 @@
 {
-  "...": "..."
+  "mine-saker.hoved.tittel" : "Mine saker",
+  "mine-saker.DAG.tittel" : "Dagpenger",
+  "mine-saker.AAP.tittel" : "Arbeidsavklaringspenger",
+  
+  "dokumentliste.DAG.lenkepanel-tittel" : "Om saken",
+  "dokumentliste.DAG.lenkepanel-ingress" : "Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende informasjon som har betydning når NAV skal behandle saken.",
+  "dokumentliste.DAG.liste-tittel" : "Dokumentliste",
+
+  "dokumentliste.AAP.lenkepanel-tittel" : "Om arbeidsavklaringspenger",
+  "dokumentliste.AAP.lenkepanel-ingress" : "Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende informasjon som har betydning når NAV skal behandle saken.",
+  "dokumentliste.AAP.liste-tittel" : "Dokumentliste",
+
+  "sakstemaliste.tittel" : "Saksoversikt",
+  "feilmelding.tekst" : "Vi har for øyeblikket tekniske problemer. Dette kan føre til at du ikke får opp all informasjon om dine saker.",
+
+
+  "generelle-lenker.kontakt-oss" : "Kontakt oss",
+  "generelle-lenker.send-klage" : "Send klage",
+  "generelle-lenker.meld-fra-om-endringer" : "Meld fra om endringer",
+  "generelle-lenker.last-opp-vedlegg" : "Last opp vedlegg",
+  "generelle-lenker.saksbehandlingstider" : "Saksbehandlingstider",
+  "dagpenger-lenker.mine-dagpenger" : "Mine dagpenger",
+  "arbeidsavklaringspenger-lenker.om-arbeidsavklaringspenger" : "Om arbeidsavklaringspenger",
+  "hjelpemidler-lenker.dine-hjelpemidler" : "Dine hjelpemidler",
+  "foreldrepenger-lenker.dine-foreldrepenger" : "Dine foreldrepenger",
+  "sykefravaer-lenker.dine-sykemeldinger" : "Dine sykemeldinger",
+  "sosialhjelp-lenker.kontakt-oss" : "Kontakt oss",
+  "sosialhjelp-lenker.klagerettigheter" : "Klagerettigheter",
+  "sosialhjelp-lenker.meld-fra-om-endringer" : "Meld fra om endringer",
+  "sosialhjelp-lenker.last-opp-vedlegg" : "Last opp vedlegg",
+  "sosialhjelp-lenker.les-mer" : "Les mer om økonomisk sosialhjelp",
+  "sosialhjelp-lenker.krav-om-aktivitet" : "Krav om aktivitet"
 }

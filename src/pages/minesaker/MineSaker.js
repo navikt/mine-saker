@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { Ingress } from "nav-frontend-typografi";
 import Panel from "nav-frontend-paneler";
 import KorsIkon from "../../assets/KorsIkon";
@@ -12,8 +13,11 @@ import "./MineSaker.less";
 const MineSaker = () => {
   const { isError } = useQuery(sakstemaerUrl, fetchData);
 
+  const translate = useIntl();
+  const tittel = "mine-saker.hoved.tittel";
+
   return (
-    <PageBase tittel="Mine Saker" isError={isError}>
+    <PageBase tittel={translate.formatMessage({ id: tittel})} isError={isError}>
       <Sakstemaliste />
       <Panel className="infopanel">
         <div className="infopanel-box">

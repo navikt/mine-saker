@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { Normaltekst } from "nav-frontend-typografi";
 import AlertStripe from "nav-frontend-alertstriper";
@@ -12,8 +13,12 @@ import "./Sakstemaliste.less";
 const Sakstemaliste = () => {
   const { data: sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchData);
 
+  const translate = useIntl();
+
+  const tittel = "sakstemaliste.tittel"
+
   return (
-    <Liste tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={isLoading}>
+    <Liste tittel={translate.formatMessage({id: tittel})} ikon={<SaksIkon />} isLoading={isLoading}>
       {sakstemaer?.map((sakstema) => (
         <ListeElement
           type="sakstema"

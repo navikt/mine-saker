@@ -1,4 +1,5 @@
 import React from "react";
+import {  useIntl } from "react-intl";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -20,23 +21,28 @@ const toListElements = (journalpost) => {
   }
 };
 
-const DokumentListe = ({ sakstemaKey }) => {
+const DokumentListe = ({ sakstemaKey, temakode }) => {
   const { data, isLoading } = useQuery(sakstemaKey, fetchData);
   const journalposter = Array.isArray(data) ? data[0].journalposter : [];
+
+  const translate = useIntl();
+  const basePath = "dokumentliste." + temakode + ".";
+  const lenkepanelTittel = basePath + "lenkepanel-tittel";
+  const lenkepanelIngress = basePath + "lenkepanel-ingress";
+  const listeTittel = basePath + "liste-tittel";
 
   return (
     <React.Fragment>
       <section>
-        <Liste tittel="Om saken" ikon={<InformasjoIkon />}>
+        <Liste tittel={translate.formatMessage({id: lenkepanelTittel})} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
-            Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
-            informasjon som har betydning når NAV skal behandle saken.
+            {translate.formatMessage({id: lenkepanelIngress})}
           </Normaltekst>
           <Lenkeliste data={data} />
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel="Dokumentliste" ikon={<DokumentIkon />} isLoading={isLoading}>
+        <Liste tittel={translate.formatMessage({id: listeTittel})} ikon={<DokumentIkon />} isLoading={isLoading}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>
