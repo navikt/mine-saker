@@ -1,667 +1,645 @@
 [
   {
-    "navn": "Pensjon",
-    "kode": "PEN",
     "journalposter": [
       {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "477024368",
-        "journalposttype": "UTGAAENDE",
-        "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
-        },
-        "sisteEndret": "2020-05-22T12:23:22Z",
-        "dokumenter": [
-          {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "497231848",
-            "brukerHarTilgang": true
-          }
-        ]
-      },
-      {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "476928568",
-        "journalposttype": "UTGAAENDE",
-        "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
-        },
-        "sisteEndret": "2020-05-20T09:58:34Z",
-        "dokumenter": [
-          {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "497126736",
-            "brukerHarTilgang": true
-          }
-        ]
-      },
-      {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "475242430",
-        "journalposttype": "UTGAAENDE",
-        "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
-        },
-        "sisteEndret": "2020-04-29T12:34:24Z",
-        "dokumenter": [
-          {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "495237388",
-            "brukerHarTilgang": true
-          }
-        ]
-      },
-      {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "461181836",
-        "journalposttype": "UTGAAENDE",
-        "avsenderMottaker": {
-          "innloggetBrukerErAvsender": false,
-          "type": "PERSON"
-        },
-        "sisteEndret": "2019-11-19T14:29:49Z",
-        "dokumenter": [
-          {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "478904601",
-            "brukerHarTilgang": true
-          }
-        ]
-      },
-      {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "461173071",
-        "journalposttype": "UTGAAENDE",
-        "avsenderMottaker": {
-          "innloggetBrukerErAvsender": false,
-          "type": "PERSON"
-        },
-        "sisteEndret": "2019-11-19T14:28:39Z",
-        "dokumenter": [
-          {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "478895214",
-            "brukerHarTilgang": true
-          }
-        ]
-      },
-      {
-        "tittel": "MASKERT_FELT",
-        "journalpostId": "461158685",
+        "tittel": "Klage/Anke",
+        "journalpostId": "493356699",
         "journalposttype": "INNGAAENDE",
+        "harVedlegg": true,
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-04-19T14:34:49Z",
+        "dokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515156126",
+            "brukerHarTilgang": true,
+            "dokumenttype": "HOVED"
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "515156128",
+            "brukerHarTilgang": true,
+            "dokumenttype": "VEDLEGG"
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "5151561249",
+            "brukerHarTilgang": true,
+            "dokumenttype": "VEDLEGG"
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "461529975",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": false,
           "type": "UKJENT"
         },
-        "sisteEndret": "2019-11-21T08:45:17Z",
+        "sisteEndret": "2019-11-22T15:08:21Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "478879715",
+            "dokumentInfoId": "479274656",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "411134803",
-        "journalposttype": "INNGAAENDE",
+        "journalpostId": "461529949",
+        "journalposttype": "NOTAT",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
+        },
+        "sisteEndret": "2019-11-22T15:07:54Z",
+        "dokumenter": [
+          {
+            "tittel": "MASKERT_FELT",
+            "dokumentInfoId": "479274622",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460902661",
+        "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2017-10-30T08:05:30Z",
+        "sisteEndret": "2019-11-15T09:56:02Z",
         "dokumenter": [
           {
-            "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "419557818",
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "478606992",
             "brukerHarTilgang": false
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "411134802",
-        "journalposttype": "INNGAAENDE",
+        "journalpostId": "460634267",
+        "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2017-10-30T08:06:53Z",
+        "sisteEndret": "2019-11-11T12:47:33Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "419557817",
+            "dokumentInfoId": "478319688",
+            "brukerHarTilgang": true
+          }
+        ]
+      },
+      {
+        "tittel": "MASKERT_FELT",
+        "journalpostId": "460449439",
+        "journalposttype": "UTGAAENDE",
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2019-11-07T09:40:16Z",
+        "dokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "478122449",
             "brukerHarTilgang": false
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "403607547",
-        "journalposttype": "INNGAAENDE",
+        "journalpostId": "445595069",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2017-07-03T14:03:02Z",
+        "sisteEndret": "2019-02-20T10:47:40Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "404222033",
+            "dokumentInfoId": "460597935",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823021",
+        "journalpostId": "445371193",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:29:39Z",
+        "sisteEndret": "2019-02-16T10:22:46Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994719",
+            "dokumentInfoId": "460318059",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823020",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "445200272",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T17:18:00Z",
+        "sisteEndret": "2019-02-13T21:15:56Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994718",
+            "dokumentInfoId": "460107736",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823019",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "437846970",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T17:18:23Z",
+        "sisteEndret": "2018-11-29T21:12:50Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994717",
+            "dokumentInfoId": "451701799",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823018",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "434022740",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T17:18:15Z",
+        "sisteEndret": "2018-09-27T22:08:05Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994716",
+            "dokumentInfoId": "447004093",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823017",
+        "journalpostId": "432820741",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:18:08Z",
+        "sisteEndret": "2018-09-07T13:27:17Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994715",
+            "dokumentInfoId": "445526734",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823016",
+        "journalpostId": "424665464",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:25:24Z",
+        "sisteEndret": "2018-04-11T21:20:59Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994714",
+            "dokumentInfoId": "435610422",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381823015",
+        "journalpostId": "422502764",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:29:57Z",
+        "sisteEndret": "2018-03-06T21:38:00Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994713",
+            "dokumentInfoId": "432958998",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822922",
+        "journalpostId": "415489483",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:30:14Z",
+        "sisteEndret": "2018-01-03T15:28:20Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994534",
+            "dokumentInfoId": "424823101",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822921",
+        "journalpostId": "415477642",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:18:32Z",
+        "sisteEndret": "2018-03-26T00:00:00Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994533",
+            "dokumentInfoId": "424810481",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822920",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "414338297",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T17:17:51Z",
+        "sisteEndret": "2017-12-11T09:36:34Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994532",
+            "dokumentInfoId": "423449135",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822919",
+        "journalpostId": "413843209",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T17:30:06Z",
+        "sisteEndret": "2017-12-07T16:50:58Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994531",
+            "dokumentInfoId": "422839369",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822918",
+        "journalpostId": "412891809",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:18:48Z",
+        "sisteEndret": "2017-11-20T11:25:49Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994530",
+            "dokumentInfoId": "421675633",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822917",
+        "journalpostId": "412891802",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:18:56Z",
+        "sisteEndret": "2017-11-20T15:38:55Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994529",
+            "dokumentInfoId": "421675659",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822913",
+        "journalpostId": "410959805",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:28:14Z",
+        "sisteEndret": "2017-10-26T09:06:30Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994525",
+            "dokumentInfoId": "419361301",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822912",
+        "journalpostId": "409469142",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:20:56Z",
+        "sisteEndret": "2017-10-03T08:43:08Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994524",
+            "dokumentInfoId": "417553311",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822911",
+        "journalpostId": "409469042",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:21:04Z",
+        "sisteEndret": "2017-10-04T13:18:03Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994523",
+            "dokumentInfoId": "417553205",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822909",
+        "journalpostId": "404764123",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:20:18Z",
+        "sisteEndret": "2017-07-19T14:03:14Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994521",
+            "dokumentInfoId": "411956311",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822908",
+        "journalpostId": "404335359",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:20:27Z",
+        "sisteEndret": "2017-07-13T11:01:32Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994520",
+            "dokumentInfoId": "411476133",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822907",
+        "journalpostId": "403523418",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T17:28:28Z",
+        "sisteEndret": "2017-07-03T10:38:24Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994519",
+            "dokumentInfoId": "410553978",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822746",
+        "journalpostId": "403523358",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T16:09:35Z",
+        "sisteEndret": "2017-07-03T13:18:33Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994357",
+            "dokumentInfoId": "410553896",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822745",
+        "journalpostId": "401797692",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T16:09:45Z",
+        "sisteEndret": "2017-06-10T16:10:23Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994356",
+            "dokumentInfoId": "408560030",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822744",
+        "journalpostId": "389455816",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T16:09:55Z",
+        "sisteEndret": "2017-01-03T20:22:29Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994355",
+            "dokumentInfoId": "393932491",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822742",
+        "journalpostId": "389453994",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T16:04:52Z",
+        "sisteEndret": "2017-01-03T20:22:49Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994353",
+            "dokumentInfoId": "393930370",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822740",
+        "journalpostId": "389445407",
         "journalposttype": "UTGAAENDE",
         "avsenderMottaker": {
           "innloggetBrukerErAvsender": true,
           "type": "PERSON"
         },
-        "sisteEndret": "2016-09-24T16:04:27Z",
+        "sisteEndret": "2017-01-03T20:24:14Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994351",
+            "dokumentInfoId": "393920553",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822734",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "380099611",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T18:45:01Z",
+        "sisteEndret": "2016-09-01T11:49:11Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994345",
+            "dokumentInfoId": "382990003",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822733",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "379503605",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T18:44:52Z",
+        "sisteEndret": "2016-08-24T08:33:29Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994344",
+            "dokumentInfoId": "382273470",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822731",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "379328934",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T16:11:20Z",
+        "sisteEndret": "2016-08-22T11:28:28Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994342",
+            "dokumentInfoId": "382066881",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822730",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "375440767",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T16:09:26Z",
+        "sisteEndret": "2016-06-16T10:08:44Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994341",
+            "dokumentInfoId": "377525601",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822729",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "375054021",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T16:09:17Z",
+        "sisteEndret": "2016-06-10T08:29:45Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994340",
+            "dokumentInfoId": "377072626",
             "brukerHarTilgang": true
           }
         ]
       },
       {
         "tittel": "MASKERT_FELT",
-        "journalpostId": "381822728",
-        "journalposttype": "UTGAAENDE",
+        "journalpostId": "374691325",
+        "journalposttype": "NOTAT",
         "avsenderMottaker": {
-          "innloggetBrukerErAvsender": true,
-          "type": "PERSON"
+          "innloggetBrukerErAvsender": false,
+          "type": "UKJENT"
         },
-        "sisteEndret": "2016-09-24T16:09:08Z",
+        "sisteEndret": "2016-06-06T08:45:28Z",
         "dokumenter": [
           {
             "tittel": "MASKERT_FELT",
-            "dokumentInfoId": "384994339",
+            "dokumentInfoId": "376647045",
             "brukerHarTilgang": true
           }
         ]
