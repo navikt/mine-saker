@@ -8,7 +8,7 @@ import InformasjoIkon from "../../../assets/InformasjonIkon";
 import BeklagerPanel from "../../panel/BeklagerPanel";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
-import fetchData from "../../../api";
+import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
 
 const toListElements = (journalpost) => {
@@ -22,8 +22,8 @@ const toListElements = (journalpost) => {
 };
 
 const DokumentListe = ({ sakstemaKey, temakode }) => {
-  const { data, isLoading } = useQuery(sakstemaKey, fetchData);
-  const journalposter = Array.isArray(data) ? data[0].journalposter : [];
+  const { data, isLoading } = useQuery(sakstemaKey, fetchResponse);
+  const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
 
   const translate = useIntl();
   const basePath = "dokumentliste." + temakode + ".";
@@ -38,7 +38,7 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
           <Normaltekst className="om-saken-ingress blokk-xs">
             {translate.formatMessage({id: lenkepanelIngress})}
           </Normaltekst>
-          <Lenkeliste data={data} />
+          <Lenkeliste data={data?.data} />
         </Liste>
       </section>
       <section id="dokumentliste">
