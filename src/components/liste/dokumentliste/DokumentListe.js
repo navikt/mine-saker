@@ -7,7 +7,7 @@ import InformasjoIkon from "../../../assets/InformasjonIkon";
 import BeklagerPanel from "../../panel/BeklagerPanel";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
-import fetchData from "../../../api";
+import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
 
 const toListElements = (journalpost) => {
@@ -21,8 +21,8 @@ const toListElements = (journalpost) => {
 };
 
 const DokumentListe = ({ sakstemaKey }) => {
-  const { data, isLoading } = useQuery(sakstemaKey, fetchData);
-  const journalposter = Array.isArray(data) ? data[0].journalposter : [];
+  const { data, isLoading } = useQuery(sakstemaKey, fetchResponse);
+  const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
 
   return (
     <React.Fragment>
@@ -32,7 +32,7 @@ const DokumentListe = ({ sakstemaKey }) => {
             Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
             informasjon som har betydning når NAV skal behandle saken.
           </Normaltekst>
-          <Lenkeliste data={data} />
+          <Lenkeliste data={data?.data} />
         </Liste>
       </section>
       <section id="dokumentliste">

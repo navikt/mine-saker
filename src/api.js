@@ -29,4 +29,19 @@ export const fetchStatus = async () => {
   return response.json();
 };
 
+export const fetchResponse = async ({ queryKey }) => {
+  const response = await fetch(queryKey, withCredentials);
+
+  if(!response.ok && response.status !== 503){
+    throw new FetchError(response, response.statusText);
+  }
+
+  const res = {
+    statusCode: response.status,
+    data: await response.json()
+  };
+
+  return res;
+};
+
 export default fetchData;
