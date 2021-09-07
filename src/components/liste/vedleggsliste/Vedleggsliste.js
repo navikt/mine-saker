@@ -1,8 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import VedleggslisteItem from "./VedleggslisteItem";
 import "./Vedleggsliste.less";
+import JournalpostType from "../../../types/JournalpostType";
 
 const Vedleggsliste = ({ journalpost }) => {
   const byVedlegg = (dokument) => dokument.dokumenttype === "VEDLEGG";
@@ -27,8 +27,8 @@ const Vedleggsliste = ({ journalpost }) => {
   );
 };
 
-Vedleggsliste.prototype = {
-  journalpost: PropTypes.object.isRequired,
+Vedleggsliste.propTypes = {
+  journalpost: JournalpostType,
 };
 
 export default Vedleggsliste;

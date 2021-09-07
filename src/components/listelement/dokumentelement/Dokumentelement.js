@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import MaskertIkon from "../../../assets/MaskertIkon";
@@ -7,6 +6,8 @@ import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
 import "./Dokumentelement.less";
+import JournalpostType from "../../../types/JournalpostType";
+import DokumentType from "../../../types/DokumentType";
 
 const Dokumentelement = ({ journalpost, dokument }) => {
   if (dokument.brukerHarTilgang === false) {
@@ -41,9 +42,9 @@ const Dokumentelement = ({ journalpost, dokument }) => {
   );
 };
 
-Dokumentelement.prototype = {
-  journalpost: PropTypes.object.isRequired,
-  document: PropTypes.object.isRequired,
+Dokumentelement.propTypes = {
+  journalpost: JournalpostType,
+  dokument: DokumentType,
 };
 
 export default Dokumentelement;

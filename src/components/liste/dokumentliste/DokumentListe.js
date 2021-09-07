@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -49,7 +49,7 @@ const DokumentListe = ({ sakstemaKey }) => {
 };
 
 DokumentListe.propTypes = {
-  sakstemaKey: PropTypes.string.isRequired,
+  sakstemaKey: string.isRequired,
 };
 
 export default DokumentListe;

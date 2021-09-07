@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
-
 import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import Vedleggsliste from "../../liste/vedleggsliste/Vedleggsliste";
 import "./Vedleggselement.less";
+import JournalpostType from "../../../types/JournalpostType";
 
 const Vedleggselement = ({ journalpost }) => {
   const byHoveddokument = (dokument) => dokument.dokumenttype === "HOVED";
@@ -27,7 +26,7 @@ const Vedleggselement = ({ journalpost }) => {
 };
 
 Vedleggselement.propTypes = {
-  journalpost: PropTypes.object,
+  journalpost: JournalpostType,
 };
 
 export default Vedleggselement;
