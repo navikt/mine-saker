@@ -1,39 +1,50 @@
 import { rest } from "msw";
 
-const journalposter = (sakstemakode) =>
-  ({
-    AAP: require("./journalposter/aap.json"),
-    AGR: require("./journalposter/agr.json"),
-    BAR: require("./journalposter/bar.json"),
-    DAG: require("./journalposter/dag.json"),
-    ENF: require("./journalposter/enf.json"),
-    ERS: require("./journalposter/ers.json"),
-    FEI: require("./journalposter/fei.json"),
-    FOR: require("./journalposter/frs.json"),
-    FUL: require("./journalposter/ful.json"),
-    GEN: require("./journalposter/gen.json"),
-    GRA: require("./journalposter/gra.json"),
-    HJE: require("./journalposter/hje.json"),
-    IND: require("./journalposter/ind.json"),
-    MED: require("./journalposter/med.json"),
-    MOB: require("./journalposter/mob.json"),
-    OPP: require("./journalposter/opp.json"),
-    PEN: require("./journalposter/pen.json"),
-    PER: require("./journalposter/per.json"),
-    RVE: require("./journalposter/rve.json"),
-    SAK: require("./journalposter/sak.json"),
-    SER: require("./journalposter/ser.json"),
-    SUP: require("./journalposter/sup.json"),
-    SYK: require("./journalposter/syk.json"),
-    SYM: require("./journalposter/sym.json"),
-    TRK: require("./journalposter/trk.json"),
-    TSO: require("./journalposter/tso.json"),
-    TSR: require("./journalposter/tsr.json"),
-    UFM: require("./journalposter/ufm.json"),
-    UFO: require("./journalposter/ufo.json"),
-    VEN: require("./journalposter/ven.json"),
-    YRK: require("./journalposter/yrk.json"),
-  }[sakstemakode]);
+const addJournalposterToSakstema = (sakstema) => {
+  const journalposter = require("./journalposter.json");
+  journalposter[0]["navn"] = sakstema.navn;
+  journalposter[0]["kode"] = sakstema.kode;
+
+  return journalposter;
+};
+
+const journalposter = (sakstemakode) => {
+  const sakstemaer = {
+    AAP: { navn: "Arbeidsavklaringspenger", kode: "AAP" },
+    AGR: { navn: "Ajourhold - Grunnopplysninger", kode: "AGR" },
+    BAR: { navn: "Barnetrygd", kode: "BAR" },
+    DAG: { navn: "Dagpenger", kode: "DAG" },
+    ENF: { navn: "Enslig forsørger", kode: "ENF" },
+    ERS: { navn: "Erstatning", kode: "ERS" },
+    FEI: { navn: "Feilutbetaling", kode: "FEI" },
+    FOR: { navn: "Foreldre- og svangerskapspenger", kode: "FOR" },
+    FUL: { navn: "Fullmakt", kode: "FUL" },
+    GEN: { navn: "Generell", kode: "GEN" },
+    GRA: { navn: "Gravferdsstønad", kode: "GRA" },
+    HJE: { navn: "Hjelpemidler", kode: "HJE" },
+    IND: { navn: "Tiltakspenger", kode: "IND" },
+    MED: { navn: "Medlemskap", kode: "MED" },
+    MOB: { navn: "Mobilitetsfremmende stønad", kode: "MOB" },
+    OPP: { navn: "Oppfølging", kode: "OPP" },
+    PEN: { navn: "Pensjon", kode: "PEN" },
+    PER: { navn: "Permittering og masseoppsigelser", kode: "PER" },
+    RVE: { navn: "Rettferdsvederlag", kode: "RVE" },
+    SAK: { navn: "Saksomkostninger", kode: "SAK" },
+    SER: { navn: "Serviceklager", kode: "SER" },
+    SUP: { navn: "Supplerende stønad", kode: "SUP" },
+    SYK: { navn: "Sykepenger", kode: "SYK" },
+    SYM: { navn: "Sykmeldinger", kode: "SYM" },
+    TRK: { navn: "Trekkhåndtering", kode: "TRK" },
+    TSO: { navn: "Tilleggsstønad", kode: "TSO" },
+    TSR: { navn: "Tilleggsstønad arbeidssøkere", kode: "TSR" },
+    UFM: { navn: "Unntak fra medlemskap", kode: "UFM" },
+    UFO: { navn: "Uføretrygd", kode: "UFO" },
+    VEN: { navn: "Ventelønn", kode: "VEN" },
+    YRK: { navn: "Yrkesskade", kode: "YRK" },
+  };
+
+  return addJournalposterToSakstema(sakstemaer[sakstemakode]);
+};
 
 export default function get(endpoint, response, statusCode = 200) {
   return rest.get(endpoint, (req, res, ctx) => {

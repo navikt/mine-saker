@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Sidetittel } from "nav-frontend-typografi";
-import GenerellFeilmelding from "../../components/feilmelding/GenerellFeilmelding";
+import Feilmelding from "../../components/feilmelding/Feilmelding";
 import useBreadcrumbs from "../../hooks/useBreadcrumbs";
 import "./PageBase.less";
 
@@ -12,7 +12,7 @@ const PageBase = ({ tittel, breadcrumb, children, statusCode }) => {
   return (
     <div className="page-base">
       <div className="page-wrapper">
-        {visFeilmelding ? <GenerellFeilmelding status={statusCode} /> : null}
+        {visFeilmelding ? <Feilmelding status={statusCode} /> : null}
         <Sidetittel className="page-base__tittel">{tittel}</Sidetittel>
         {children}
       </div>
