@@ -5,15 +5,11 @@ import "./GenerellFeilmelding.less";
 const GenerellFeilmelding = ({ status }) => {
   const typeMelding = status === 503 ? "feil" : "advarsel";
 
-  const tekst = {
-    feil: "Vi fikk dessverre ikke tak i alle dine dokumenter. Ta kontakt hvis du har noen spørsmål.",
-    advarsel:
-      "Vi har for øyeblikket tekniske problemer. Vennligst prøv igjen senere eller ta kontakt med oss hvis du har noen spørsmål.",
-  };
+  const tekst = "Vi har for øyeblikket tekniske problemer. Dette kan føre til at du ikke får opp all informasjon om dine saker. Vennligst prøv igjen senere.";
 
   return (
     <AlertStripe className="panel-feil" type={typeMelding}>
-      {tekst[typeMelding]}
+      {tekst}
     </AlertStripe>
   );
 };
