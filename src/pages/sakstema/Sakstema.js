@@ -28,9 +28,12 @@ const Sakstema = () => {
   const translate = useIntl();
   const tittelPath = "mine-saker." + temakode + ".tittel";
 
+  console.log("before: " + tittel + " :after");
+  console.log(data)
+
   return (
     <PageBase 
-      tittel={translate.formatMessage({id: tittelPath})}
+      tittel={translate.formatMessage({id: tittelPath, defaultMessage: tittel})}
       breadcrumb={crumb} 
       isLoading={isLoading} 
       statusCode={data?.statusCode}>

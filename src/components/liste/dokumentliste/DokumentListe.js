@@ -31,18 +31,20 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   const lenkepanelIngress = basePath + "lenkepanel-ingress";
   const listeTittel = basePath + "liste-tittel";
 
+  const defaultIngress = "Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersendeinformasjon som har betydning når NAV skal behandle saken."
+
   return (
     <React.Fragment>
       <section>
-        <Liste tittel={translate.formatMessage({id: lenkepanelTittel})} ikon={<InformasjoIkon />}>
+        <Liste tittel={translate.formatMessage({id: lenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
-            {translate.formatMessage({id: lenkepanelIngress})}
+            {translate.formatMessage({id: lenkepanelIngress, defaultMessage: defaultIngress})}
           </Normaltekst>
           <Lenkeliste data={data?.data} />
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel={translate.formatMessage({id: listeTittel})} ikon={<DokumentIkon />} isLoading={isLoading}>
+        <Liste tittel={translate.formatMessage({id: listeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>

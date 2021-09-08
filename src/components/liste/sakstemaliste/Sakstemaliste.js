@@ -16,7 +16,7 @@ const Sakstemaliste = () => {
   const tittel = "sakstemaliste.tittel"
 
   return (
-    <Liste tittel={translate.formatMessage({id: tittel})} ikon={<SaksIkon />} isLoading={isLoading}>
+    <Liste tittel={translate.formatMessage({id: tittel, defaultMessage: "Saksoversikt"})} ikon={<SaksIkon />} isLoading={isLoading}>
       {sakstemaer?.data.map((sakstema) => (
         <ListeElement
           type="sakstema"
