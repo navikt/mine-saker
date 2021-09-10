@@ -31,14 +31,12 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   const lenkepanelIngress = "default.ingress";
   const listeTittel = "default.dokumentliste-tittel";
 
-  const defaultIngress = "Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersendeinformasjon som har betydning når NAV skal behandle saken."
-
   return (
     <React.Fragment>
       <section>
         <Liste tittel={translate.formatMessage({id: lenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
-            {translate.formatMessage({id: lenkepanelIngress, defaultMessage: defaultIngress})}
+            {translate.formatMessage({id: lenkepanelIngress, defaultMessage: lenkepanelIngress})}
           </Normaltekst>
           <Lenkeliste data={data?.data} />
         </Liste>
