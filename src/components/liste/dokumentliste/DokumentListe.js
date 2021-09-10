@@ -26,23 +26,28 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
 
   const translate = useIntl();
-  //const basePath = "dokumentliste." + temakode + ".";
-  const lenkepanelTittel = "default.om-saken-panel-tittel";
-  const lenkepanelIngress = "default.ingress";
-  const listeTittel = "default.dokumentliste-tittel";
+  let basePath = "sakstema." + temakode + ".ingress";
+  const defaultLenkepanelTittel = "default.om-saken-panel-tittel";
+  const defaultIngress = "default.ingress";
+  const defaultListeTittel = "default.dokumentliste-tittel";
+
+  const checkValue = translate.formatMessage({id: basePath});
+  if(checkValue === "1") {
+    basePath = "default.ingress"
+  }
 
   return (
     <React.Fragment>
       <section>
-        <Liste tittel={translate.formatMessage({id: lenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
+        <Liste tittel={translate.formatMessage({id: defaultLenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
-            {translate.formatMessage({id: lenkepanelIngress, defaultMessage: lenkepanelIngress})}
+            {translate.formatMessage({id: basePath, defaultMessage: defaultIngress})}
           </Normaltekst>
           <Lenkeliste data={data?.data} />
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel={translate.formatMessage({id: listeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
+        <Liste tittel={translate.formatMessage({id: defaultListeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>
