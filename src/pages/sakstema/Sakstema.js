@@ -26,10 +26,7 @@ const Sakstema = () => {
   const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel || "...");
 
   const translate = useIntl();
-  const tittelPath = "mine-saker." + temakode + ".tittel";
-
-  console.log("before: " + tittel + " :after");
-  console.log(data)
+  const tittelPath = "sakstema." + temakode + ".tittel";
 
   return (
     <PageBase 

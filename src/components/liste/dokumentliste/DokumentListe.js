@@ -26,10 +26,10 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
 
   const translate = useIntl();
-  const basePath = "dokumentliste." + temakode + ".";
-  const lenkepanelTittel = basePath + "lenkepanel-tittel";
-  const lenkepanelIngress = basePath + "lenkepanel-ingress";
-  const listeTittel = basePath + "liste-tittel";
+  //const basePath = "dokumentliste." + temakode + ".";
+  const lenkepanelTittel = "default.om-saken-panel-tittel";
+  const lenkepanelIngress = "default.ingress";
+  const listeTittel = "default.dokumentliste-tittel";
 
   const defaultIngress = "Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersendeinformasjon som har betydning når NAV skal behandle saken."
 

@@ -18,7 +18,7 @@ const Lenkeliste = () => {
   return (
     <div className="lenkeliste">
       {lenker[lenkeKey].map((lenke) => (
-        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.id}>
+        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.url}>
           <HoyreChevron className="lenkeliste-item__chevron" /> {translate.formatMessage({id: lenke.tekst})}
         </Lenke>
       ))}
