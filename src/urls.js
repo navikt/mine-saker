@@ -42,6 +42,13 @@ const ETTERSENDING = {
   production: "https://tjenester.nav.no/saksoversikt/ettersending",
 };
 
+const HJELPEMIDLER ={
+  local: "https://localhost:3000//hjelpemidler/dinehjelpemidler",
+  development: "https://hjelpemidler.dev.nav.no/hjelpemidler/dinehjelpemidler",
+  production:"https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler",
+}
+
+
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
 
@@ -54,6 +61,7 @@ export const loginUrl = `${mineSakerApiUrl}/login`;
 export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
 export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
 
+export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
 export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
 export const dagpengerUrl = DAGPENGER[getEnvironment()];
 export const lastOppVedleggUrl = ETTERSENDING[getEnvironment()];
@@ -63,7 +71,6 @@ export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbak
 export const opplysningspliktUrl =
   "https://www.nav.no/no/nav-og-samfunn/om-nav/relatert-informasjon/du-har-plikt-til-a-gi-nav-riktige-opplysninger";
 export const saksbehandlingstiderUrl = "https://www.nav.no/no/nav-og-samfunn/om-nav/saksbehandlingstider-i-nav";
-export const hjelpemidlerUrl = "https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler";
 export const foreldrepengerUrl = "https://foreldrepenger.nav.no/";
 export const sosialhjelpVeiviserUrl = "https://tjenester.nav.no/veivisersosialhjelp";
 export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav/klage-ris-og-ros/klagerettigheter";
