@@ -32,7 +32,7 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   const defaultListeTittel = "default.dokumentliste-tittel";
 
   const checkValue = translate.formatMessage({id: basePath});
-  if(checkValue === "1") {
+  if(checkValue === "default") {
     basePath = "default.ingress"
   }
 
