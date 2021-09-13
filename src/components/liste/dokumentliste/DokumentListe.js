@@ -1,5 +1,6 @@
 import React from "react";
 import {  useIntl } from "react-intl";
+import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -56,6 +57,10 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
       </section>
     </React.Fragment>
   );
+};
+
+DokumentListe.propTypes = {
+  sakstemaKey: string.isRequired,
 };
 
 export default DokumentListe;
