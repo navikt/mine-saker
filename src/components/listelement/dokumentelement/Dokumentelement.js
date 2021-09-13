@@ -6,6 +6,8 @@ import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
 import "./Dokumentelement.less";
+import JournalpostType from "../../../types/JournalpostType";
+import DokumentType from "../../../types/DokumentType";
 
 const Dokumentelement = ({ journalpost, dokument }) => {
   if (dokument.brukerHarTilgang === false) {
@@ -38,6 +40,11 @@ const Dokumentelement = ({ journalpost, dokument }) => {
       />
     </ChevronlenkeBase>
   );
+};
+
+Dokumentelement.propTypes = {
+  journalpost: JournalpostType,
+  dokument: DokumentType,
 };
 
 export default Dokumentelement;
