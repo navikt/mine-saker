@@ -32,13 +32,14 @@ export const fetchStatus = async () => {
 export const fetchResponse = async ({ queryKey }) => {
   const response = await fetch(queryKey, withCredentials);
 
-  if(!response.ok && response.status !== 503){
+  if (!response.ok && response.status !== 503) {
     throw new FetchError(response, response.statusText);
   }
 
+  const responseBody = response.status === 503 ? {} : await response.json();
   const res = {
     statusCode: response.status,
-    data: await response.json()
+    data: responseBody,
   };
 
   return res;
