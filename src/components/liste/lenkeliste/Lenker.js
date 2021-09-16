@@ -1,4 +1,4 @@
-import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
+import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, sosialhjelpUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
 import { arbeidsavklaringspengerUrl } from "../../../urls";
@@ -71,6 +71,10 @@ const sykefravaerLenker = [
 ];
 
 const sosialhjelpLenker = [
+  {
+    url: sosialhjelpUrl,
+    tekst: "Din økonomiske sosialhjelp",
+  },
   {
     url: kontaktOssUrl,
     tekst: "Kontakt oss",
