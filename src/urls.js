@@ -45,7 +45,7 @@ const ETTERSENDING = {
 const HJELPEMIDLER ={
   local: "https://localhost:3000//hjelpemidler/dinehjelpemidler",
   development: "https://hjelpemidler.dev.nav.no/hjelpemidler/dinehjelpemidler",
-  production:"https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler",
+  production:"https://www.nav.no/hjelpemidler/dinehjelpemidler",
 }
 
 
