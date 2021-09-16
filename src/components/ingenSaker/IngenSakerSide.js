@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Knapp, Hovedknapp } from 'nav-frontend-knapper';
 import Dinosaur from "../../assets/Dinosaur";
+import { dittNavUrl } from "../../urls";
 
 import "./IngenSakerSide.less";
 
@@ -21,9 +23,8 @@ const IngenSakerSide = ({ ingress, page }) => {
         <section className="ingen-saker-wrapper">
             <h2 className="ingen-saker-ingress">{ingress}</h2>       
             <section className="button-section">
-                {showButton ? <Hovedknapp className="til-saksoversikt-knapp">Gå til saksoversikten</Hovedknapp> : null}
-                
-                <Knapp className="til-forside-knapp">Gå til forsiden av Ditt NAV</Knapp>
+                {showButton ? <Link to="/person/mine-saker/" className="knapp knapp--hoved">Gå til saksoversikten</Link> : null}
+                <a href={dittNavUrl} className="knapp">Gå til forsiden av Ditt NAV</a>
             </section>
             <section className="dinosaur-wrapper">
                 <Dinosaur></Dinosaur>

@@ -48,6 +48,12 @@ const HJELPEMIDLER ={
   production:"https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler",
 }
 
+const DITT_NAV ={
+  local: "https://localhost:3000/person/dittnav/",
+  development: "https://www.dev.nav.no/person/dittnav/",
+  production:"https://www.nav.no/person/dittnav/",
+}
+
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
@@ -65,6 +71,7 @@ export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
 export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
 export const dagpengerUrl = DAGPENGER[getEnvironment()];
 export const lastOppVedleggUrl = ETTERSENDING[getEnvironment()];
+export const dittNavUrl = DITT_NAV[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
