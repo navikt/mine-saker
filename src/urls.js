@@ -42,12 +42,17 @@ const ETTERSENDING = {
   production: "https://tjenester.nav.no/saksoversikt/ettersending",
 };
 
-const HJELPEMIDLER ={
+const HJELPEMIDLER = {
   local: "https://localhost:3000//hjelpemidler/dinehjelpemidler",
   development: "https://hjelpemidler.dev.nav.no/hjelpemidler/dinehjelpemidler",
-  production:"https://www.nav.no/hjelpemidler/dinehjelpemidler",
-}
+  production: "https://www.nav.no/hjelpemidler/dinehjelpemidler",
+};
 
+const SYKEMELDINGER = {
+  local: "https://localhost:3000/syk/sykmeldinger",
+  development: "https://www-gcp.dev.nav.no/syk/sykmeldinger/",
+  production: "https://www.nav.no/syk/sykmeldinger",
+};
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
@@ -61,6 +66,7 @@ export const loginUrl = `${mineSakerApiUrl}/login`;
 export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
 export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
 
+export const sykemeldingerUrl = SYKEMELDINGER[getEnvironment()];
 export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
 export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
 export const dagpengerUrl = DAGPENGER[getEnvironment()];
@@ -76,6 +82,6 @@ export const sosialhjelpVeiviserUrl = "https://tjenester.nav.no/veivisersosialhj
 export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav/klage-ris-og-ros/klagerettigheter";
 export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
 export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
-export const sykemeldingerUrl = "https://tjenester.nav.no/sykefravaer/sykmeldinger";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
-export const stonadervedtiltakUrl = "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
+export const stonadervedtiltakUrl =
+  "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
