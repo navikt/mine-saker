@@ -11,7 +11,6 @@ const IngenSakerSide = ({ ingress, page }) => {
     let showButton;
 
     const setShowButton = () => {
-        console.log(page)
         if(page === "saksoversikt") {
             showButton = true;
         }

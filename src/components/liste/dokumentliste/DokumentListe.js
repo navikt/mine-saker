@@ -28,9 +28,10 @@ const DokumentListe = ({ sakstemaKey }) => {
   const [toggleNoDocuments, setToggleNoDocuments] = useState(false);
   const { data, isLoading, isSuccess } = useQuery(sakstemaKey, fetchResponse);
   const journalposter = Array.isArray(data?.data) ? data?.data[0]?.journalposter : [];
+  const showIngenSaker = journalposter.length === 0 && isSuccess && data?.statusCode === 200;
 
   useEffect(() => {
-    if(journalposter.length === 0 && isSuccess) {
+    if(journalposter.length === 0 && isSuccess && data?.statusCode === 200) {
       setToggleNoDocuments(true);
     }
   }, [journalposter, isSuccess]);
