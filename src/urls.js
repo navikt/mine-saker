@@ -1,7 +1,7 @@
 import getEnvironment from "./utils/environmnet";
 
 const MINE_SAKER_URL = {
-  local: "https://localhost:3000/person/mine-saker",
+  local: "http://localhost:3000/person/mine-saker",
   development: "https://mine-saker.dev.nav.no/person/mine-saker",
   production: "https://www.intern.nav.no/person/mine-saker",
 };
@@ -42,18 +42,17 @@ const ETTERSENDING = {
   production: "https://tjenester.nav.no/saksoversikt/ettersending",
 };
 
-const HJELPEMIDLER ={
+const HJELPEMIDLER = {
   local: "https://localhost:3000//hjelpemidler/dinehjelpemidler",
   development: "https://hjelpemidler.dev.nav.no/hjelpemidler/dinehjelpemidler",
-  production:"https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler",
-}
+  production: "https://hjelpemidler.nav.no/hjelpemidler/dinehjelpemidler",
+};
 
-const DITT_NAV ={
+const DITT_NAV = {
   local: "https://localhost:3000/person/dittnav/",
   development: "https://www.dev.nav.no/person/dittnav/",
-  production:"https://www.nav.no/person/dittnav/",
-}
-
+  production: "https://www.nav.no/person/dittnav/",
+};
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
 export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
@@ -85,4 +84,5 @@ export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
 export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
 export const sykemeldingerUrl = "https://tjenester.nav.no/sykefravaer/sykmeldinger";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
-export const stonadervedtiltakUrl = "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
+export const stonadervedtiltakUrl =
+  "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
