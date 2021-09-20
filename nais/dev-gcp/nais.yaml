@@ -25,12 +25,10 @@ spec:
   accessPolicy:
     outbound:
       external:
-        - host: "www.dev.nav.no"
-        - host: "mine-saker-api.dev.nav.no"
+        - host: "person.dev.nav.no"
         - host: "dekoratoren.dev.nav.no"
   ingresses:
-    - "https://www.dev.nav.no/person/mine-saker"
-    - "https://mine-saker.dev.nav.no/person/mine-saker"
+    - "https://person.dev.nav.no/person/mine-saker"
   resources:
     limits:
       cpu: "3"
