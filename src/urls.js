@@ -2,7 +2,7 @@ import getEnvironment from "./utils/environmnet";
 
 const MINE_SAKER_URL = {
   local: "https://localhost:3000/person/mine-saker",
-  development: "https://mine-saker.dev.nav.no/person/mine-saker",
+  development: "https://person.dev.nav.no/person/mine-saker",
   production: "https://www.intern.nav.no/person/mine-saker",
 };
 
