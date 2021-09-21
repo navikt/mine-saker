@@ -1,8 +1,8 @@
 import React from "react";
 import { useQuery } from "react-query";
 import fetchData from "../../api";
-import { innloggingsstatusUrl, mineSakerUrl, statusUrl } from "../../urls";
-import { redirectToIdPorten, redirectToLoginService } from "../../utils/redirect";
+import { mineSakerUrl, statusUrl } from "../../urls";
+import { redirectToIdPorten } from "../../utils/redirect";
 import Spinner from "../spinner/Spinner";
 
 const Authentication = ({ children }) => {
