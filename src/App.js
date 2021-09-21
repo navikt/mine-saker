@@ -11,8 +11,8 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Switch>
-          <Route path="/person/mine-saker" exact component={MineSaker} />
-          <Route path="/person/mine-saker/tema/:temakode" component={Sakstema} />
+          <Route path="/mine-saker" exact component={MineSaker} />
+          <Route path="/mine-saker/tema/:temakode" component={Sakstema} />
         </Switch>
       </Router>
     </div>

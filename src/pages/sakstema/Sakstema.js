@@ -22,7 +22,7 @@ const Sakstema = () => {
   });
 
   const tittel = Array.isArray(data?.data) ? data?.data[0].navn : "";
-  const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel || "...");
+  const crumb = createCrumb(`/mine-saker/${temakode}`, tittel || "...");
 
   return (
     <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} statusCode={data?.statusCode}>

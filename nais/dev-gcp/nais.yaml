@@ -11,14 +11,14 @@ spec:
   image: {{version}}
   port: 8080
   liveness:
-    path: /person/mine-saker/internal/isAlive
+    path: /mine-saker/internal/isAlive
     initialDelay: 10
   readiness:
-    path: /person/mine-saker/internal/isReady
+    path: /mine-saker/internal/isReady
     initialDelay: 10
   prometheus:
     enabled: true
-    path: /person/mine-saker/internal/metrics
+    path: /mine-saker/internal/metrics
   replicas:
     min: 2
     max: 4
@@ -28,7 +28,7 @@ spec:
         - host: "person.dev.nav.no"
         - host: "dekoratoren.dev.nav.no"
   ingresses:
-    - "https://person.dev.nav.no/person/mine-saker"
+    - "https://person.dev.nav.no/mine-saker"
   resources:
     limits:
       cpu: "3"
