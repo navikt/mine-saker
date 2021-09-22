@@ -14,7 +14,7 @@ const MineSaker = () => {
 
   return (
     <PageBase tittel="Mine Saker" statusCode={data?.statusCode}>
-      <HotjarTilbakemeldingsboks></HotjarTilbakemeldingsboks>
+      <HotjarTilbakemeldingsboks />
       <Sakstemaliste />
     </PageBase>
   );
