@@ -3,13 +3,13 @@ import getEnvironment from "./utils/environmnet";
 const MINE_SAKER_URL = {
   local: "https://localhost:3000/mine-saker",
   development: "https://person.dev.nav.no/mine-saker",
-  production: "https://www.intern.nav.no/mine-saker",
+  production: "https://person.nav.no/mine-saker",
 };
 
 const MINE_SAKER_API_URL = {
   local: "https://www.api.nav.no/mine-saker-api",
   development: "https://person.dev.nav.no/mine-saker-api",
-  production: "https://mine-saker-api.intern.nav.no/mine-saker-api",
+  production: "https://person.nav.no/mine-saker-api",
 };
 
 const LOGINSERVICE_URL = {
