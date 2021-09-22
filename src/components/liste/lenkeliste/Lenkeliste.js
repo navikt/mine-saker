@@ -1,6 +1,7 @@
 import React from "react";
 import { useIntl } from "react-intl";
 import { useParams } from "react-router-dom";
+import { initializeAmplitude, logAmplitudeEvent } from "../../../utils/amplitude";
 import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
 import useTemaException from "../../../hooks/useTemaException";
@@ -13,12 +14,13 @@ const Lenkeliste = () => {
   const lenkeKey = isTemaException ? temakode : "GENERELLE";
   
   const translate = useIntl();
+  initializeAmplitude();
 
   //lenke.tekst = react-intl key tilhørende json filene i language folderen.
   return (
     <div className="lenkeliste">
       {lenker[lenkeKey].map((lenke) => (
-        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.url}>
+        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.url} onClick={() => logAmplitudeEvent(lenke.amplitudeIdentifier)}>
           <HoyreChevron className="lenkeliste-item__chevron" /> {translate.formatMessage({id: lenke.tekst})}
         </Lenke>
       ))}
