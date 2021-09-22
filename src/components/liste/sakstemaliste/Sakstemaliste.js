@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
@@ -10,9 +11,13 @@ import "./Sakstemaliste.less";
 const Sakstemaliste = () => {
   const {data:sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchResponse);
 
+  const translate = useIntl();
+
+  const tittel = "sakstemaliste.tittel"
+
   return (
-    <Liste className="saksliste" tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={isLoading}>
-      {sakstemaer?.data?.map((sakstema) => (
+    <Liste tittel={translate.formatMessage({id: tittel, defaultMessage: "Saksoversikt"})} ikon={<SaksIkon />} isLoading={isLoading}>
+      {sakstemaer?.data.map((sakstema) => (
         <ListeElement
           type="sakstema"
           key={sakstema.kode}

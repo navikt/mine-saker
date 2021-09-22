@@ -12,8 +12,8 @@ const ChevronlenkeBase = ({ dato, hideBorder, children }) => {
     <div className={`chevronlenke-base ${hideBorder ? "" : "chevronlenke-base__border"}`}>
       <Ingress>
         {children}
-        <Undertekst className="chevronlenke-base__tekst">{`Sist endret ${formatToReadableDate(dato)}`}</Undertekst>
-      </Ingress>
+      </Ingress>        
+      <Undertekst className="chevronlenke-base__tekst">{`Sist endret ${formatToReadableDate(dato)}`}</Undertekst>
     </div>
   );
 };
