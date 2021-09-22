@@ -1,4 +1,5 @@
 import React from "react";
+import {  useIntl } from "react-intl";
 import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
@@ -21,23 +22,33 @@ const toListElements = (journalpost) => {
   }
 };
 
-const DokumentListe = ({ sakstemaKey }) => {
+const DokumentListe = ({ sakstemaKey, temakode }) => {
   const { data, isLoading } = useQuery(sakstemaKey, fetchResponse);
   const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
+
+  const translate = useIntl();
+  let basePath = "sakstema." + temakode + ".ingress";
+  const defaultLenkepanelTittel = "default.om-saken-panel-tittel";
+  const defaultIngress = "default.ingress";
+  const defaultListeTittel = "default.dokumentliste-tittel";
+
+  const checkValue = translate.formatMessage({id: basePath});
+  if(checkValue === "default") {
+    basePath = "default.ingress"
+  }
 
   return (
     <React.Fragment>
       <section>
-        <Liste tittel="Om saken" ikon={<InformasjoIkon />}>
+        <Liste tittel={translate.formatMessage({id: defaultLenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
           <Normaltekst className="om-saken-ingress blokk-xs">
-            Her finner du informasjon om saken din. Du har mulighet til å melde fra om endringer eller ettersende
-            informasjon som har betydning når NAV skal behandle saken.
+            {translate.formatMessage({id: basePath, defaultMessage: defaultIngress})}
           </Normaltekst>
           <Lenkeliste data={data?.data} />
         </Liste>
       </section>
       <section id="dokumentliste">
-        <Liste tittel="Dokumentliste" ikon={<DokumentIkon />} isLoading={isLoading}>
+        <Liste tittel={translate.formatMessage({id: defaultListeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
           {journalposter.map(toListElements)}
         </Liste>
       </section>

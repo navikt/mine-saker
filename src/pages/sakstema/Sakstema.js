@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import { journalposterUrl, mineSakerUrl } from "../../urls";
@@ -22,11 +23,18 @@ const Sakstema = () => {
   });
 
   const tittel = Array.isArray(data?.data) ? data?.data[0].navn : "";
-  const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel || "...");
+  const crumb = createCrumb(`/mine-saker/${temakode}`, tittel || "...");
+
+  const translate = useIntl();
+  const tittelPath = "sakstema." + temakode + ".tittel";
 
   return (
-    <PageBase tittel={tittel} breadcrumb={crumb} isLoading={isLoading} statusCode={data?.statusCode}>
-      <DokumentListe sakstemaKey={sakstemaKey} />
+    <PageBase 
+      tittel={translate.formatMessage({id: tittelPath, defaultMessage: tittel})}
+      breadcrumb={crumb} 
+      isLoading={isLoading} 
+      statusCode={data?.statusCode}>
+      <DokumentListe sakstemaKey={sakstemaKey} temakode={temakode}/>
     </PageBase>
   );
 };

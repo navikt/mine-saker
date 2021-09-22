@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { useParams } from "react-router-dom";
 import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
@@ -10,12 +11,15 @@ const Lenkeliste = () => {
   const { temakode } = useParams();
   const isTemaException = useTemaException(temakode);
   const lenkeKey = isTemaException ? temakode : "GENERELLE";
+  
+  const translate = useIntl();
 
+  //lenke.tekst = react-intl key tilhørende json filene i language folderen.
   return (
     <div className="lenkeliste">
       {lenker[lenkeKey].map((lenke) => (
         <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.url}>
-          <HoyreChevron className="lenkeliste-item__chevron" /> {lenke.tekst}
+          <HoyreChevron className="lenkeliste-item__chevron" /> {translate.formatMessage({id: lenke.tekst})}
         </Lenke>
       ))}
     </div>
