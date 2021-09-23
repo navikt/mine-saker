@@ -55,16 +55,16 @@ const SYKEMELDINGER = {
 };
 
 export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
-export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
+export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
+
+export const loginserviceUrl = window.env.LOGINSERVICE_URL;
+export const innloggingsstatusUrl = window.env.INNLOGGINGSSTATUS;
 
 export const sakstemaerUrl = `${mineSakerApiUrl}/sakstemaer`;
 export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
 export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
-
-export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
-export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
 
 export const sykemeldingerUrl = SYKEMELDINGER[getEnvironment()];
 export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
