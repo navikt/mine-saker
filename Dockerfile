@@ -4,11 +4,15 @@ ENV NODE_ENV production
 WORKDIR usr/src/app
 COPY server server/
 COPY build ./build
+COPY run-script.sh ./run-script.sh
+
+RUN apk update && apk add bash
+RUN chmod +x ./run-script.sh
 
 WORKDIR server
 RUN npm install
 
-CMD ["node", "./server.js"]
+ENTRYPOINT ["/bin/bash","-c","../run-script.sh"]
 
 ENV PORT=8080
 EXPOSE $PORT
