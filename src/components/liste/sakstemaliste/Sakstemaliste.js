@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
@@ -12,13 +13,21 @@ const Sakstemaliste = () => {
   const { data: sakstemaer, isLoading, isSuccess } = useQuery(sakstemaerUrl, fetchResponse);
   const visIngenSaker = sakstemaer?.data.length === 0 && isSuccess && sakstemaer?.statusCode === 200;
 
+  const translate = useIntl();
+
+  const tittel = "sakstemaliste.tittel";
+
   return (
     <>
       {visIngenSaker ? (
         <IngenSakerSide page="mine-saker" ingress="Du har foreløpig ingen registrerte saker"></IngenSakerSide>
       ) : (
-        <Liste className="saksliste" tittel="Saksoversikt" ikon={<SaksIkon />} isLoading={isLoading}>
-          {sakstemaer?.data?.map((sakstema) => (
+        <Liste
+          tittel={translate.formatMessage({ id: tittel, defaultMessage: "Saksoversikt" })}
+          ikon={<SaksIkon />}
+          isLoading={isLoading}
+        >
+          {sakstemaer?.data.map((sakstema) => (
             <ListeElement
               type="sakstema"
               key={sakstema.kode}

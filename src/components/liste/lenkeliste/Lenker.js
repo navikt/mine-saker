@@ -1,4 +1,4 @@
-import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
+import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, sosialhjelpUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
 import { arbeidsavklaringspengerUrl } from "../../../urls";
@@ -6,34 +6,34 @@ import { arbeidsavklaringspengerUrl } from "../../../urls";
 const generelleLenker = [
   {
     url: kontaktOssUrl,
-    tekst: "Kontakt oss",
+    tekst: "generelle-lenker.kontakt-oss", //Value: N: "Kontakt oss", E: "Contact us"
   },
   {
     url: tilbakemeldingerUrl,
-    tekst: "Send klage",
+    tekst: "generelle-lenker.send-klage", //Value: N: "Send klage", E: "Send complaint"
   },
   {
     url: opplysningspliktUrl,
-    tekst: "Meld fra om endringer",
+    tekst: "generelle-lenker.meld-fra-om-endringer", //Value: N: "Meld fra om endringer", E: 
   },
   {
     url: lastOppVedleggUrl,
-    tekst: "Last opp vedlegg",
+    tekst: "generelle-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
   },
   {
     url: saksbehandlingstiderUrl,
-    tekst: "Saksbehandlingstider",
+    tekst: "generelle-lenker.saksbehandlingstider", //Value: N: "Saksbehandlingstider"
   },
 ];
 
 const dagpengeLenker = [
   {
     url: dagpengerUrl,
-    tekst: "Mine dagpenger",
+    tekst: "dagpenger-lenker.mine-dagpenger", //Value: N: "Mine dagpenger", E:
   },
   {
     url: lesmeromdagpengerUrl,
-    tekst: "Les mer om dagpenger",
+    tekst: "dagpenger-lenker.les-mer-om-dagpenger", //Value: N: "Les mer om dagpenger", E:
   },
   ...generelleLenker,
 ];
@@ -41,7 +41,7 @@ const dagpengeLenker = [
 const arbeidsavklaringspengerLenker = [
   {
     url: arbeidsavklaringspengerUrl,
-    tekst: "Om Arbeidsavklaringspenger",
+    tekst: "arbeidsavklaringspenger-lenker.om-arbeidsavklaringspenger", //Value: N: "Om Arbeidsavklaringspenger", E:
   },
   ...generelleLenker,
 ];
@@ -49,7 +49,7 @@ const arbeidsavklaringspengerLenker = [
 const hjelpemidlerLenker = [
   {
     url: hjelpemidlerUrl,
-    tekst: "Dine hjelpemidler",
+    tekst: "hjelpemidler-lenker.dine-hjelpemidler", //Value: N: "Dine hjelpemidler", E:
   },
   ...generelleLenker,
 ];
@@ -57,7 +57,7 @@ const hjelpemidlerLenker = [
 const foreldrepengerLenker = [
   {
     url: foreldrepengerUrl,
-    tekst: "Dine foreldrepenger",
+    tekst: "foreldrepenger-lenker.dine-foreldrepenger", //Value: N: "Dine foreldrepenger", E:
   },
   ...generelleLenker,
 ];
@@ -65,35 +65,39 @@ const foreldrepengerLenker = [
 const sykefravaerLenker = [
   {
     url: sykemeldingerUrl,
-    tekst: "Dine sykemeldinger",
+    tekst: "sykefravaer-lenker.dine-sykemeldinger", //Value: N: "Dine sykemeldinger", E:
   },
   ...generelleLenker,
 ];
 
 const sosialhjelpLenker = [
   {
+    url: sosialhjelpUrl,
+    tekst: "Din økonomiske sosialhjelp",
+  },
+  {
     url: kontaktOssUrl,
-    tekst: "Kontakt oss",
+    tekst: "sosialhjelp-lenker.kontakt-oss", //Value: N: "Kontakt oss", E:
   },
   {
     url: klagerettigheterUrl,
-    tekst: "Klagerettigheter",
+    tekst: "sosialhjelp-lenker.klagerettigheter", //Value: N: "Klagerettigheter", E:
   },
   {
     url: opplysningspliktUrl,
-    tekst: "Meld fra om endringer",
+    tekst: "sosialhjelp-lenker.meld-fra-om-endringer", //Value: N: "Meld fra om endringer", E:
   },
   {
     url: lastOppVedleggUrl,
-    tekst: "Last opp vedlegg",
+    tekst: "sosialhjelp-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
   },
   {
     url: sosialhjelpVeiviserUrl,
-    tekst: "Les mer om økonomisk sosialhjelp",
+    tekst: "sosialhjelp-lenker.les-mer", //Value: N: "Les mer om økonomisk sosialhjelp", E:
   },
   {
     url: sosialhjelpAktivitetUrl,
-    tekst: "Krav om aktivitet",
+    tekst: "sosialhjelp-lenker.krav-om-aktivitet", //Value: N: "Krav om aktivitet", E:
   },
 ];
 
