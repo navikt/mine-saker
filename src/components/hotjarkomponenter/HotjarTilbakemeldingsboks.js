@@ -3,26 +3,34 @@ import { Element, Normaltekst } from "nav-frontend-typografi";
 import { AlertStripeInfo } from "nav-frontend-alertstriper";
 import Lenke from "nav-frontend-lenker";
 import "./HotjarTilbakemeldingsboks.less"
+import { useIntl } from "react-intl";
 
-const hotjarTilbakemeldingsboks = () => {
+const HotjarTilbakemeldingsboks = () => {
     
     const triggerHotJar = () =>
     window.hj("trigger", "trigger-tilbakemelding");
 
+    const translate = useIntl();
+    const tittel = "hotjar.tittel";
+    const ingress = "hotjar.ingress";
+    const lenkeTekst = "hotjar.lenketekst";
+    const tilbakemelding = "hotjar.tilbakemelding"
+
     return(
         <div className="tilbakemelding-wrapper">
         <AlertStripeInfo>
-          <Element>Har du tilbakemeldinger til denne siden?</Element>
+          <Element>{translate.formatMessage({ id: tittel, defaultMessage: "Har du tilbakemeldinger til denne siden?"})}</Element>
   
           <Normaltekst style={{ marginBottom: "15px", marginTop: "15px" }}>
-            Vi trenger dine innspill på om noe mangler, er feil eller er vanskelig
-            å forstå. Vi setter pris på om du tar deg tid til å gi oss innspill
-            hvis du har noen. Tilbakemeldingen er anonym og vi kan dessverre ikke
-            svare deg, hvis du har spørsmål om saken din kan du{" "}
+            {translate.formatMessage({ 
+              id: ingress, 
+              defaultMessage: "Vi trenger dine innspill på om noe mangler, er feil eller er vanskelig å forstå. Vi setter pris på om du tar deg tid til å gi oss innspill hvis du har noen. Tilbakemeldingen er anonym og vi kan dessverre ikke svare deg, hvis du har spørsmål om saken din kan du "})}
             <Lenke
               href={"https://www.nav.no/person/kontakt-oss/nb/skriv-til-oss"}
             >
-              skrive til oss her.{" "}
+              {translate.formatMessage({ 
+                id: lenkeTekst, 
+                defaultMessage: "skrive til oss her. "})}
             </Lenke>
           </Normaltekst>
   
@@ -33,11 +41,13 @@ const hotjarTilbakemeldingsboks = () => {
             onKeyPress={triggerHotJar}
             tabIndex={0}
           >
-            Gi oss tilbakemelding
+            {translate.formatMessage({ 
+                id: tilbakemelding, 
+                defaultMessage: "Gi oss tilbakemelding"})}
           </div>
         </AlertStripeInfo>
       </div>
     )
 }
 
-export default hotjarTilbakemeldingsboks;
+export default HotjarTilbakemeldingsboks;
