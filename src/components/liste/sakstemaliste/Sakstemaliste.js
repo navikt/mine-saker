@@ -3,7 +3,7 @@ import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
-import { initializeAmplitude, logAmplitudeEvent } from "../../../utils/amplitude";
+import { logAmplitudeEvent } from "../../../utils/amplitude";
 import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -12,13 +12,10 @@ import "./Sakstemaliste.less";
 const Sakstemaliste = () => {
   const {data:sakstemaer, isLoading } = useQuery(sakstemaerUrl, fetchResponse);
 
-  //Benyttes til å hente sakstemaet sin tittel og sende det til amplitude for å logge onclick event på sakstema
   const sakstemaTittelPath = (temakode) => "sakstema." + temakode + ".tittel";
 
   const translate = useIntl();
   const tittel = "sakstemaliste.tittel"
-
-  initializeAmplitude();
   
   return (
     <Liste tittel={translate.formatMessage({id: tittel, defaultMessage: "Saksoversikt"})} ikon={<SaksIkon />} isLoading={isLoading}>

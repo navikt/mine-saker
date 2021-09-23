@@ -1,7 +1,7 @@
 import React from "react";
 import { useIntl } from "react-intl";
 import { useParams } from "react-router-dom";
-import { initializeAmplitude, logAmplitudeEvent } from "../../../utils/amplitude";
+import { logAmplitudeEvent } from "../../../utils/amplitude";
 import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
 import useTemaException from "../../../hooks/useTemaException";
@@ -14,7 +14,6 @@ const Lenkeliste = () => {
   const lenkeKey = isTemaException ? temakode : "GENERELLE";
   
   const translate = useIntl();
-  initializeAmplitude();
 
   //lenke.tekst = react-intl key tilhørende json filene i language folderen.
   return (

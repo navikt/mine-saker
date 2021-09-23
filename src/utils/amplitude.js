@@ -12,9 +12,9 @@ export const initializeAmplitude = () => {
 
 export function logAmplitudeEvent(name) {
     amplitude.getInstance().logEvent('navigere', {
-        app: 'saksoversikt',
+        app: 'mine-saker',
         label: name,
-        origin: 'saksoversikt',
+        origin: 'mine-saker',
         originVersion: 'unkown'
     });
 }
