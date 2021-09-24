@@ -6,24 +6,6 @@ const MINE_SAKER_URL = {
   production: "https://person.nav.no/mine-saker",
 };
 
-const MINE_SAKER_API_URL = {
-  local: "https://www.api.nav.no/mine-saker-api",
-  development: "https://person.dev.nav.no/mine-saker-api",
-  production: "https://person.nav.no/mine-saker-api",
-};
-
-const LOGINSERVICE_URL = {
-  local: "https://www.api.loginservice.nav.no/login",
-  development: "https://loginservice.dev.nav.no/login?level=Level4",
-  production: "https://loginservice.nav.no/login?level=Level4",
-};
-
-const INNLOGGINGSSTATUS = {
-  local: "https://www.api.innlogginsstatus.nav.no/auth",
-  development: "https://innloggingsstatus.dev.nav.no/person/innloggingsstatus/auth",
-  production: "https://www.nav.no/person/innloggingsstatus/auth",
-};
-
 const SOSIALHJELP = {
   local: "https://localhost:3000/sosialhjelp/innsyn",
   development: "https://www-q1.dev.nav.no/sosialhjelp/innsyn",
