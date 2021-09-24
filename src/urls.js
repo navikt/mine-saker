@@ -1,5 +1,3 @@
-import getEnvironment from "./utils/environmnet";
-
 const MINE_SAKER_URL = {
   local: "https://localhost:3000/mine-saker",
   development: "https://person.dev.nav.no/mine-saker",
@@ -36,7 +34,9 @@ const SYKEMELDINGER = {
   production: "https://www.nav.no/syk/sykmeldinger",
 };
 
-export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
+
+const ENVIROMENT = window.env.ENVIROMENT
+
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
 
 export const loginserviceUrl = window.env.LOGINSERVICE_URL;
@@ -48,11 +48,13 @@ export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
 
-export const sykemeldingerUrl = SYKEMELDINGER[getEnvironment()];
-export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
-export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
-export const dagpengerUrl = DAGPENGER[getEnvironment()];
-export const lastOppVedleggUrl = ETTERSENDING[getEnvironment()];
+export const mineSakerUrl = MINE_SAKER_URL[ENVIROMENT];
+
+export const sykemeldingerUrl = SYKEMELDINGER[ENVIROMENT];
+export const hjelpemidlerUrl = HJELPEMIDLER[ENVIROMENT];
+export const sosialhjelpUrl = SOSIALHJELP[ENVIROMENT];
+export const dagpengerUrl = DAGPENGER[ENVIROMENT];
+export const lastOppVedleggUrl = ETTERSENDING[ENVIROMENT];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
