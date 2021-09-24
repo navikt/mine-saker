@@ -26,7 +26,7 @@ const toListElements = (journalpost) => {
 const DokumentListe = ({ sakstemaKey,temakode }) => {
   const { data, isLoading, isSuccess } = useQuery(sakstemaKey, fetchResponse);
   const journalposter = Array.isArray(data?.data) ? data?.data[0]?.journalposter : [];
-  const visIngenSaker = journalposter.length === 0 && isSuccess && data?.statusCode === 200;
+  const visIngenSaker = data?.data?.length === 0 && isSuccess && data?.statusCode === 200;
 
   const translate = useIntl();
   let basePath = "sakstema." + temakode + ".ingress";
@@ -60,7 +60,7 @@ const DokumentListe = ({ sakstemaKey,temakode }) => {
         </section>
         <section id="dokumentliste">
           <Liste tittel={translate.formatMessage({id: defaultListeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
-            {journalposter.map(toListElements)}
+            {journalposter?.map(toListElements)}
           </Liste>
         </section>
         <section>
