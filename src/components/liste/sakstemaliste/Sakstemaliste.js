@@ -20,7 +20,9 @@ const Sakstemaliste = () => {
   return (
     <>
       {visIngenSaker ? (
-        <IngenSakerSide page="mine-saker" ingress="Du har foreløpig ingen registrerte saker"></IngenSakerSide>
+        <IngenSakerSide 
+          useBothButtons={false}
+          ingress="Du har foreløpig ingen registrerte saker" />
       ) : (
         <Liste
           tittel={translate.formatMessage({ id: tittel, defaultMessage: "Saksoversikt" })}

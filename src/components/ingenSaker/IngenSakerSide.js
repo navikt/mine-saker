@@ -1,33 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "nav-frontend-knapper-style";
 import Dinosaur from "../../assets/Dinosaur";
 import { dittNavUrl } from "../../urls";
 
 import "./IngenSakerSide.less";
+import { useIntl } from "react-intl";
 
-const IngenSakerSide = ({ ingress, page }) => {
-  let showButton;
+const IngenSakerSide = ({ ingress, useBothButtons }) => {
+  const [showSecondButton] = useState(useBothButtons);
 
-  const setShowButton = () => {
-    if (page === "saksoversikt") {
-      showButton = true;
-    }
-  };
-
-  setShowButton();
+  const translate = useIntl();
+  const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
+  const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
 
   return (
     <section className="ingen-saker-wrapper">
       <h2 className="ingen-saker-ingress">{ingress}</h2>
       <section className="button-section">
-        {showButton ? (
+        {showSecondButton ? (
           <Link to="/person/mine-saker/" className="knapp knapp--hoved">
-            Gå til saksoversikten
+            {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til saksoversikten"})}
           </Link>
         ) : null}
         <a href={dittNavUrl} className="knapp">
-          Gå til forsiden av Ditt NAV
+          {translate.formatMessage({id: dittNavKnappTekst, defaultMessage: "Gå til forsiden av Ditt NAV"})}      
         </a>
       </section>
       <section className="dinosaur-wrapper">

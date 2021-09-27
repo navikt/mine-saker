@@ -44,7 +44,7 @@ const DokumentListe = ({ sakstemaKey,temakode }) => {
       {visIngenSaker ? (
         <React.Fragment>
           <IngenSakerSide
-            page="saksoversikt"
+            useBothButtons={true}
             ingress="Du har foreløpig ikke noen registrerte saker på dette temaet"
           ></IngenSakerSide>
         </React.Fragment>
