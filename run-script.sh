@@ -8,7 +8,6 @@ variables[MINE_SAKER_API_URL]=$MINE_SAKER_API_URL
 variables[LOGINSERVICE_URL]=$LOGINSERVICE_URL
 variables[INNLOGGINGSSTATUS]=$INNLOGGINGSSTATUS
 
-#apply function on each variable
 forEachVariable() {
   for variable in "${!variables[@]}"
     do
