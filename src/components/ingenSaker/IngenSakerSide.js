@@ -20,7 +20,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
       <section className="button-section">
         {showSecondButton ? (
           <Link to="/mine-saker/" className="knapp knapp--hoved">
-            {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til saksoversikten"})}
+            {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til Mine saker"})}
           </Link>
         ) : null}
         <a href={dittNavUrl} className="knapp">
