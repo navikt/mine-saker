@@ -6,6 +6,7 @@ import { sakstemaerUrl } from "../../urls";
 import { fetchResponse } from "../../api";
 import PageBase from "../pagebase/PageBase";
 import "./MineSaker.less";
+import Disclaimer from "../../components/disclaimer/Disclaimer";
 
 const MineSaker = () => {
   const { data } = useQuery(sakstemaerUrl, fetchResponse);
@@ -15,6 +16,7 @@ const MineSaker = () => {
 
   return (
     <PageBase tittel={translate.formatMessage({ id: tittel, defaultMessage: "Mine Saker"})} statusCode={data?.statusCode}>
+      <Disclaimer/>
       <Sakstemaliste />
     </PageBase>
   );
