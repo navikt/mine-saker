@@ -19,7 +19,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
       <h2 className="ingen-saker-ingress">{ingress}</h2>
       <section className="button-section">
         {showSecondButton ? (
-          <Link to="/person/mine-saker/" className="knapp knapp--hoved">
+          <Link to="/mine-saker/" className="knapp knapp--hoved">
             {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til saksoversikten"})}
           </Link>
         ) : null}
@@ -28,7 +28,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
         </a>
       </section>
       <section className="dinosaur-wrapper">
-        <Dinosaur></Dinosaur>
+        <Dinosaur/>
       </section>
     </section>
   );
