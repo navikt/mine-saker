@@ -56,6 +56,6 @@ export function getJournalposterWithParams(endpoint, response, statusCode = 200)
   return rest.get(endpoint, (req, res, ctx) => {
     const sakstemakode = req.url.searchParams.get("sakstemakode");
 
-    return res(ctx.status(statusCode), ctx.json([]));
+    return res(ctx.status(statusCode), ctx.json(sakstemakode ? journalposter(sakstemakode) : {}));
   });
 }
