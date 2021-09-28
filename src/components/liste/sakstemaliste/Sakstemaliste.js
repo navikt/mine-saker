@@ -36,6 +36,8 @@ const Sakstemaliste = () => {
               dato={sakstema.sistEndret}
               tekst={sakstema.navn}
               kode={sakstema.kode}
+              sakstemaUrl={sakstema.detaljvisningUrl}
+
             />
           ))}
         </Liste>
