@@ -23,7 +23,7 @@ const Sakstemalenke = ({ tekst, kode }) => {
   }
 
   return (
-    <Link className="lenke sakstemalenke" to={`/person/mine-saker/tema/${kode}`}>
+    <Link className="lenke sakstemalenke" to={`/mine-saker/tema/${kode}`}>
       <HoyreChevron className="sakstemalenke__chevron" /> {tekst}
     </Link>
   );

@@ -118,6 +118,9 @@
 
   "feilmelding.tekst" : "Vi har for øyeblikket tekniske problemer. Dette kan føre til at du ikke får opp all informasjon om dine saker.",
 
+  "ingen-saker.saksoversikt-knapp" : "Gå til Mine saker",
+  "ingen-saker.ditt-nav-knapp" : "Gå til forsiden av Ditt NAV",
+
   "generelle-lenker.kontakt-oss" : "Kontakt oss",
   "generelle-lenker.send-klage" : "Send klage",
   "generelle-lenker.meld-fra-om-endringer" : "Meld fra om endringer",

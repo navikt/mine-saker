@@ -1,15 +1,15 @@
 import getEnvironment from "./utils/environmnet";
 
 const MINE_SAKER_URL = {
-  local: "https://localhost:3000/person/mine-saker",
-  development: "https://mine-saker.dev.nav.no/person/mine-saker",
-  production: "https://www.intern.nav.no/person/mine-saker",
+  local: "https://localhost:3000/mine-saker",
+  development: "https://person.dev.nav.no/mine-saker",
+  production: "https://person.nav.no/mine-saker",
 };
 
 const MINE_SAKER_API_URL = {
-  local: "https://www.api.nav.no/person/mine-saker-api",
-  development: "https://mine-saker-api.dev.nav.no/person/mine-saker-api",
-  production: "https://mine-saker-api.intern.nav.no/person/mine-saker-api",
+  local: "https://www.api.nav.no/mine-saker-api",
+  development: "https://person.dev.nav.no/mine-saker-api",
+  production: "https://person.nav.no/mine-saker-api",
 };
 
 const LOGINSERVICE_URL = {
@@ -48,6 +48,12 @@ const HJELPEMIDLER = {
   production: "https://www.nav.no/hjelpemidler/dinehjelpemidler",
 };
 
+const DITT_NAV = {
+  local: "https://localhost:3000/person/dittnav/",
+  development: "https://www.dev.nav.no/person/dittnav/",
+  production: "https://www.nav.no/person/dittnav/",
+};
+
 const SYKEMELDINGER = {
   local: "https://localhost:3000/syk/sykmeldinger",
   development: "https://www-gcp.dev.nav.no/syk/sykmeldinger/",
@@ -71,6 +77,7 @@ export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
 export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
 export const dagpengerUrl = DAGPENGER[getEnvironment()];
 export const lastOppVedleggUrl = ETTERSENDING[getEnvironment()];
+export const dittNavUrl = DITT_NAV[getEnvironment()];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";

@@ -18,12 +18,14 @@ const Sakstema = () => {
     onError: (error) => {
       if (error.response.status === 401) {
         redirectToIdPorten(`${mineSakerUrl}/tema/${temakode}`);
+      } else {
+        window.location.assign(`${mineSakerUrl}/`);
       }
     },
   });
 
-  const tittel = Array.isArray(data?.data) ? data?.data[0].navn : "";
-  const crumb = createCrumb(`/person/mine-saker/${temakode}`, tittel || "...");
+  const tittel = Array.isArray(data?.data) ? data?.data[0]?.navn : "";
+  const crumb = createCrumb(`/mine-saker/${temakode}`, tittel || "...");
 
   const translate = useIntl();
   const tittelPath = "sakstema." + temakode + ".tittel";
