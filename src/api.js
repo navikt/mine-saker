@@ -15,6 +15,16 @@ const checkResponse = (response) => {
   }
 };
 
+const getResponseBody = async (response) => {
+  let responseBody = {};
+  try {
+    responseBody = await response.json();
+  } catch (error) {
+    return {};
+  }
+  return responseBody;
+};
+
 export const fetchData = async ({ queryKey }) => {
   const response = await fetch(queryKey, withCredentials);
   checkResponse(response);
@@ -32,13 +42,13 @@ export const fetchStatus = async () => {
 export const fetchResponse = async ({ queryKey }) => {
   const response = await fetch(queryKey, withCredentials);
 
-  if(!response.ok && response.status !== 503){
+  if (!response.ok && response.status !== 503) {
     throw new FetchError(response, response.statusText);
   }
 
   const res = {
     statusCode: response.status,
-    data: await response.json()
+    data: await getResponseBody(response),
   };
 
   return res;
