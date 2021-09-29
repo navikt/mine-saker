@@ -35,7 +35,7 @@ const SYKEMELDINGER = {
 };
 
 
-const ENVIROMENT = window.env.ENVIROMENT
+const ENVIRONMENT = window.env.ENVIRONMENT
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
 
@@ -48,13 +48,13 @@ export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
 
-export const mineSakerUrl = MINE_SAKER_URL[ENVIROMENT];
+export const mineSakerUrl = MINE_SAKER_URL[ENVIRONMENT];
 
-export const sykemeldingerUrl = SYKEMELDINGER[ENVIROMENT];
-export const hjelpemidlerUrl = HJELPEMIDLER[ENVIROMENT];
-export const sosialhjelpUrl = SOSIALHJELP[ENVIROMENT];
-export const dagpengerUrl = DAGPENGER[ENVIROMENT];
-export const lastOppVedleggUrl = ETTERSENDING[ENVIROMENT];
+export const sykemeldingerUrl = SYKEMELDINGER[ENVIRONMENT];
+export const hjelpemidlerUrl = HJELPEMIDLER[ENVIRONMENT];
+export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];
+export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
+export const lastOppVedleggUrl = ETTERSENDING[ENVIRONMENT];
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
