@@ -1,5 +1,5 @@
 const MINE_SAKER_URL = {
-  local: "https://localhost:3000/mine-saker",
+  local: "http://localhost:3000/mine-saker",
   development: "https://person.dev.nav.no/mine-saker",
   production: "https://person.nav.no/mine-saker",
 };

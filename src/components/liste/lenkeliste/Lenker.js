@@ -7,22 +7,27 @@ const generelleLenker = [
   {
     url: kontaktOssUrl,
     tekst: "generelle-lenker.kontakt-oss", //Value: N: "Kontakt oss", E: "Contact us"
+    amplitudeIdentifier: "kontaktoss"
   },
   {
     url: tilbakemeldingerUrl,
     tekst: "generelle-lenker.send-klage", //Value: N: "Send klage", E: "Send complaint"
+    amplitudeIdentifier: "sendklage"
   },
   {
     url: opplysningspliktUrl,
     tekst: "generelle-lenker.meld-fra-om-endringer", //Value: N: "Meld fra om endringer", E: 
+    amplitudeIdentifier: "meldendringer"
   },
   {
     url: lastOppVedleggUrl,
     tekst: "generelle-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
+    amplitudeIdentifier: "lastoppvedlegg"
   },
   {
     url: saksbehandlingstiderUrl,
     tekst: "generelle-lenker.saksbehandlingstider", //Value: N: "Saksbehandlingstider"
+    amplitudeIdentifier: "saksbehandlingstider"
   },
 ];
 
