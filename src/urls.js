@@ -75,9 +75,5 @@ export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
 export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
 export const stonadervedtiltakUrl =
-<<<<<<< HEAD
   "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
 export const gamleSaksoversiktUrl = "https://tjenester.nav.no/saksoversikt";
-=======
-  "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
->>>>>>> main
