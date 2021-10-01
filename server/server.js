@@ -40,6 +40,14 @@ server.use(
   })
 );
 
+
+server.use(
+  `${basePath}/tema`,
+  express.static(`${buildPath}`, {
+    index: false,
+  })
+);
+
 // Match everything except internal og static
 server.use(/^(?!.*\/(internal|static)\/).*$/, (req, res) =>
   getDecorator()
