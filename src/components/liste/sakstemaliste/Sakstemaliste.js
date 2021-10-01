@@ -19,6 +19,13 @@ const Sakstemaliste = () => {
   const tittel = "sakstemaliste.tittel";
   const translate = useIntl();
 
+  const getLogInfo = (sakstemakode) => {
+    return translate.formatMessage({
+      id: sakstemaTittelPath(sakstemakode),
+      defaultMessage: "udefinertsakstema"
+    })
+  }
+
   return (
     <>
       {visIngenSaker ? (
@@ -32,21 +39,24 @@ const Sakstemaliste = () => {
           isLoading={isLoading}
         >
           {sakstemaer?.data.map((sakstema) => (
-            <ListeElement
-              type="sakstema"
-              key={sakstema.kode}
-              dato={sakstema.sistEndret}
-              tekst={sakstema.navn}
-              kode={sakstema.kode}
-              onClick={() => 
-                logAmplitudeEvent(
-                  translate.formatMessage({
-                    id: sakstemaTittelPath(sakstema.kode), 
-                    defaultMessage: "udefinertsakstema"}
-                  )
-                )
-              }
-            />
+            <div key={sakstema.kode} role="link" tabIndex={0} onClick={() => {
+              logAmplitudeEvent(
+                getLogInfo(sakstema.kode)
+              );
+            }}
+            onKeyPress={() => {
+              logAmplitudeEvent(
+                getLogInfo(sakstema.kode)
+              );
+            }}>
+              <ListeElement
+                type="sakstema"
+                key={sakstema.kode}
+                dato={sakstema.sistEndret}
+                tekst={sakstema.navn}
+                kode={sakstema.kode}
+              />
+            </div>
           ))}
         </Liste>
       )}
