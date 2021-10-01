@@ -16,8 +16,8 @@ const MineSaker = () => {
 
   return (
     <PageBase tittel={translate.formatMessage({ id: tittel, defaultMessage: "Mine Saker"})} statusCode={data?.statusCode}>
-      <HotjarTilbakemeldingsboks />
       <Sakstemaliste />
+      <HotjarTilbakemeldingsboks />
     </PageBase>
   );
 };

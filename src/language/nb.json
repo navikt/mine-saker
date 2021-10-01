@@ -117,10 +117,10 @@
   "sakstemaliste.tittel" : "Saksoversikt",
 
   "feilmelding.tekst" : "Vi har for øyeblikket tekniske problemer. Dette kan føre til at du ikke får opp all informasjon om dine saker.",
-  "hotjar.tittel" : "Har du tilbakemeldinger til denne siden?",
-  "hotjar.ingress" : "Vi trenger dine innspill på om noe mangler, er feil eller er vanskelig å forstå. Vi setter pris på om du tar deg tid til å gi oss innspill hvis du har noen. Tilbakemeldingen er anonym og vi kan dessverre ikke svare deg, hvis du har spørsmål om saken din kan du ",
-  "hotjar.lenketekst" : "skrive til oss her. ",
-  "hotjar.tilbakemelding" : "Gi oss tilbakemelding",
+  
+  "hotjar.tittel" : "Noe som mangler, er feil eller som er vanskelig å forstå?",
+  "hotjar.ingress" : "Da vil vi veldig gjerne høre fra deg!",
+  "hotjar.tilbakemelding" : "Gi oss tilbakemelding!",
 
   "generelle-lenker.kontakt-oss" : "Kontakt oss",
   "generelle-lenker.send-klage" : "Send klage",
