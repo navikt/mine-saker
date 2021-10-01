@@ -4,6 +4,7 @@ import App from "./App";
 import Providers from "./providers/Providers";
 import Authentication from "./components/authentication/Authentication";
 import { injectDecoratorClientSide } from "@navikt/nav-dekoratoren-moduler/csr";
+import { initializeAmplitude } from "./utils/amplitude";
 import "./index.less";
 
 const startMockWorker = async () => {
@@ -21,6 +22,8 @@ if (process.env.NODE_ENV === "development") {
   startMockWorker();
   startDecorator();
 }
+
+initializeAmplitude();
 
 ReactDOM.render(
   <Providers>

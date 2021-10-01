@@ -3,6 +3,7 @@ import {  useIntl } from "react-intl";
 import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
+import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
@@ -22,9 +23,10 @@ const toListElements = (journalpost) => {
   }
 };
 
-const DokumentListe = ({ sakstemaKey, temakode }) => {
-  const { data, isLoading } = useQuery(sakstemaKey, fetchResponse);
-  const journalposter = Array.isArray(data?.data) ? data?.data[0].journalposter : [];
+const DokumentListe = ({ sakstemaKey,temakode }) => {
+  const { data, isLoading, isSuccess } = useQuery(sakstemaKey, fetchResponse);
+  const journalposter = Array.isArray(data?.data) ? data?.data[0]?.journalposter : [];
+  const visIngenSaker = data?.data?.length === 0 && isSuccess && data?.statusCode === 200;
 
   const translate = useIntl();
   let basePath = "sakstema." + temakode + ".ingress";
@@ -38,24 +40,35 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
   }
 
   return (
-    <React.Fragment>
-      <section>
-        <Liste tittel={translate.formatMessage({id: defaultLenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
-          <Normaltekst className="om-saken-ingress blokk-xs">
-            {translate.formatMessage({id: basePath, defaultMessage: defaultIngress})}
-          </Normaltekst>
-          <Lenkeliste data={data?.data} />
-        </Liste>
-      </section>
-      <section id="dokumentliste">
-        <Liste tittel={translate.formatMessage({id: defaultListeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
-          {journalposter.map(toListElements)}
-        </Liste>
-      </section>
-      <section>
-        <BeklagerPanel />
-      </section>
-    </React.Fragment>
+    <>
+      {visIngenSaker ? (
+        <React.Fragment>
+          <IngenSakerSide
+            useBothButtons={true}
+            ingress="Du har foreløpig ikke noen registrerte saker på dette temaet"
+          ></IngenSakerSide>
+        </React.Fragment>
+      ) : (
+        <React.Fragment>
+        <section>
+          <Liste tittel={translate.formatMessage({id: defaultLenkepanelTittel, defaultMessage: "Om saken"})} ikon={<InformasjoIkon />}>
+            <Normaltekst className="om-saken-ingress blokk-xs">
+              {translate.formatMessage({id: basePath, defaultMessage: defaultIngress})}
+            </Normaltekst>
+            <Lenkeliste data={data?.data} />
+          </Liste>
+        </section>
+        <section id="dokumentliste">
+          <Liste tittel={translate.formatMessage({id: defaultListeTittel, defaultMessage: "Dokumentliste"})} ikon={<DokumentIkon />} isLoading={isLoading}>
+            {journalposter?.map(toListElements)}
+          </Liste>
+        </section>
+        <section>
+          <BeklagerPanel />
+        </section>
+      </React.Fragment>
+      )}
+    </>
   );
 };
 

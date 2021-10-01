@@ -122,6 +122,9 @@
   "disclaimer.tekst" : "og er ikke helt ferdig enda. Hvis du ikke finner sakene eller dokumentene du leter etter kan du forsøke ",
   "disclaimer.lenketekst" : "den tidligere versjonen.",
 
+  "ingen-saker.saksoversikt-knapp" : "Gå til Mine saker",
+  "ingen-saker.ditt-nav-knapp" : "Gå til forsiden av Ditt NAV",
+
   "generelle-lenker.kontakt-oss" : "Kontakt oss",
   "generelle-lenker.send-klage" : "Send klage",
   "generelle-lenker.meld-fra-om-endringer" : "Meld fra om endringer",
