@@ -5,6 +5,7 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import { fetchResponse } from "../../api";
 import PageBase from "../pagebase/PageBase";
+import HotjarTilbakemeldingsboks from "../../components/hotjarkomponenter/HotjarTilbakemeldingsboks";
 import "./MineSaker.less";
 
 const MineSaker = () => {
@@ -16,6 +17,7 @@ const MineSaker = () => {
   return (
     <PageBase tittel={translate.formatMessage({ id: tittel, defaultMessage: "Mine Saker"})} statusCode={data?.statusCode}>
       <Sakstemaliste />
+      <HotjarTilbakemeldingsboks />
     </PageBase>
   );
 };
