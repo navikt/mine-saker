@@ -15,6 +15,6 @@ export function logAmplitudeEvent(name) {
         app: 'mine-saker',
         label: name,
         origin: 'mine-saker',
-        originVersion: 'unkown'
+        originVersion: 'unknown'
     });
 }
