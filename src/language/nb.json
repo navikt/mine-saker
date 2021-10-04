@@ -117,6 +117,14 @@
   "sakstemaliste.tittel" : "Saksoversikt",
 
   "feilmelding.tekst" : "Vi har for øyeblikket tekniske problemer. Dette kan føre til at du ikke får opp all informasjon om dine saker.",
+  
+  "disclaimer.bold-tekst" : "Denne siden er under utvikling, ",
+  "disclaimer.tekst" : "og er ikke helt ferdig enda. Hvis du ikke finner sakene eller dokumentene du leter etter kan du forsøke ",
+  "disclaimer.lenketekst" : "den tidligere versjonen.",
+  
+  "hotjar.tittel" : "Noe som mangler, er feil eller som er vanskelig å forstå?",
+  "hotjar.ingress" : "Da vil vi veldig gjerne høre fra deg!",
+  "hotjar.tilbakemelding" : "Gi oss tilbakemelding!",
 
   "ingen-saker.saksoversikt-knapp" : "Gå til Mine saker",
   "ingen-saker.ditt-nav-knapp" : "Gå til forsiden av Ditt NAV",
