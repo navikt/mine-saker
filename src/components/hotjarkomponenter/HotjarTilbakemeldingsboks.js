@@ -19,7 +19,7 @@ const HotjarTilbakemeldingsboks = () => {
         <AlertStripeInfo>
           <Element>{translate.formatMessage({ id: tittel, defaultMessage: "Noe som mangler, er feil eller som er vanskelig å forstå?"})}</Element>
   
-          <Normaltekst style={{ marginBottom: "15px", marginTop: "15px", display: "flex", flexDirection: "row" }}>
+          <Normaltekst style={{ display: "flex", flexDirection: "row" }}>
             {translate.formatMessage({ 
               id: ingress, 
               defaultMessage: "Da vil vi veldig gjerne høre fra deg!"})}
