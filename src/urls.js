@@ -1,27 +1,7 @@
-import getEnvironment from "./utils/environmnet";
-
 const MINE_SAKER_URL = {
   local: "http://localhost:3000/mine-saker",
   development: "https://person.dev.nav.no/mine-saker",
   production: "https://person.nav.no/mine-saker",
-};
-
-const MINE_SAKER_API_URL = {
-  local: "https://www.api.nav.no/mine-saker-api",
-  development: "https://person.dev.nav.no/mine-saker-api",
-  production: "https://person.nav.no/mine-saker-api",
-};
-
-const LOGINSERVICE_URL = {
-  local: "https://www.api.loginservice.nav.no/login",
-  development: "https://loginservice.dev.nav.no/login?level=Level4",
-  production: "https://loginservice.nav.no/login?level=Level4",
-};
-
-const INNLOGGINGSSTATUS = {
-  local: "https://www.api.innlogginsstatus.nav.no/auth",
-  development: "https://innloggingsstatus.dev.nav.no/person/innloggingsstatus/auth",
-  production: "https://www.nav.no/person/innloggingsstatus/auth",
 };
 
 const SOSIALHJELP = {
@@ -60,8 +40,12 @@ const SYKEMELDINGER = {
   production: "https://www.nav.no/syk/sykmeldinger",
 };
 
-export const mineSakerUrl = MINE_SAKER_URL[getEnvironment()];
-export const mineSakerApiUrl = MINE_SAKER_API_URL[getEnvironment()];
+
+const ENVIRONMENT = window.env.ENVIRONMENT
+
+export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
+export const loginserviceUrl = window.env.LOGINSERVICE_URL;
+export const innloggingsstatusUrl = window.env.INNLOGGINGSSTATUS;
 
 export const sakstemaerUrl = `${mineSakerApiUrl}/sakstemaer`;
 export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
@@ -69,15 +53,15 @@ export const dokumentUrl = `${mineSakerApiUrl}/dokument`;
 export const statusUrl = `${mineSakerApiUrl}/login/status`;
 export const loginUrl = `${mineSakerApiUrl}/login`;
 
-export const loginserviceUrl = LOGINSERVICE_URL[getEnvironment()];
-export const innloggingsstatusUrl = INNLOGGINGSSTATUS[getEnvironment()];
+export const mineSakerUrl = MINE_SAKER_URL[ENVIRONMENT];
 
-export const sykemeldingerUrl = SYKEMELDINGER[getEnvironment()];
-export const hjelpemidlerUrl = HJELPEMIDLER[getEnvironment()];
-export const sosialhjelpUrl = SOSIALHJELP[getEnvironment()];
-export const dagpengerUrl = DAGPENGER[getEnvironment()];
-export const lastOppVedleggUrl = ETTERSENDING[getEnvironment()];
-export const dittNavUrl = DITT_NAV[getEnvironment()];
+export const sykemeldingerUrl = SYKEMELDINGER[ENVIRONMENT];
+export const hjelpemidlerUrl = HJELPEMIDLER[ENVIRONMENT];
+export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];
+export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
+export const lastOppVedleggUrl = ETTERSENDING[ENVIRONMENT];
+export const dittNavUrl = DITT_NAV[ENVIRONMENT];
+
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
@@ -92,3 +76,4 @@ export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
 export const stonadervedtiltakUrl =
   "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
+export const gamleSaksoversiktUrl = "https://tjenester.nav.no/saksoversikt";
