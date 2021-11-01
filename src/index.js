@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === "development") {
   startDecorator();
 }
 
-if (process.env.NODE_ENV === "production") {
+if (window.env.ENVIRONMENT === "PRODUCTION") {
   initializeSentry();
   initializeAmplitude();
 }
