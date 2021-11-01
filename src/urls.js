@@ -4,6 +4,12 @@ const MINE_SAKER_URL = {
   production: "https://person.nav.no/mine-saker",
 };
 
+const MINE_SAKER_REDIRECT_URL = {
+  local: "http://localhost:3000",
+  development: "https://person.dev.nav.no",
+  production: "https://person.nav.no",
+}
+
 const SOSIALHJELP = {
   local: "https://localhost:3000/sosialhjelp/innsyn",
   development: "https://www-q1.dev.nav.no/sosialhjelp/innsyn",
@@ -61,6 +67,9 @@ export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];
 export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
 export const lastOppVedleggUrl = ETTERSENDING[ENVIRONMENT];
 export const dittNavUrl = DITT_NAV[ENVIRONMENT];
+
+export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
+
 
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
