@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "react-query";
 import fetchData from "../../api";
-import { innloggingsstatusUrl, mineSakerUrl, mineSakerRedirectUrl, statusUrl } from "../../urls";
+import { innloggingsstatusUrl, mineSakerRedirectUrl, statusUrl } from "../../urls";
 import { redirectToIdPorten, redirectToLoginService } from "../../utils/redirect";
 import Spinner from "../spinner/Spinner";
 
