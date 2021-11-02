@@ -5,6 +5,7 @@ import Providers from "./providers/Providers";
 import Authentication from "./components/authentication/Authentication";
 import { injectDecoratorClientSide } from "@navikt/nav-dekoratoren-moduler/csr";
 import { initializeAmplitude } from "./utils/amplitude";
+import initializeSentry from "./utils/logging";
 import "./index.less";
 
 const startMockWorker = async () => {
@@ -23,7 +24,10 @@ if (process.env.NODE_ENV === "development") {
   startDecorator();
 }
 
-initializeAmplitude();
+if (window.env.ENVIRONMENT === "PRODUCTION") {
+  initializeSentry();
+  initializeAmplitude();
+}
 
 ReactDOM.render(
   <Providers>
