@@ -70,8 +70,6 @@ export const dittNavUrl = DITT_NAV[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
-
-
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
 export const opplysningspliktUrl =

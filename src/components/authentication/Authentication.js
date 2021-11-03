@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "react-query";
 import fetchData from "../../api";
-import { innloggingsstatusUrl, mineSakerRedirectUrl, statusUrl } from "../../urls";
+import { innloggingsstatusUrl,mineSakerUrl, mineSakerRedirectUrl, statusUrl } from "../../urls";
 import { redirectToIdPorten, redirectToLoginService } from "../../utils/redirect";
 import Spinner from "../spinner/Spinner";
 
@@ -20,12 +20,12 @@ const Authentication = ({ children }) => {
   }
 
   if (innloggingsstatus?.authenticated === false && status?.authenticated === true) {
-    redirectToLoginService(getPathName);
+    redirectToLoginService(mineSakerUrl);
     return null;
   }
 
   if (innloggingsstatus?.securityLevel === "3") {
-    redirectToLoginService(getPathName);
+    redirectToLoginService(mineSakerUrl);
     return null;
   }
 
