@@ -38,7 +38,7 @@ const Sakstemaliste = () => {
           ikon={<SaksIkon />}
           isLoading={isLoading}
         >
-          {sakstemaer?.data.map((sakstema) => (
+          {sakstemaer && sakstemaer?.data.map((sakstema) => (
             <div key={sakstema.kode} role="link" tabIndex={0} onClick={() => {
               logAmplitudeEvent(
                 getLogInfo(sakstema.kode)
