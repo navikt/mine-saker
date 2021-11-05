@@ -9,6 +9,7 @@ export const listOfActions = {
 };
 
 export const listOfComponentNames = {
+    sakstemaListe: 'Sakstemaliste',
     ingenSakerSide: {
         tilMineSakerKnapp: 'IngenSakerSide - Tilbake til mine-sider knapp',
         tilForsidenDittnavKnapp: 'IngenSakerSide - Til forsiden av Ditt Nav knapp'
@@ -30,6 +31,15 @@ export const initializeAmplitude = () => {
 export function logAmplitudeEvent(amplitudeComponentName, amplitudeAction) {
     amplitude.getInstance().logEvent('navigere', {
         amplitudeComponentName,
+        amplitudeAction,
+    });
+}
+
+export function logAmplitudeEventNavigerTilSakstema(amplitudeComponentName, sakstemaTittel, amplitudeAction) {
+    console.log(amplitudeComponentName, sakstemaTittel, amplitudeAction)
+    amplitude.getInstance().logEvent('navigere', {
+        amplitudeComponentName,
+        sakstemaTittel,
         amplitudeAction,
     });
 }
