@@ -3,11 +3,14 @@ import { Element, Normaltekst } from "nav-frontend-typografi";
 import { AlertStripeInfo } from "nav-frontend-alertstriper";
 import "./HotjarTilbakemeldingsboks.less"
 import { useIntl } from "react-intl";
+import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
 
 const HotjarTilbakemeldingsboks = () => {
     
-    const triggerHotJar = () =>
-    window.hj("trigger", "trigger-tilbakemelding");
+    const triggerHotJar = () => {
+    window.hj("trigger", "trigger-tilbakemelding")
+    logAmplitudeEvent(listOfComponentNames.hotjarComponent, listOfActions.aapnetHotjarTilbakemeldingsboks)
+    };
 
     const translate = useIntl();
     const tittel = "hotjar.tittel";

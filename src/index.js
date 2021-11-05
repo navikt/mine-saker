@@ -26,8 +26,9 @@ if (process.env.NODE_ENV === "development") {
 
 if (window.env.ENVIRONMENT === "PRODUCTION") {
   initializeSentry();
-  initializeAmplitude();
 }
+
+initializeAmplitude();
 
 ReactDOM.render(
   <Providers>

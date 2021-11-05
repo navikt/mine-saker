@@ -3,7 +3,7 @@ import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
-import { logAmplitudeEvent } from "../../../utils/amplitude";
+import { logAmplitudeEvent, listOfActions } from "../../../utils/amplitude";
 import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -41,12 +41,12 @@ const Sakstemaliste = () => {
           {sakstemaer?.data.map((sakstema) => (
             <div key={sakstema.kode} role="link" tabIndex={0} onClick={() => {
               logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
+                getLogInfo(sakstema.kode), listOfActions.trykkPaaSakstema
               );
             }}
             onKeyPress={() => {
               logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
+                getLogInfo(sakstema.kode), listOfActions.trykkPaaSakstema
               );
             }}>
               <ListeElement
