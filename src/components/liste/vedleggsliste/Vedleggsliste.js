@@ -17,6 +17,8 @@ const Vedleggsliste = ({ journalpost }) => {
               key={dokument.dokumentInfoId}
               dokumentId={dokument.dokumentInfoId}
               journalpostId={journalpost.journalpostId}
+              brukerHarTilgang={dokument.brukerHarTilgang}
+              tittel={dokument.tittel}
             >
               {dokument.tittel}
             </VedleggslisteItem>
