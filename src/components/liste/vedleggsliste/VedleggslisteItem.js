@@ -4,7 +4,18 @@ import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
 import { dokumentUrl } from "../../../urls";
 
-const VedleggslisteItem = ({ journalpostId, dokumentId, children }) => {
+const VedleggslisteItem = ({ journalpostId, dokumentId, brukerHarTilgang, children }) => {
+  //Legg inn kosmetiske endringer for hva som skal vises til brukere uten tilgang.
+  if(brukerHarTilgang === false) {
+    return(
+      <li className="vedleggsliste-item">
+      <Lenke className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
+        <HoyreChevron className="vedleggslenke__chevron" /> {children}
+      </Lenke>
+    </li>
+    );
+  }
+
   return (
     <li className="vedleggsliste-item">
       <Lenke className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
