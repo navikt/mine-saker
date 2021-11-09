@@ -8,7 +8,7 @@ const MINE_SAKER_REDIRECT_URL = {
   local: "http://localhost:3000",
   development: "https://person.dev.nav.no",
   production: "https://person.nav.no",
-}
+};
 
 const SOSIALHJELP = {
   local: "https://localhost:3000/sosialhjelp/innsyn",
@@ -46,8 +46,7 @@ const SYKEMELDINGER = {
   production: "https://www.nav.no/syk/sykmeldinger",
 };
 
-
-const ENVIRONMENT = window.env.ENVIRONMENT
+const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
 export const loginserviceUrl = window.env.LOGINSERVICE_URL;
@@ -62,6 +61,7 @@ export const loginUrl = `${mineSakerApiUrl}/login`;
 export const mineSakerUrl = MINE_SAKER_URL[ENVIRONMENT];
 
 export const sykemeldingerUrl = SYKEMELDINGER[ENVIRONMENT];
+export const sykefravaerUrl = window.env.SYKEFRAVER_URL;
 export const hjelpemidlerUrl = HJELPEMIDLER[ENVIRONMENT];
 export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];
 export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
