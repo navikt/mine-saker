@@ -7,7 +7,15 @@ import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { dokumentUrl } from "../../../urls";
 
 const VedleggslisteItem = ({ journalpostId, dokumentId, brukerHarTilgang, tittel, children }) => {
-  if (brukerHarTilgang === false) {
+  if (brukerHarTilgang === true) {
+    return (
+      <li className="vedleggsliste-item">
+        <Lenke className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
+          <HoyreChevron className="vedleggslenke__chevron" /> {children}
+        </Lenke>
+      </li>
+    );
+  } else {
     return (
       <li className="vedleggsliste-item">
         <Undertekst className="vedleggsliste-item-undertekst">{tittel}</Undertekst>
@@ -17,14 +25,6 @@ const VedleggslisteItem = ({ journalpostId, dokumentId, brukerHarTilgang, tittel
       </li>
     );
   }
-
-  return (
-    <li className="vedleggsliste-item">
-      <Lenke className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
-        <HoyreChevron className="vedleggslenke__chevron" /> {children}
-      </Lenke>
-    </li>
-  );
 };
 
 VedleggslisteItem.propTypes = {

@@ -10,7 +10,17 @@ import JournalpostType from "../../../types/JournalpostType";
 import DokumentType from "../../../types/DokumentType";
 
 const Dokumentelement = ({ journalpost, dokument }) => {
-  if (dokument.brukerHarTilgang === false) {
+  if (dokument.brukerHarTilgang === true) {
+    return (
+      <ChevronlenkeBase dato={journalpost.sisteEndret}>
+        <Dokumentlenke
+          journalpostId={journalpost.journalpostId}
+          tekst={dokument.tittel}
+          dokumentId={dokument.dokumentInfoId}
+        />
+      </ChevronlenkeBase>
+    );
+  } else {
     setLocaleDate();
 
     return (
@@ -30,16 +40,6 @@ const Dokumentelement = ({ journalpost, dokument }) => {
       </div>
     );
   }
-
-  return (
-    <ChevronlenkeBase dato={journalpost.sisteEndret}>
-      <Dokumentlenke
-        journalpostId={journalpost.journalpostId}
-        tekst={dokument.tittel}
-        dokumentId={dokument.dokumentInfoId}
-      />
-    </ChevronlenkeBase>
-  );
 };
 
 Dokumentelement.propTypes = {
