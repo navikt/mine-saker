@@ -7,17 +7,14 @@ import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { dokumentUrl } from "../../../urls";
 
 const VedleggslisteItem = ({ journalpostId, dokumentId, brukerHarTilgang, tittel, children }) => {
-  
-  if(brukerHarTilgang === false) {
-    return(
+  if (brukerHarTilgang === false) {
+    return (
       <li className="vedleggsliste-item">
-      <Undertekst className="vedleggsliste-item-undertekst">
-        {tittel}
-      </Undertekst>
-      <EtikettAdvarsel className="maskert-etiketter__advarsel" mini>
-        Vedlegget kan ikke vises
-      </EtikettAdvarsel>
-    </li>
+        <Undertekst className="vedleggsliste-item-undertekst">{tittel}</Undertekst>
+        <EtikettAdvarsel className="maskert-etiketter__advarsel" mini>
+          Vedlegget kan ikke vises
+        </EtikettAdvarsel>
+      </li>
     );
   }
 

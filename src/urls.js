@@ -40,12 +40,6 @@ const DITT_NAV = {
   production: "https://www.nav.no/person/dittnav/",
 };
 
-const SYKEMELDINGER = {
-  local: "https://localhost:3000/syk/sykmeldinger",
-  development: "https://www-gcp.dev.nav.no/syk/sykmeldinger/",
-  production: "https://www.nav.no/syk/sykmeldinger",
-};
-
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
@@ -60,7 +54,6 @@ export const loginUrl = `${mineSakerApiUrl}/login`;
 
 export const mineSakerUrl = MINE_SAKER_URL[ENVIRONMENT];
 
-export const sykemeldingerUrl = SYKEMELDINGER[ENVIRONMENT];
 export const sykefravaerUrl = window.env.SYKEFRAVER_URL;
 export const hjelpemidlerUrl = HJELPEMIDLER[ENVIRONMENT];
 export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];

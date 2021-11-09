@@ -22,43 +22,43 @@ const Sakstemaliste = () => {
   const getLogInfo = (sakstemakode) => {
     return translate.formatMessage({
       id: sakstemaTittelPath(sakstemakode),
-      defaultMessage: "udefinertsakstema"
-    })
-  }
+      defaultMessage: "udefinertsakstema",
+    });
+  };
 
   return (
     <>
       {visIngenSaker ? (
-        <IngenSakerSide 
-          useBothButtons={false}
-          ingress="Du har foreløpig ingen registrerte saker" />
+        <IngenSakerSide useBothButtons={false} ingress="Du har foreløpig ingen registrerte saker" />
       ) : (
         <Liste
           tittel={translate.formatMessage({ id: tittel, defaultMessage: "Saksoversikt" })}
           ikon={<SaksIkon />}
           isLoading={isLoading}
         >
-          {sakstemaer && sakstemaer?.data.map((sakstema) => (
-            <div key={sakstema.kode} role="link" tabIndex={0} onClick={() => {
-              logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
-              );
-            }}
-            onKeyPress={() => {
-              logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
-              );
-            }}>
-              <ListeElement
-                type="sakstema"
+          {sakstemaer &&
+            sakstemaer?.data.map((sakstema) => (
+              <div
                 key={sakstema.kode}
-                dato={sakstema.sistEndret}
-                tekst={sakstema.navn}
-                kode={sakstema.kode}
-                sakstemaUrl={sakstema.detaljvisningUrl}
-              />
-            </div>
-          ))}
+                role="link"
+                tabIndex={0}
+                onClick={() => {
+                  logAmplitudeEvent(getLogInfo(sakstema.kode));
+                }}
+                onKeyPress={() => {
+                  logAmplitudeEvent(getLogInfo(sakstema.kode));
+                }}
+              >
+                <ListeElement
+                  type="sakstema"
+                  key={sakstema.kode}
+                  dato={sakstema.sistEndret}
+                  tekst={sakstema.navn}
+                  kode={sakstema.kode}
+                  sakstemaUrl={sakstema.detaljvisningUrl}
+                />
+              </div>
+            ))}
         </Liste>
       )}
     </>
