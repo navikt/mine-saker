@@ -1,7 +1,7 @@
 import React from "react";
 import { useIntl } from "react-intl";
 import { useParams } from "react-router-dom";
-import { logAmplitudeEvent } from "../../../utils/amplitude";
+import { listOfActions, logAmplitudeEvent } from "../../../utils/amplitude";
 import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
 import useTemaException from "../../../hooks/useTemaException";
@@ -19,7 +19,12 @@ const Lenkeliste = () => {
   return (
     <div className="lenkeliste">
       {lenker[lenkeKey].map((lenke) => (
-        <Lenke className="lenkeliste-item blokk-xxxs" href={lenke.url} key={lenke.url} onClick={() => logAmplitudeEvent(lenke.amplitudeIdentifier)}>
+        <Lenke 
+          className="lenkeliste-item blokk-xxxs" 
+          href={lenke.url} 
+          key={lenke.url} 
+          onClick={() => logAmplitudeEvent(translate.formatMessage({id: lenke.tekst}), listOfActions.trykkPaaLenke)}
+        >
           <HoyreChevron className="lenkeliste-item__chevron" /> {translate.formatMessage({id: lenke.tekst})}
         </Lenke>
       ))}

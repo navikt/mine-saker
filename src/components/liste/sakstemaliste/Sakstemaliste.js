@@ -3,7 +3,6 @@ import { useIntl } from "react-intl";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
-import { logAmplitudeEvent } from "../../../utils/amplitude";
 import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
@@ -14,17 +13,8 @@ const Sakstemaliste = () => {
   const { data: sakstemaer, isLoading, isSuccess } = useQuery(sakstemaerUrl, fetchResponse);
   const visIngenSaker = sakstemaer?.data.length === 0 && isSuccess && sakstemaer?.statusCode === 200;
 
-  const sakstemaTittelPath = (temakode) => "sakstema." + temakode + ".tittel";
-
   const tittel = "sakstemaliste.tittel";
   const translate = useIntl();
-
-  const getLogInfo = (sakstemakode) => {
-    return translate.formatMessage({
-      id: sakstemaTittelPath(sakstemakode),
-      defaultMessage: "udefinertsakstema"
-    })
-  }
 
   return (
     <>
@@ -39,16 +29,7 @@ const Sakstemaliste = () => {
           isLoading={isLoading}
         >
           {sakstemaer && sakstemaer?.data.map((sakstema) => (
-            <div key={sakstema.kode} role="link" tabIndex={0} onClick={() => {
-              logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
-              );
-            }}
-            onKeyPress={() => {
-              logAmplitudeEvent(
-                getLogInfo(sakstema.kode)
-              );
-            }}>
+            <div key={sakstema.kode} role="link" >
               <ListeElement
                 type="sakstema"
                 key={sakstema.kode}

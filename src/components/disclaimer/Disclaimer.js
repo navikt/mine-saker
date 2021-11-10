@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import Lenke from 'nav-frontend-lenker';
 import { gamleSaksoversiktUrl } from '../../urls';
 import "./Disclaimer.less";
+import { listOfActions, listOfComponentNames, logAmplitudeEvent } from '../../utils/amplitude';
 
 const Disclaimer = () => {
 
@@ -23,6 +24,7 @@ const Disclaimer = () => {
             })}
             <Lenke
                 href={gamleSaksoversiktUrl}
+                onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke, listOfActions.trykkPaaLenke)}
             >
                 {translate.formatMessage({
                     id: lenketekst, 

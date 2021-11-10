@@ -6,6 +6,12 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/AAP" 
     },
     {
+      "navn": "Aa-registeret",
+      "kode": "AAR",
+      "sistEndret": "2019-01-15T13:24:23Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/AAR" 
+    },
+    {
       "navn": "Ajourhold - Grunnopplysninger",
       "kode": "AGR",
       "sistEndret": "2019-01-15T13:24:23Z",
@@ -16,6 +22,12 @@
       "kode": "BAR",
       "sistEndret": "2021-01-20T11:33:37Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/BAR" 
+    },
+    {
+      "navn": "Bidrag",
+      "kode": "BID",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/BID" 
     },
     {
       "navn": "Bil",
@@ -42,6 +54,12 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/ERS" 
     },
     {
+      "navn": "Farskap",
+      "kode": "FAR",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/FAR" 
+    },
+    {
       "navn": "Feilutbetaling",
       "kode": "FEI",
       "sistEndret": "2021-02-03T13:53:27Z",
@@ -52,6 +70,18 @@
       "kode": "FOR",
       "sistEndret": "2021-03-24T16:00:27Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/FOR" 
+    },
+    {
+      "navn": "Forsikring",
+      "kode": "FOS",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/FOS" 
+    },
+    {
+      "navn": "Kompensasjon selvstendig næringsdrivende/frilansere",
+      "kode": "FRI",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/FRI" 
     },
     {
       "navn": "Fullmakt",
@@ -72,10 +102,28 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/GRA" 
     },
     {
+      "navn": "Grunn- og hjelpestønad",
+      "kode": "GRU",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/GRU" 
+    },
+    {
+      "navn": "Helsetjenester og ort. hjelpemidler",
+      "kode": "HEL",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/HEL" 
+    },
+    {
       "navn": "Hjelpemidler",
       "kode": "HJE",
       "sistEndret": "2020-02-12T07:03:09Z",
       "detaljvisningUrl": "http://localhost:3000//hjelpemidler/dinehjelpemidler" 
+    },
+    {
+      "navn": "Inkluderende arbeidsliv",
+      "kode": "IAR",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/IAR" 
     },
     {
       "navn": "Tiltakspenger",
@@ -84,10 +132,16 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/IND" 
     },
     {
-      "navn": "Kontroll",
-      "kode": "KTR",
+      "navn": "Kommunale tjenester",
+      "kode": "KOM",
       "sistEndret": "2021-01-20T11:33:37Z",
-      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/KTR" 
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/KOM" 
+    },
+    {
+      "navn": "Kontantstøtte",
+      "kode": "KON",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/KON" 
     },
     {
       "navn": "Medlemskap",
@@ -100,6 +154,18 @@
       "kode": "MOB",
       "sistEndret": "2021-01-20T11:30:04Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/MOB" 
+    },
+    {
+      "navn": "Omsorgspenger, Pleiepenger og Opplæringspenger",
+      "kode": "OMS",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/OMS" 
+    },
+    {
+      "navn": "Oppfølging - Arbeidsgiver",
+      "kode": "OPA",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/OPA" 
     },
     {
       "navn": "Oppfølging",
@@ -120,10 +186,34 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/PER" 
     },
     {
+      "navn": "Rehabilitering",
+      "kode": "REH",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/REH" 
+    },
+    {
+      "navn": "Rekruttering og stilling",
+      "kode": "REK",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/REK" 
+    },
+    {
+      "navn": "Retting av personopplysninger",
+      "kode": "RPO",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/RPO" 
+    },
+    {
       "navn": "Rettferdsvederlag",
       "kode": "RVE",
       "sistEndret": "2021-02-09T21:16:34Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/RVE" 
+    },
+    {
+      "navn": "Sanksjon - Arbeidsgiver",
+      "kode": "SAA",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SAA" 
     },
     {
       "navn": "Saksomkostninger",
@@ -132,33 +222,45 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SAK" 
     },
     {
+      "navn": "Sanksjon - Person",
+      "kode": "SAP",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SAP" 
+    },
+    {
       "navn": "Serviceklager",
       "kode": "SER",
       "sistEndret": "2021-03-09T12:30:43Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SER" 
     },
     {
-      "navn": "Økonomisk sosialhjelp",
-      "kode": "KOM",
-      "sistEndret": "2021-06-14T07:03:46.328845Z",
-      "detaljvisningUrl": "http://localhost:3000/sosialhjelp/innsyn" 
+      "navn": "Sikkerhetstiltak",
+      "kode": "SIK",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SIK" 
+    },
+    {
+      "navn": "Regnskap/utbetaling",
+      "kode": "STO",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/STO" 
     },
     {
       "navn": "Supplerende stønad",
       "kode": "SUP",
-      "sistEndret": "2021-03-24T16:00:21Z",
+      "sistEndret": "2021-01-20T11:33:37Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SUP" 
     },
     {
       "navn": "Sykepenger",
       "kode": "SYK",
-      "sistEndret": "2019-10-31T13:18:41Z",
+      "sistEndret": "2021-01-20T11:33:37Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SYK" 
     },
     {
-      "navn": "Sykmeldinger",
+      "navn": "Sykemeldinger",
       "kode": "SYM",
-      "sistEndret": "2017-01-10T23:16:17Z",
+      "sistEndret": "2021-01-20T11:33:37Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/SYM" 
     },
     {
@@ -172,6 +274,12 @@
       "kode": "TRK",
       "sistEndret": "2016-09-08T12:16:29Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/TRK" 
+    },
+    {
+      "navn": "Trygdeavgift",
+      "kode": "TRY",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/TRY" 
     },
     {
       "navn": "Tilleggsstønad",
@@ -198,10 +306,22 @@
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/UFO" 
     },
     {
+      "navn": "Ukjent",
+      "kode": "UKJ",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/UKJ" 
+    },
+    {
       "navn": "Ventelønn",
       "kode": "VEN",
       "sistEndret": "2020-01-30T10:27:05Z",
       "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/VEN" 
+    },
+    {
+      "navn": "Yrkesrettet attføring",
+      "kode": "YRA",
+      "sistEndret": "2021-01-20T11:33:37Z",
+      "detaljvisningUrl": "http://localhost:3000/mine-saker/tema/YRA" 
     },
     {
       "navn": "Yrkesskade",

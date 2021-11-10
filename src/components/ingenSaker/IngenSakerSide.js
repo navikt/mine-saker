@@ -6,6 +6,7 @@ import { dittNavUrl } from "../../urls";
 
 import "./IngenSakerSide.less";
 import { useIntl } from "react-intl";
+import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
 
 const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const [showSecondButton] = useState(useBothButtons);
@@ -19,11 +20,25 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
       <h2 className="ingen-saker-ingress">{ingress}</h2>
       <section className="button-section">
         {showSecondButton ? (
-          <Link to="/mine-saker/" className="knapp knapp--hoved">
+          <Link 
+            to="/mine-saker/" 
+            className="knapp knapp--hoved" 
+            onClick={() => logAmplitudeEvent(
+              listOfComponentNames.ingenSakerSide.tilMineSakerKnapp, 
+              listOfActions.ingenSakerSide.tilMineSakerKnapp)
+            }
+          >
             {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til Mine saker"})}
           </Link>
         ) : null}
-        <a href={dittNavUrl} className="knapp">
+        <a 
+          href={dittNavUrl} 
+          className="knapp"
+          onClick={() => logAmplitudeEvent(
+            listOfComponentNames.ingenSakerSide.tilForsidenDittnavKnapp, 
+            listOfActions.ingenSakerSide.tilForsidenDittnavKnapp)
+          }
+        >
           {translate.formatMessage({id: dittNavKnappTekst, defaultMessage: "Gå til forsiden av Ditt NAV"})}      
         </a>
       </section>
