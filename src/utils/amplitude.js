@@ -36,7 +36,6 @@ export function logAmplitudeEvent(amplitudeComponentName, amplitudeAction) {
 }
 
 export function logAmplitudeEventNavigerTilSakstema(amplitudeComponentName, sakstemaTittel, amplitudeAction) {
-    console.log(amplitudeComponentName, sakstemaTittel, amplitudeAction)
     amplitude.getInstance().logEvent('navigere', {
         amplitudeComponentName,
         sakstemaTittel,
