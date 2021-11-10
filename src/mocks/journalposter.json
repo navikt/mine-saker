@@ -3,6 +3,37 @@
     "journalposter": [
       {
         "tittel": "Klage/Anke",
+        "journalpostId": "493354369",
+        "journalposttype": "INNGAAENDE",
+        "harVedlegg": true,
+        "avsenderMottaker": {
+          "innloggetBrukerErAvsender": true,
+          "type": "PERSON"
+        },
+        "sisteEndret": "2021-05-20T14:34:49Z",
+        "dokumenter": [
+          {
+            "tittel": "Klage/Anke",
+            "dokumentInfoId": "515156126",
+            "brukerHarTilgang": false,
+            "dokumenttype": "HOVED"
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "515156128",
+            "brukerHarTilgang": false,
+            "dokumenttype": "VEDLEGG"
+          },
+          {
+            "tittel": "Ettersending til Klage/Anke",
+            "dokumentInfoId": "5151561249",
+            "brukerHarTilgang": false,
+            "dokumenttype": "VEDLEGG"
+          }
+        ]
+      },
+      {
+        "tittel": "Klage/Anke",
         "journalpostId": "493356699",
         "journalposttype": "INNGAAENDE",
         "harVedlegg": true,
