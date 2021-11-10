@@ -4,8 +4,6 @@ import Sakstemaelement from "./sakstemaelement/Sakstemaelement";
 import Dokumentelement from "./dokumentelement/Dokumentelement";
 import Vedleggselement from "./vedleggselement/Vedleggselement";
 
-
-
 const components = (type) =>
   ({
     sakstema: Sakstemaelement,
@@ -14,7 +12,6 @@ const components = (type) =>
   }[type]);
 
 const ListeElement = ({ type, ...props }) => {
-
   const Component = components(type);
   if (!type) {
     return null;

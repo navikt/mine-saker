@@ -16,8 +16,11 @@ const MineSaker = () => {
   const tittel = "mine-saker.hoved.tittel";
 
   return (
-    <PageBase tittel={translate.formatMessage({ id: tittel, defaultMessage: "Mine Saker"})} statusCode={data?.statusCode}>
-      <Disclaimer/>
+    <PageBase
+      tittel={translate.formatMessage({ id: tittel, defaultMessage: "Mine Saker" })}
+      statusCode={data?.statusCode}
+    >
+      <Disclaimer />
       <Sakstemaliste />
       <HotjarTilbakemeldingsboks />
     </PageBase>
