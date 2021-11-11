@@ -47,6 +47,9 @@ const Vedleggselement = ({ journalpost }) => {
             Dokumentet kan ikke vises
           </EtikettAdvarsel>
         </div>
+        <div className="vedleggselement-uten-tilgang">
+            <Vedleggsliste journalpost={journalpost} />
+        </div>
       </div>
     )
   }
