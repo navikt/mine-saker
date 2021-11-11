@@ -3,7 +3,7 @@
     "journalposter": [
       {
         "tittel": "Klage/Anke",
-        "journalpostId": "493354369",
+        "journalpostId": "494364389",
         "journalposttype": "INNGAAENDE",
         "harVedlegg": true,
         "avsenderMottaker": {
@@ -14,19 +14,19 @@
         "dokumenter": [
           {
             "tittel": "Klage/Anke",
-            "dokumentInfoId": "515156126",
+            "dokumentInfoId": "417153145",
             "brukerHarTilgang": false,
             "dokumenttype": "HOVED"
           },
           {
             "tittel": "Ettersending til Klage/Anke",
-            "dokumentInfoId": "515156128",
+            "dokumentInfoId": "417153145",
             "brukerHarTilgang": false,
             "dokumenttype": "VEDLEGG"
           },
           {
             "tittel": "Ettersending til Klage/Anke",
-            "dokumentInfoId": "5151561249",
+            "dokumentInfoId": "417153145",
             "brukerHarTilgang": false,
             "dokumenttype": "VEDLEGG"
           }
