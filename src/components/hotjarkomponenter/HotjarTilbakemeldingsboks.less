@@ -1,11 +1,31 @@
 .tilbakemelding_knapp {
-    text-decoration: underline;
-    cursor: pointer;
-    font-weight: bold;
-    
-  }
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold; 
+  margin-left: 0.5em;
+}
+
+.tilbakemelding-wrapper {
+  margin: 1.5rem 4rem;
+}
+
+.tekst-med-lenke {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 558px) {
   .tilbakemelding-wrapper {
-    margin: 1.5rem 4rem;
+    margin: 0;
   }
 
+  .tilbakemelding_knapp {
+    margin-left: 0;
+  }
   
+  .tekst-med-lenke {
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
