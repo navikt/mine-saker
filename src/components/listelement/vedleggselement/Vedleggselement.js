@@ -28,11 +28,9 @@ const Vedleggselement = ({ journalpost }) => {
         </div>
       </React.Fragment>
     );
-  } 
-  else 
-  {
+  } else {
     setLocaleDate();
-    
+
     return (
       <div className="maskertelement">
         <div className="maskert-header">
@@ -51,7 +49,7 @@ const Vedleggselement = ({ journalpost }) => {
             <Vedleggsliste journalpost={journalpost} />
         </div>
       </div>
-    )
+    );
   }
 };
 
