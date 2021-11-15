@@ -1,5 +1,4 @@
 import React from "react";
-import MaskertIkon from "../../../assets/MaskertIkon";
 import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
@@ -36,7 +35,6 @@ const Vedleggselement = ({ journalpost }) => {
     return (
       <div className="maskertelement">
         <div className="maskert-header">
-          <MaskertIkon />
           <Ingress className="maskert-header__tekst">{hovedDokument.tittel}</Ingress>
         </div>
         <div className="maskert-etiketter">

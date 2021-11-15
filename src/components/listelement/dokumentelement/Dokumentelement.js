@@ -1,7 +1,6 @@
 import React from "react";
 import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
-import MaskertIkon from "../../../assets/MaskertIkon";
 import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
@@ -26,7 +25,6 @@ const Dokumentelement = ({ journalpost, dokument }) => {
     return (
       <div className="maskertelement">
         <div className="maskert-header">
-          <MaskertIkon />
           <Ingress className="maskert-header__tekst">{dokument.tittel}</Ingress>
         </div>
         <div className="maskert-etiketter">
