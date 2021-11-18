@@ -9,13 +9,12 @@ import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../ut
 
 const Disclaimer = () => {
   const translate = useIntl();
-  
+
   const tekst = "disclaimer.tekst";
   const lenketekst = "disclaimer.lenketekst";
   const tekstBidrag = "disclaimer.tekst-bidrag";
   const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
 
-  
 
   return (
     <div className="alertbox">
@@ -44,7 +43,7 @@ const Disclaimer = () => {
           })}
           <Lenke
             href={gamleSaksoversiktTemaBidragUrl}
-            onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilBidrag, listOfActions.trykkPaaLenke)}
+            onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
           >
             {translate.formatMessage({
               id: lenketekstBidrag,
