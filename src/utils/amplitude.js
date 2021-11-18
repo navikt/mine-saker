@@ -13,7 +13,10 @@ export const listOfComponentNames = {
     tilMineSakerKnapp: "IngenSakerSide - Tilbake til mine-sider knapp",
     tilForsidenDittnavKnapp: "IngenSakerSide - Til forsiden av Ditt Nav knapp",
   },
-  disclaimerLenke: "Lenke til gamle saksoversikt i disclaimer",
+  disclaimerLenke:{
+    tilGamleSaksoversikt: "Lenke til gamle saksoversikt i disclaimer",
+    tilBidrag: "Lenke til bidrag i gamle saksoversikt",
+  },
   hotjarComponent: "Hotjar tilbakemeldingsboks",
 };
 
