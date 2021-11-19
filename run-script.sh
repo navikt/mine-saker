@@ -1,12 +1,13 @@
 #!/bin/bash
 echo "Running run-script.sh"
 
-#Associative array 
+#Associative array
 declare -A variables
 variables[ENVIRONMENT]=$ENVIRONMENT
 variables[MINE_SAKER_API_URL]=$MINE_SAKER_API_URL
 variables[LOGINSERVICE_URL]=$LOGINSERVICE_URL
 variables[INNLOGGINGSSTATUS]=$INNLOGGINGSSTATUS
+variables[SYKEFRAVER_URL]=$SYKEFRAVER_URL
 
 forEachVariable() {
   for variable in "${!variables[@]}"

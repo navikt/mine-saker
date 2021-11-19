@@ -1,4 +1,13 @@
-import { dagpengerUrl, foreldrepengerUrl, hjelpemidlerUrl, klagerettigheterUrl, lesmeromdagpengerUrl, sosialhjelpUrl, stonadervedtiltakUrl, sykemeldingerUrl } from "../../../urls";
+import {
+  dagpengerUrl,
+  foreldrepengerUrl,
+  hjelpemidlerUrl,
+  klagerettigheterUrl,
+  lesmeromdagpengerUrl,
+  sosialhjelpUrl,
+  stonadervedtiltakUrl,
+  sykefravaerUrl,
+} from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
 import { arbeidsavklaringspengerUrl } from "../../../urls";
@@ -7,27 +16,27 @@ const generelleLenker = [
   {
     url: kontaktOssUrl,
     tekst: "generelle-lenker.kontakt-oss", //Value: N: "Kontakt oss", E: "Contact us"
-    amplitudeIdentifier: "kontaktoss"
+    amplitudeIdentifier: "kontaktoss",
   },
   {
     url: tilbakemeldingerUrl,
     tekst: "generelle-lenker.send-klage", //Value: N: "Send klage", E: "Send complaint"
-    amplitudeIdentifier: "sendklage"
+    amplitudeIdentifier: "sendklage",
   },
   {
     url: opplysningspliktUrl,
-    tekst: "generelle-lenker.meld-fra-om-endringer", //Value: N: "Meld fra om endringer", E: 
-    amplitudeIdentifier: "meldendringer"
+    tekst: "generelle-lenker.meld-fra-om-endringer", //Value: N: "Meld fra om endringer", E:
+    amplitudeIdentifier: "meldendringer",
   },
   {
     url: lastOppVedleggUrl,
     tekst: "generelle-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
-    amplitudeIdentifier: "lastoppvedlegg"
+    amplitudeIdentifier: "lastoppvedlegg",
   },
   {
     url: saksbehandlingstiderUrl,
     tekst: "generelle-lenker.saksbehandlingstider", //Value: N: "Saksbehandlingstider"
-    amplitudeIdentifier: "saksbehandlingstider"
+    amplitudeIdentifier: "saksbehandlingstider",
   },
 ];
 
@@ -69,8 +78,16 @@ const foreldrepengerLenker = [
 
 const sykefravaerLenker = [
   {
-    url: sykemeldingerUrl,
-    tekst: "sykefravaer-lenker.dine-sykemeldinger", //Value: N: "Dine sykemeldinger", E:
+    url: sykefravaerUrl,
+    tekst: "sykefravaer-lenker.ditt-sykefravaer", //Value: N: "Ditt sykefravær", E:
+  },
+  ...generelleLenker,
+];
+
+const sykemeldingLenker = [
+  {
+    url: sykefravaerUrl,
+    tekst: "sykefravaer-lenker.ditt-sykefravaer", //Value: N: "Ditt sykefravær", E:
   },
   ...generelleLenker,
 ];
@@ -122,6 +139,7 @@ const lenker = {
   KOM: sosialhjelpLenker,
   AAP: arbeidsavklaringspengerLenker,
   SYK: sykefravaerLenker,
+  SYM: sykemeldingLenker,
   IND: tiltakspengerLenker,
 };
 

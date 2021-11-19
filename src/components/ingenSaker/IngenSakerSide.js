@@ -20,30 +20,34 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
       <h2 className="ingen-saker-ingress">{ingress}</h2>
       <section className="button-section">
         {showSecondButton ? (
-          <Link 
-            to="/mine-saker/" 
-            className="knapp knapp--hoved" 
-            onClick={() => logAmplitudeEvent(
-              listOfComponentNames.ingenSakerSide.tilMineSakerKnapp, 
-              listOfActions.ingenSakerSide.tilMineSakerKnapp)
+          <Link
+            to="/mine-saker/"
+            className="knapp knapp--hoved"
+            onClick={() =>
+              logAmplitudeEvent(
+                listOfComponentNames.ingenSakerSide.tilMineSakerKnapp,
+                listOfActions.ingenSakerSide.tilMineSakerKnapp
+              )
             }
           >
-            {translate.formatMessage({id: saksoversiktKnappTekst, defaultMessage: "Gå til Mine saker"})}
+            {translate.formatMessage({ id: saksoversiktKnappTekst, defaultMessage: "Gå til Mine saker" })}
           </Link>
         ) : null}
-        <a 
-          href={dittNavUrl} 
+        <a
+          href={dittNavUrl}
           className="knapp"
-          onClick={() => logAmplitudeEvent(
-            listOfComponentNames.ingenSakerSide.tilForsidenDittnavKnapp, 
-            listOfActions.ingenSakerSide.tilForsidenDittnavKnapp)
+          onClick={() =>
+            logAmplitudeEvent(
+              listOfComponentNames.ingenSakerSide.tilForsidenDittnavKnapp,
+              listOfActions.ingenSakerSide.tilForsidenDittnavKnapp
+            )
           }
         >
-          {translate.formatMessage({id: dittNavKnappTekst, defaultMessage: "Gå til forsiden av Ditt NAV"})}      
+          {translate.formatMessage({ id: dittNavKnappTekst, defaultMessage: "Gå til forsiden av Ditt NAV" })}
         </a>
       </section>
       <section className="dinosaur-wrapper">
-        <Dinosaur/>
+        <Dinosaur />
       </section>
     </section>
   );

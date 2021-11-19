@@ -31,12 +31,13 @@ const Sakstema = () => {
   const tittelPath = "sakstema." + temakode + ".tittel";
 
   return (
-    <PageBase 
-      tittel={translate.formatMessage({id: tittelPath, defaultMessage: tittel})}
-      breadcrumb={crumb} 
-      isLoading={isLoading} 
-      statusCode={data?.statusCode}>
-      <DokumentListe sakstemaKey={sakstemaKey} temakode={temakode}/>
+    <PageBase
+      tittel={translate.formatMessage({ id: tittelPath, defaultMessage: tittel })}
+      breadcrumb={crumb}
+      isLoading={isLoading}
+      statusCode={data?.statusCode}
+    >
+      <DokumentListe sakstemaKey={sakstemaKey} temakode={temakode} />
     </PageBase>
   );
 };

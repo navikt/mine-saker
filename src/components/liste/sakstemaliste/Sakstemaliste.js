@@ -19,27 +19,26 @@ const Sakstemaliste = () => {
   return (
     <>
       {visIngenSaker ? (
-        <IngenSakerSide 
-          useBothButtons={false}
-          ingress="Du har foreløpig ingen registrerte saker" />
+        <IngenSakerSide useBothButtons={false} ingress="Du har foreløpig ingen registrerte saker" />
       ) : (
         <Liste
           tittel={translate.formatMessage({ id: tittel, defaultMessage: "Saksoversikt" })}
           ikon={<SaksIkon />}
           isLoading={isLoading}
         >
-          {sakstemaer && sakstemaer?.data.map((sakstema) => (
-            <div key={sakstema.kode} role="link" >
-              <ListeElement
-                type="sakstema"
-                key={sakstema.kode}
-                dato={sakstema.sistEndret}
-                tekst={sakstema.navn}
-                kode={sakstema.kode}
-                sakstemaUrl={sakstema.detaljvisningUrl}
-              />
-            </div>
-          ))}
+          {sakstemaer &&
+            sakstemaer?.data.map((sakstema) => (
+              <div key={sakstema.kode} role="link">
+                <ListeElement
+                  type="sakstema"
+                  key={sakstema.kode}
+                  dato={sakstema.sistEndret}
+                  tekst={sakstema.navn}
+                  kode={sakstema.kode}
+                  sakstemaUrl={sakstema.detaljvisningUrl}
+                />
+              </div>
+            ))}
         </Liste>
       )}
     </>
