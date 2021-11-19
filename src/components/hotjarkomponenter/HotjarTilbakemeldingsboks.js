@@ -19,20 +19,18 @@ const HotjarTilbakemeldingsboks = () => {
   return (
     <div className="tilbakemelding-wrapper">
       <AlertStripeInfo>
-        <Element>
+        <Element className="ingress">
           {translate.formatMessage({
             id: tittel,
-            defaultMessage: "Noe som mangler, er feil eller som er vanskelig å forstå?",
+            defaultMessage: "Noe som mangler, er feil eller som er vanskelig å forstå i saksoversikten eller dokumentvisningen?",
           })}
         </Element>
-
-        <Normaltekst style={{ display: "flex", flexDirection: "row" }}>
+        <Normaltekst className="tekst-med-lenke">
           {translate.formatMessage({
             id: ingress,
             defaultMessage: "Da vil vi veldig gjerne høre fra deg!",
           })}
           <div
-            style={{ marginLeft: "0.5em" }}
             role="button"
             className="tilbakemelding_knapp"
             onClick={triggerHotJar}
