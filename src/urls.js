@@ -40,6 +40,12 @@ const DITT_NAV = {
   production: "https://www.nav.no/person/dittnav/",
 };
 
+const GAMLE_SAKSOVERSIKT= {
+  local: "https://localhost:3000/saksoversikt",
+  development: "https://www.dev.nav.no/saksoversikt",
+  production: "https://tjenester.nav.no/saksoversikt",
+};
+
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
@@ -63,6 +69,9 @@ export const dittNavUrl = DITT_NAV[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
+export const gamleSaksoversiktUrl = GAMLE_SAKSOVERSIKT[ENVIRONMENT];
+export const gamleSaksoversiktTemaBidragUrl = `${gamleSaksoversiktUrl}/tema/BID`
+
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
 export const opplysningspliktUrl =
@@ -76,5 +85,4 @@ export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
 export const stonadervedtiltakUrl =
   "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
-export const gamleSaksoversiktUrl = "https://tjenester.nav.no/saksoversikt";
-export const gamleSaksoversiktTemaBidragUrl = `${gamleSaksoversiktUrl}/tema/BID`
+
