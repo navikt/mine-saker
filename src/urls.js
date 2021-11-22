@@ -34,6 +34,12 @@ const HJELPEMIDLER = {
   production: "https://www.nav.no/hjelpemidler/dinehjelpemidler",
 };
 
+const FORELDREPENGER = {
+  local: "https://foreldrepenger.nav.no/",
+  development: "https://foreldrepenger.dev.nav.no/",
+  production: "https://foreldrepenger.nav.no/",
+}
+
 const DITT_NAV = {
   local: "https://localhost:3000/person/dittnav/",
   development: "https://www.dev.nav.no/person/dittnav/",
@@ -66,6 +72,7 @@ export const sosialhjelpUrl = SOSIALHJELP[ENVIRONMENT];
 export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
 export const lastOppVedleggUrl = ETTERSENDING[ENVIRONMENT];
 export const dittNavUrl = DITT_NAV[ENVIRONMENT];
+export const foreldrepengerUrl = FORELDREPENGER[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
@@ -77,7 +84,7 @@ export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbak
 export const opplysningspliktUrl =
   "https://www.nav.no/no/nav-og-samfunn/om-nav/relatert-informasjon/du-har-plikt-til-a-gi-nav-riktige-opplysninger";
 export const saksbehandlingstiderUrl = "https://www.nav.no/no/nav-og-samfunn/om-nav/saksbehandlingstider-i-nav";
-export const foreldrepengerUrl = "https://foreldrepenger.nav.no/";
+
 export const sosialhjelpVeiviserUrl = "https://tjenester.nav.no/veivisersosialhjelp";
 export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav/klage-ris-og-ros/klagerettigheter";
 export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
