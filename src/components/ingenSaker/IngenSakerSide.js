@@ -26,7 +26,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
             onClick={() =>
               logAmplitudeEvent(
                 listOfComponentNames.ingenSakerSide.tilMineSakerKnapp,
-                listOfActions.ingenSakerSide.tilMineSakerKnapp
+                listOfActions.trykkPaaLenkeKnapp
               )
             }
           >
@@ -39,7 +39,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
           onClick={() =>
             logAmplitudeEvent(
               listOfComponentNames.ingenSakerSide.tilForsidenDittnavKnapp,
-              listOfActions.ingenSakerSide.tilForsidenDittnavKnapp
+              listOfActions.trykkPaaLenkeKnapp
             )
           }
         >
