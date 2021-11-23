@@ -68,12 +68,20 @@ const hjelpemidlerLenker = [
   ...generelleLenker,
 ];
 
+//Filtrerer ut den generelle lenken "Last opp vedlegg" 
+//slik at den kan byttes ut med en direktelenke til foreldrepenger i stedet.
+const generelleLenkerForeldrepenger = generelleLenker.filter((lenke) => lenke.url !== lastOppVedleggUrl);
+
 const foreldrepengerLenker = [
   {
     url: foreldrepengerUrl,
     tekst: "foreldrepenger-lenker.dine-foreldrepenger", //Value: N: "Dine foreldrepenger", E:
   },
-  ...generelleLenker,
+  {
+    url: foreldrepengerUrl,
+    tekst: "foreldrepenger-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
+  },
+  ...generelleLenkerForeldrepenger,
 ];
 
 const sykefravaerLenker = [

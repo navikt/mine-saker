@@ -21,7 +21,7 @@ const Lenkeliste = () => {
         <Lenke
           className="lenkeliste-item blokk-xxxs"
           href={lenke.url}
-          key={lenke.url}
+          key={lenke.tekst}
           onClick={() => logAmplitudeEvent(translate.formatMessage({ id: lenke.tekst }), listOfActions.trykkPaaLenke)}
         >
           <HoyreChevron className="lenkeliste-item__chevron" /> {translate.formatMessage({ id: lenke.tekst })}
