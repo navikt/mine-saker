@@ -5,7 +5,6 @@ import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import { fetchResponse } from "../../api";
 import PageBase from "../pagebase/PageBase";
-import HotjarTilbakemeldingsboks from "../../components/hotjarkomponenter/HotjarTilbakemeldingsboks";
 import "./MineSaker.less";
 import Disclaimer from "../../components/disclaimer/Disclaimer";
 
@@ -22,7 +21,6 @@ const MineSaker = () => {
     >
       <Disclaimer />
       <Sakstemaliste />
-      <HotjarTilbakemeldingsboks />
     </PageBase>
   );
 };
