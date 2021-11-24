@@ -22,7 +22,6 @@ const MineSaker = () => {
     >
       <Disclaimer />
       <Sakstemaliste />
-      <HotjarTilbakemeldingsboks />
     </PageBase>
   );
 };
