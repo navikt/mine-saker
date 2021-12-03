@@ -12,6 +12,7 @@ import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
+import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
 
 const toListElements = (journalpost) => {
   if (journalpost.harVedlegg) {
@@ -68,10 +69,8 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
               isLoading={isLoading}
             >
               {journalposter?.map(toListElements)}
+              <InlineListeDisclaimer />
             </Liste>
-          </section>
-          <section>
-            <BeklagerPanel />
           </section>
         </React.Fragment>
       )}

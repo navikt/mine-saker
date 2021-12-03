@@ -28,3 +28,14 @@ Liste.propTypes = {
 };
 
 export default Liste;
+
+/*<Tittel>
+          Enkelte dokumenter vises ikke her
+        </Tittel>
+        <Normaltekst>
+          Dokumenter som du har sendt inn via vanlig post til NAV og dokumenter sendt inn via tredjepart (leger/andre
+          behandlere, advokater, verger, fullmektiger og lignende), vises dessverre ikke her. Vi jobber for å finne en
+          løsning, og beklager ulempene dette måtte medføre. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er
+          noe du lurer på.
+        </Normaltekst>
+        */

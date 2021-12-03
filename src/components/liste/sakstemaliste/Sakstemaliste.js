@@ -7,6 +7,7 @@ import SaksIkon from "../../../assets/SaksIkon";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
+import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -38,7 +39,9 @@ const Sakstemaliste = () => {
                   sakstemaUrl={sakstema.detaljvisningUrl}
                 />
               </div>
-            ))}
+            ))
+          }
+          <InlineListeDisclaimer />
         </Liste>
       )}
     </>
