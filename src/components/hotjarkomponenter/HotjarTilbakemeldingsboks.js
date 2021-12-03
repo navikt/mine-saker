@@ -25,11 +25,13 @@ const HotjarTilbakemeldingsboks = () => {
             defaultMessage: "Noe som mangler, er feil eller som er vanskelig å forstå i saksoversikten eller dokumentvisningen?",
           })}
         </Element>
-        <Normaltekst className="tekst-med-lenke">
-          {translate.formatMessage({
-            id: ingress,
-            defaultMessage: "Da vil vi veldig gjerne høre fra deg!",
-          })}
+        <div className="tekst-med-lenke">
+          <Normaltekst >
+            {translate.formatMessage({
+              id: ingress,
+              defaultMessage: "Da vil vi veldig gjerne høre fra deg!",
+            })} 
+          </Normaltekst>
           <div
             role="button"
             className="tilbakemelding_knapp"
@@ -42,7 +44,7 @@ const HotjarTilbakemeldingsboks = () => {
               defaultMessage: "Gi oss tilbakemelding",
             })}
           </div>
-        </Normaltekst>
+        </div>
       </AlertStripeInfo>
     </div>
   );

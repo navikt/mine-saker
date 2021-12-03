@@ -7,7 +7,6 @@ import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
-import BeklagerPanel from "../../panel/BeklagerPanel";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";

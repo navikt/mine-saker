@@ -29,7 +29,7 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl }) => {
           );
         }}
       >
-        <HoyreChevron className="sakstemalenke__chevron" /> {tekst}
+        {tekst} <HoyreChevron className="sakstemalenke__chevron" /> 
       </Link>
     );
   }
@@ -45,7 +45,7 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl }) => {
         logAmplitudeEventNavigerTilSakstema(listOfComponentNames.sakstemaListe, tekst, listOfActions.trykkPaaSakstema);
       }}
     >
-      <HoyreChevron className="sakstemalenke__chevron" /> {tekst}
+      {tekst} <HoyreChevron className="sakstemalenke__chevron" /> 
     </Lenke>
   );
 };
