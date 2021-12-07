@@ -34,7 +34,7 @@ const Sakstemaliste = () => {
               </div>
             ))
           }
-          <InlineListeDisclaimer plassering="saksoversikt"/>
+          <InlineListeDisclaimer/>
         </Liste>
       )}
     </>
