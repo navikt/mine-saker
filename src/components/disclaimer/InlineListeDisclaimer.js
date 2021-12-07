@@ -26,7 +26,7 @@ const InlineListeDisclaimer = () => {
           <li>Dokumenter som noen andre har sendt, og som gjelder saken din. Det kan for eksempel være en lege, advokat, verge eller fullmektig. Vi beklager ulempene dette kan medføre.</li>
         </ul>
         
-        <Normaltekst className="bidragslosning">
+        <div className="bidragslosning">
         {translate.formatMessage({
           id: tekstBidrag,
           defaultMessage:
@@ -41,7 +41,7 @@ const InlineListeDisclaimer = () => {
             defaultMessage: "innsynstjenesten for bidrag.",
           })}
         </Lenke>
-      </Normaltekst>
+      </div>
         Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på. 
       </Normaltekst>
     </div>
