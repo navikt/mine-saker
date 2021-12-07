@@ -7,41 +7,67 @@ import { logAmplitudeEvent, listOfComponentNames, listOfActions } from '../../ut
 import "./InlineListeDisclaimer.less";
 
 
-const InlineListeDisclaimer = () => {
+const InlineListeDisclaimer = ({plassering}) => {
 
     const translate = useIntl();
     const tekstBidrag = "disclaimer.tekst-bidrag";
     const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
 
-    return(
+    if (plassering === "dokumentoversikt") {
+      return(
         <div className="dokumentvisning-info">
-            <Undertittel className="dokumentvisning-info-tittel">
-              Enkelte dokumenter vises ikke her
-            </Undertittel>
-            <Normaltekst className="bidragslosning">
+          <Undertittel className="dokumentvisning-info-tittel">
+            Enkelte dokumenter vises ikke her
+          </Undertittel>
+          <Normaltekst className="bidragslosning">
+            {translate.formatMessage({
+              id: tekstBidrag,
+              defaultMessage:
+                "Leter du etter bidragsaker, da kan du forsøke ",
+            })}
+            <Lenke
+              href={gamleSaksoversiktTemaBidragUrl}
+              onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
+            >
               {translate.formatMessage({
-                  id: tekstBidrag,
-                  defaultMessage:
-                    "Leter du etter bidragsaker, da kan du forsøke ",
-                })}
-                <Lenke
-                  href={gamleSaksoversiktTemaBidragUrl}
-                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
-                >
-                  {translate.formatMessage({
-                    id: lenketekstBidrag,
-                    defaultMessage: "innsynstjenesten for bidrag.",
-                  })}
-                </Lenke>
-              </Normaltekst>
-            <Normaltekst>
-              Dokumenter som du har sendt inn via vanlig post til NAV og dokumenter sendt inn via tredjepart (leger/andre
-              behandlere, advokater, verger, fullmektiger og lignende), vises dessverre ikke her. Vi jobber for å finne en
-              løsning, og beklager ulempene dette måtte medføre. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er
-              noe du lurer på.
-            </Normaltekst>
-          </div>
-    )
+                id: lenketekstBidrag,
+                defaultMessage: "innsynstjenesten for bidrag.",
+              })}
+            </Lenke>
+          </Normaltekst>
+          <Normaltekst>
+            Dokumenter som du har sendt inn via vanlig post til NAV og dokumenter sendt inn via tredjepart (leger/andre
+            behandlere, advokater, verger, fullmektiger og lignende), vises dessverre ikke her. Vi jobber for å finne en
+            løsning, og beklager ulempene dette måtte medføre. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er
+            noe du lurer på.
+          </Normaltekst>
+        </div>
+      )
+    } else {
+      return (
+        <div className="dokumentvisning-info">
+          <Undertittel className="dokumentvisning-info-tittel">
+            Finner du ikke det du leter etter?
+          </Undertittel>
+          <Normaltekst className="bidragslosning">
+            {translate.formatMessage({
+              id: tekstBidrag,
+              defaultMessage:
+                "Leter du etter bidragsaker, da kan du forsøke ",
+            })}
+            <Lenke
+              href={gamleSaksoversiktTemaBidragUrl}
+              onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
+            >
+              {translate.formatMessage({
+                id: lenketekstBidrag,
+                defaultMessage: "innsynstjenesten for bidrag.",
+              })}
+            </Lenke>
+          </Normaltekst>
+        </div>
+      )
+    }
 }
 
 export default InlineListeDisclaimer;

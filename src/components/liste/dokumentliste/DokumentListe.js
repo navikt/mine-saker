@@ -68,7 +68,7 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
               isLoading={isLoading}
             >
               {journalposter?.map(toListElements)}
-              <InlineListeDisclaimer />
+              <InlineListeDisclaimer plassering="dokumentoversikt"/>
             </Liste>
           </section>
         </React.Fragment>

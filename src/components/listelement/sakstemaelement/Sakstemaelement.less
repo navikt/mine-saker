@@ -1,0 +1,37 @@
+.sakstemalenke-base {
+    padding-top: 1.625em;
+    padding-bottom: 1.125em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__tekst {
+        padding-left: 0;
+    }
+
+    &__border {
+        border-bottom: 1px solid #B7B1A9;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.lenke.sakstemalenke:hover {
+    text-decoration: underline;    
+}
+
+.sakstemalenke__chevron {
+    color: #0067c5;
+    transition: left 250ms;
+    top: -1px;
+    left: -2px;
+}
+
+.sakstemalenke_chevron_animation {
+    left: 0.25em;
+}
+
