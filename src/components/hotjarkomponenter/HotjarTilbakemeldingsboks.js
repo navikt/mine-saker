@@ -1,5 +1,5 @@
 import React from "react";
-import { Element, Normaltekst } from "nav-frontend-typografi";
+import { Element } from "nav-frontend-typografi";
 import { AlertStripeInfo } from "nav-frontend-alertstriper";
 import "./HotjarTilbakemeldingsboks.less";
 import { useIntl } from "react-intl";
@@ -13,7 +13,6 @@ const HotjarTilbakemeldingsboks = () => {
 
   const translate = useIntl();
   const tittel = "hotjar.tittel";
-  const ingress = "hotjar.ingress";
   const tilbakemelding = "hotjar.tilbakemelding";
 
   return (
@@ -22,16 +21,10 @@ const HotjarTilbakemeldingsboks = () => {
         <Element className="ingress">
           {translate.formatMessage({
             id: tittel,
-            defaultMessage: "Noe som mangler, er feil eller som er vanskelig å forstå i saksoversikten eller dokumentvisningen?",
+            defaultMessage: "Vi vil gjerne høre hva du synes om den nye saksoversikten.",
           })}
         </Element>
         <div className="tekst-med-lenke">
-          <Normaltekst >
-            {translate.formatMessage({
-              id: ingress,
-              defaultMessage: "Da vil vi veldig gjerne høre fra deg!",
-            })} 
-          </Normaltekst>
           <div
             role="button"
             className="tilbakemelding_knapp"
@@ -41,7 +34,7 @@ const HotjarTilbakemeldingsboks = () => {
           >
             {translate.formatMessage({
               id: tilbakemelding,
-              defaultMessage: "Gi oss tilbakemelding",
+              defaultMessage: "Gi oss tilbakemelding på den nye nettsiden",
             })}
           </div>
         </div>

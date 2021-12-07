@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { HoyreChevron } from "nav-frontend-chevron";
 import { Link } from "react-router-dom";
 import Lenke from "nav-frontend-lenker";
 import { mineSakerUrl } from "../../../urls";
@@ -47,7 +46,7 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl, onEnter, onLeave }) => {
         logAmplitudeEventNavigerTilSakstema(listOfComponentNames.sakstemaListe, tekst, listOfActions.trykkPaaSakstema);
       }}
     >
-      {tekst} <HoyreChevron className="sakstemalenke__chevron" /> 
+      {tekst}
     </Lenke>
   );
 };

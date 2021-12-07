@@ -25,7 +25,6 @@ const Sakstemaelement = ({ tekst, dato, kode, sakstemaUrl }) => {
       <div className="wrapper">
         <Ingress>
           <Sakstemalenke 
-          className="sakstemalenketest" 
           tekst={tekst} 
           kode={kode} 
           sakstemaUrl={sakstemaUrl}
