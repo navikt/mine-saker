@@ -6,6 +6,7 @@ import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
+import HotjarTilbakemeldingsboks from "../../../components/hotjarkomponenter/HotjarTilbakemeldingsboks";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -17,26 +18,30 @@ const Sakstemaliste = () => {
       {visIngenSaker ? (
         <IngenSakerSide useBothButtons={false} ingress="Du har foreløpig ingen registrerte saker" />
       ) : (
-        <Liste
-          isLoading={isLoading}
-        >
-          {sakstemaer &&
-            sakstemaer?.data.map((sakstema) => (
-              <div key={sakstema.kode} role="link">
-                <ListeElement
-                  type="sakstema"
-                  key={sakstema.kode}
-                  dato={sakstema.sistEndret}
-                  tekst={sakstema.navn}
-                  kode={sakstema.kode}
-                  sakstemaUrl={sakstema.detaljvisningUrl}
-                />
-              </div>
-            ))
-          }
-          <InlineListeDisclaimer/>
-        </Liste>
-      )}
+        <div>
+          <Liste
+            isLoading={isLoading}
+          >
+            {sakstemaer &&
+              sakstemaer?.data.map((sakstema) => (
+                <div key={sakstema.kode} role="link">
+                  <ListeElement
+                    type="sakstema"
+                    key={sakstema.kode}
+                    dato={sakstema.sistEndret}
+                    tekst={sakstema.navn}
+                    kode={sakstema.kode}
+                    sakstemaUrl={sakstema.detaljvisningUrl}
+                  />
+                </div>
+              ))
+            }
+            <InlineListeDisclaimer parentComponent="sakstemaliste"/>
+          </Liste>
+          <HotjarTilbakemeldingsboks />
+        </div>
+      )}            
+      
     </>
   );
 };

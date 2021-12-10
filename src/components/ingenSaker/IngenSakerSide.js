@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import "nav-frontend-knapper-style";
 import Dinosaur from "../../assets/Dinosaur";
 import { dittNavUrl } from "../../urls";
-
-import "./IngenSakerSide.less";
+import { Undertittel, Normaltekst } from "nav-frontend-typografi";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
+import { kontaktOssUrl, gamleSaksoversiktTemaBidragUrl } from "../../urls";
+import Lenke from "nav-frontend-lenker";
+import "./IngenSakerSide.less";
 
 const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const [showSecondButton] = useState(useBothButtons);
@@ -14,10 +16,44 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const translate = useIntl();
   const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
   const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
+  const tekstBidrag = "disclaimer.tekst-bidrag";
+  const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
 
   return (
     <section className="ingen-saker-wrapper">
-      <h2 className="ingen-saker-ingress">{ingress}</h2>
+        
+      <div className="tekstfelt">
+       <h2 className="ingen-saker-ingress">{ingress}</h2>  
+        <Undertittel className="tekstfelt-tittel">
+          Finner du ikke det du leter etter?
+        </Undertittel>
+        <Normaltekst>
+          <ul className="tekstfelt-tekst">
+            <li>
+              <div className="bidragslosning">
+                {translate.formatMessage({
+                  id: tekstBidrag,
+                  defaultMessage:
+                    "For bidragssaker se ",
+                })}
+                <Lenke
+                  href={gamleSaksoversiktTemaBidragUrl}
+                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
+                >
+                  {translate.formatMessage({
+                    id: lenketekstBidrag,
+                    defaultMessage: "innsynstjenesten for bidrag.",
+                  })}
+                </Lenke>
+              </div>
+            </li>
+            <li>Har du sendt inn en søknad per post tar det litt tid før saken vises her.</li>
+            <li>Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager ulempene dette medfører.</li>
+          </ul>
+          
+          Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på. 
+        </Normaltekst>
+      </div>
       <section className="button-section">
         {showSecondButton ? (
           <Link

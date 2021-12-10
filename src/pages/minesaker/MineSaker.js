@@ -4,7 +4,6 @@ import Sakstemaliste from "../../components/liste/sakstemaliste/Sakstemaliste";
 import { useQuery } from "react-query";
 import { sakstemaerUrl } from "../../urls";
 import { fetchResponse } from "../../api";
-import HotjarTilbakemeldingsboks from "../../components/hotjarkomponenter/HotjarTilbakemeldingsboks";
 import PageBase from "../pagebase/PageBase";
 import "./MineSaker.less";
 
@@ -20,7 +19,6 @@ const MineSaker = () => {
       statusCode={data?.statusCode}
     >
       <Sakstemaliste />
-      <HotjarTilbakemeldingsboks />
     </PageBase>
   );
 };
