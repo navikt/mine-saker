@@ -7,7 +7,7 @@ import { logAmplitudeEventNavigerTilSakstema, listOfComponentNames, listOfAction
 import "nav-frontend-lenker";
 import "./Sakstemalenke.less";
 
-const Sakstemalenke = ({ tekst, kode, sakstemaUrl, onEnter, onLeave }) => {
+const Sakstemalenke = ({ tekst, kode, sakstemaUrl }) => {
   if (sakstemaUrl === `${mineSakerUrl}/tema/${kode}`) {
     return (
       <Link
@@ -27,8 +27,6 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl, onEnter, onLeave }) => {
             listOfActions.trykkPaaSakstema
           );
         }}
-        onMouseEnter={onEnter}
-        onMouseLeave={onLeave}
       >
         {tekst} 
       </Link>

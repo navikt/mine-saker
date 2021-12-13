@@ -21,21 +21,25 @@ const Sakstemaelement = ({ tekst, dato, kode, sakstemaUrl }) => {
   setLocaleDate();
 
   return (
-    <div className={"sakstemalenke-base sakstemalenke-base__border"}>
-      <div className="wrapper">
-        <Ingress>
-          <Sakstemalenke 
-          tekst={tekst} 
-          kode={kode} 
-          sakstemaUrl={sakstemaUrl}
-          onEnter={onEnter}
-          onLeave={onLeave}
-           />
-        </Ingress>
-        <Undertekst className="sakstemalenke-base__tekst">{`Sist endret ${formatToReadableDate(dato)}`}</Undertekst>
+    <a className="sakstemalenke-wrapper" href={sakstemaUrl}>
+      <div className={"sakstemalenke-base sakstemalenke-base__border"} 
+        role="button" 
+        tabIndex={0}
+        onMouseEnter={onEnter}
+        onMouseLeave={onLeave}>
+        <div className="wrapper" >
+          <Ingress>
+            <Sakstemalenke 
+            tekst={tekst} 
+            kode={kode} 
+            sakstemaUrl={sakstemaUrl}
+            />
+          </Ingress>
+          <Undertekst className="sakstemalenke-base__tekst">{`Sist endret ${formatToReadableDate(dato)}`}</Undertekst>
+        </div>
+        <HoyreChevron className={`sakstemalenke__chevron ${addClassname ? "sakstemalenke_chevron_animation" : ""}`} /> 
       </div>
-      <HoyreChevron className={`sakstemalenke__chevron ${addClassname ? "sakstemalenke_chevron_animation" : ""}`} /> 
-    </div>
+    </a>
   );
 };
 
