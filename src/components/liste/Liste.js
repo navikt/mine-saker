@@ -11,9 +11,11 @@ const Liste = ({ tittel, ikon, children, isLoading }) => {
   return (
     <Veilederpanel type="plakat" kompakt svg={listeIkon}>
       <div className="liste">
-        <div className={`liste-tittel`}>
-          <Systemtittel>{tittel}</Systemtittel>
-        </div>
+        {tittel && 
+          <div className={`liste-tittel`}>
+            <Systemtittel>{tittel}</Systemtittel>
+          </div>
+        }
         {isLoading ? <Spinner message="Laster inn siden..." /> : children}
       </div>
     </Veilederpanel>
@@ -21,7 +23,7 @@ const Liste = ({ tittel, ikon, children, isLoading }) => {
 };
 
 Liste.propTypes = {
-  tittel: PropTypes.string.isRequired,
+  tittel: PropTypes.string,
   ikon: PropTypes.node,
   isLoading: PropTypes.bool,
   children: PropTypes.node,

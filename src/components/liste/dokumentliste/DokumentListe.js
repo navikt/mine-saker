@@ -7,11 +7,11 @@ import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
-import BeklagerPanel from "../../panel/BeklagerPanel";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
+import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
 
 const toListElements = (journalpost) => {
   if (journalpost.harVedlegg) {
@@ -68,10 +68,8 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
               isLoading={isLoading}
             >
               {journalposter?.map(toListElements)}
+              <InlineListeDisclaimer parentComponent="dokumentliste"/>
             </Liste>
-          </section>
-          <section>
-            <BeklagerPanel />
           </section>
         </React.Fragment>
       )}

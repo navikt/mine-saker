@@ -128,12 +128,11 @@
 
   "disclaimer.tekst": "Denne siden er under utvikling, og er ikke helt ferdig enda. Hvis du ikke finner sakene eller dokumentene du leter etter kan du forsøke ",
   "disclaimer.lenketekst": "den tidligere versjonen.",
-  "disclaimer.tekst-bidrag" : "Leter du etter bidragsaker, da kan du forsøke ",
-  "disclaimer.lenketekst-bidrag" : "denne innsynstjenesten for bidrag.",
+  "disclaimer.tekst-bidrag" : "For bidragssaker se ",
+  "disclaimer.lenketekst-bidrag" : "innsynstjenesten for bidrag.",
 
-  "hotjar.tittel": "Noe som mangler, er feil eller som er vanskelig å forstå i saksoversikten eller dokumentvisningen?",
-  "hotjar.ingress": "Da vil vi gjerne høre fra deg!",
-  "hotjar.tilbakemelding": "Gi oss tilbakemelding",
+  "hotjar.tittel": "Vi vil gjerne høre hva du synes om den nye saksoversikten.",
+  "hotjar.tilbakemelding": "Gi oss tilbakemelding på den nye nettsiden",
 
   "ingen-saker.saksoversikt-knapp": "Gå til Mine saker",
   "ingen-saker.ditt-nav-knapp": "Gå til forsiden av Ditt NAV",

@@ -1,5 +1,4 @@
 import React from "react";
-import ChevronlenkeBase from "../../chevronlenke/ChevronlenkeBase";
 import Dokumentlenke from "../../chevronlenke/dokumentlenke/Dokumentlenke";
 import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
@@ -9,19 +8,21 @@ import JournalpostType from "../../../types/JournalpostType";
 import DokumentType from "../../../types/DokumentType";
 
 const Dokumentelement = ({ journalpost, dokument }) => {
+  setLocaleDate();
   if (dokument.brukerHarTilgang === true) {
     return (
-      <ChevronlenkeBase dato={journalpost.sisteEndret}>
+      <div className={"dokumentlenke-base dokumentlenke-base__border"}>
+      <Ingress>
         <Dokumentlenke
           journalpostId={journalpost.journalpostId}
           tekst={dokument.tittel}
           dokumentId={dokument.dokumentInfoId}
         />
-      </ChevronlenkeBase>
+      </Ingress>
+      <Undertekst className="dokumentlenke-base__tekst">{`Sist endret ${formatToReadableDate(journalpost.sisteEndret)}`}</Undertekst>
+    </div>
     );
   } else {
-    setLocaleDate();
-
     return (
       <div className="maskertelement">
         <div className="maskert-header">
