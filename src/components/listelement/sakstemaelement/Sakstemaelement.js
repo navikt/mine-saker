@@ -21,12 +21,12 @@ const Sakstemaelement = ({ tekst, dato, kode, sakstemaUrl }) => {
   setLocaleDate();
 
   return (
-    <a className="sakstemalenke-wrapper" href={sakstemaUrl}>
-      <div className={"sakstemalenke-base sakstemalenke-base__border"} 
-        role="button" 
-        tabIndex={0}
-        onMouseEnter={onEnter}
-        onMouseLeave={onLeave}>
+    <a className="sakstemalenke-wrapper" 
+      href={sakstemaUrl}
+      tabIndex={0}
+      onMouseEnter={onEnter}
+      onMouseLeave={onLeave}>
+      <div className={"sakstemalenke-base sakstemalenke-base__border"}>
         <div className="wrapper" >
           <Ingress>
             <Sakstemalenke 

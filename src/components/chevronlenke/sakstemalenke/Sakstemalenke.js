@@ -13,6 +13,7 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl }) => {
       <Link
         className="lenke sakstemalenke"
         to={`/mine-saker/tema/${kode}`}
+        tabIndex={-1}
         onClick={() => {
           logAmplitudeEventNavigerTilSakstema(
             listOfComponentNames.sakstemaListe,
@@ -37,6 +38,7 @@ const Sakstemalenke = ({ tekst, kode, sakstemaUrl }) => {
     <Lenke
       className="sakstemalenke"
       href={sakstemaUrl}
+      tabIndex={-1}
       onClick={() => {
         logAmplitudeEventNavigerTilSakstema(listOfComponentNames.sakstemaListe, tekst, listOfActions.trykkPaaSakstema);
       }}
