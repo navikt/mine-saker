@@ -14,6 +14,7 @@ const Lenkeliste = () => {
   const lenkeKey = isTemaException ? temakode : "GENERELLE";
 
   const translate = useIntl();
+  console.log(temakode)
 
   return (
     <div className="lenkeliste">

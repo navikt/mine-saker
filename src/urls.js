@@ -93,3 +93,6 @@ export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
 export const stonadervedtiltakUrl =
   "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
 
+export const pensjonsUrl = "https://www.nav.no/pselv/publisering/dinpensjon.jsf?execution=e1s1";
+export const uforetrygdUrl = "https://www.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1";
+
