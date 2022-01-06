@@ -130,6 +130,8 @@
   "disclaimer.lenketekst": "den tidligere versjonen.",
   "disclaimer.tekst-bidrag" : "For bidragssaker se ",
   "disclaimer.lenketekst-bidrag" : "innsynstjenesten for bidrag.",
+  "disclaimer.tekst-soknad-og-skjema" : "Har du sendt inn en søknad per post tar det litt tid før saken vises her. Du kan likevel ",
+  "disclaimer.lenketekst-soknad-og-skjema" : "laste opp vedlegg via søknad og skjema.",
 
   "hotjar.tittel": "Vi vil gjerne høre hva du synes om den nye saksoversikten.",
   "hotjar.tilbakemelding": "Gi oss tilbakemelding på den nye nettsiden",
