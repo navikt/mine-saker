@@ -62,7 +62,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 >
                   {translate.formatMessage({
                     id: lenketekstSoknadOgSkjema,
-                    defaultMessage: "laste opp vedlegg via søknad og skjema.",
+                    defaultMessage: "ettersende dokumenter via søknad og skjema.",
                   })}
                 </Lenke>
               </div>
