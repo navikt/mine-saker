@@ -4,9 +4,11 @@ import {
   hjelpemidlerUrl,
   klagerettigheterUrl,
   lesmeromdagpengerUrl,
+  pensjonsUrl,
   sosialhjelpUrl,
   stonadervedtiltakUrl,
   sykefravaerUrl,
+  uforetrygdUrl,
 } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
@@ -139,6 +141,22 @@ const tiltakspengerLenker = [
   ...generelleLenker,
 ];
 
+const pensjonLenker = [
+  {
+    url: pensjonsUrl,
+    tekst: "Din pensjon",
+  },
+  ...generelleLenker,
+];
+
+const uforetrygdLenker = [
+  {
+    url: uforetrygdUrl,
+    tekst: "Din uføretrygd",
+  },
+  ...generelleLenker,
+];
+
 const lenker = {
   GENERELLE: generelleLenker,
   DAG: dagpengeLenker,
@@ -149,6 +167,8 @@ const lenker = {
   SYK: sykefravaerLenker,
   SYM: sykemeldingLenker,
   IND: tiltakspengerLenker,
+  PEN: pensjonLenker,
+  UFO: uforetrygdLenker
 };
 
 export default lenker;

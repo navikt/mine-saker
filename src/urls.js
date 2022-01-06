@@ -58,6 +58,18 @@ const GAMLE_SAKSOVERSIKT= {
   production: "https://tjenester.nav.no/saksoversikt",
 };
 
+const PENSJON= {
+  local: "https://localhost:3000/dinpensjon",
+  development: "https://pensjon-pselv-q1.dev.nav.no/pselv/publisering/dinpensjon.jsf?execution=e1s1",
+  production: "https://www.nav.no/pselv/publisering/dinpensjon.jsf?execution=e1s1",
+};
+
+const UFORETRYGD= {
+  local: "https://localhost:3000/uforetrygd",
+  development: "https://pensjon-pselv-q1.dev.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1",
+  production: "https://www.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1",
+};
+
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
@@ -79,6 +91,8 @@ export const dagpengerUrl = DAGPENGER[ENVIRONMENT];
 export const lastOppVedleggUrl = ETTERSENDING[ENVIRONMENT];
 export const dittNavUrl = DITT_NAV[ENVIRONMENT];
 export const foreldrepengerUrl = FORELDREPENGER[ENVIRONMENT];
+export const pensjonsUrl = PENSJON[ENVIRONMENT];
+export const uforetrygdUrl = UFORETRYGD[ENVIRONMENT];
 export const soknadOgSkjemaUrl = SOKNAD_OG_SKJEMA[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
