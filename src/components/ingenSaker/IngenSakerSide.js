@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "nav-frontend-knapper-style";
 import Dinosaur from "../../assets/Dinosaur";
-import { dittNavUrl } from "../../urls";
+import { dittNavUrl, soknadOgSkjemaUrl } from "../../urls";
 import { Undertittel, Normaltekst } from "nav-frontend-typografi";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
@@ -18,6 +18,8 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
   const tekstBidrag = "disclaimer.tekst-bidrag";
   const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
+  const tekstSoknadOgSkjema = "disclaimer.tekst-soknad-og-skjema";
+  const lenketekstSoknadOgSkjema = "disclaimer.lenketekst-soknad-og-skjema";
 
   return (
     <section className="ingen-saker-wrapper">
@@ -47,7 +49,24 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 </Lenke>
               </div>
             </li>
-            <li>Har du sendt inn en søknad per post tar det litt tid før saken vises her.</li>
+            <li>
+              <div className="soknad-og-skjema">
+                {translate.formatMessage({
+                  id: tekstSoknadOgSkjema,
+                  defaultMessage:
+                    "Har du sendt inn en søknad per post tar det litt tid før saken vises her. Du kan likevel ",
+                })}
+                <Lenke
+                  href={soknadOgSkjemaUrl}
+                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
+                >
+                  {translate.formatMessage({
+                    id: lenketekstSoknadOgSkjema,
+                    defaultMessage: "laste opp vedlegg via søknad og skjema.",
+                  })}
+                </Lenke>
+              </div>
+            </li>
             <li>Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager ulempene dette medfører.</li>
           </ul>
           

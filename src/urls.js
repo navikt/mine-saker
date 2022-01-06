@@ -28,6 +28,12 @@ const ETTERSENDING = {
   production: "https://tjenester.nav.no/saksoversikt/ettersending",
 };
 
+const SOKNAD_OG_SKJEMA = {
+  local: "https://localhost:3000/ettersendelse",
+  development: "https://www.dev.nav.no/ettersendelse",
+  production: "https://www.nav.no/ettersendelse",
+};
+
 const HJELPEMIDLER = {
   local: "https://localhost:3000//hjelpemidler/dinehjelpemidler",
   development: "https://hjelpemidler.dev.nav.no/hjelpemidler/dinehjelpemidler",
@@ -87,6 +93,7 @@ export const dittNavUrl = DITT_NAV[ENVIRONMENT];
 export const foreldrepengerUrl = FORELDREPENGER[ENVIRONMENT];
 export const pensjonsUrl = PENSJON[ENVIRONMENT];
 export const uforetrygdUrl = UFORETRYGD[ENVIRONMENT];
+export const soknadOgSkjemaUrl = SOKNAD_OG_SKJEMA[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
