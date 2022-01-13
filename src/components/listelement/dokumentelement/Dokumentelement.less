@@ -1,41 +1,45 @@
-.maskertelement {
-  padding-top: 1.625em;
-  padding-bottom: 1.125em;
-  border-bottom: 1px solid #B7B1A9;
-}
-
-.maskert-header {
-  display: flex;
-  align-items: center;
-  padding-left: 1.625em;
-}
-
-.maskert-etiketter {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-left: 1.625em;
-
-  &__dato {
-    padding-right: 0.45em;
-  }
+.dokumentpanel {
+  margin-bottom: 0.375rem;
 
   &__advarsel {
     padding: 0 0.245em;
+    margin-top: 0.5rem;
+  }
+
+  &__innhold {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__ikon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin-right: 1.5rem;
+  }
+
+  .typo-undertekst {
+    color: #6a6a6a;
   }
 }
-
-.dokumentlenke-base {
-  padding-top: 1.625em;
-  padding-bottom: 1.125em;
-  display: flex;
-  flex-direction: column;
-
-  &__tekst {
-    padding-left: 1.625em;
+.dokumentpanel__med__link:hover,
+:focus {
+  .dokumentpanel__ikon {
+    background-color: #0056b4;
   }
-
-  &__border {
-    border-bottom: 1px solid #B7B1A9;
+  .typo-ingress {
+    color: #0056b4;
   }
+  path {
+    fill: white;
+  }
+}
+.dokumentpanel__med__link:hover {
+  box-shadow: 0 0 0 2px #00347d;
+  outline: none;
 }

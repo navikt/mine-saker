@@ -3,15 +3,16 @@ import { useIntl } from "react-intl";
 import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../Liste";
+import ListeMedDokumenter from "../ListeMedDokumenter";
+
 import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
-import DokumentIkon from "../../../assets/DokumentIkon";
 import InformasjoIkon from "../../../assets/InformasjonIkon";
 import Lenkeliste from "../lenkeliste/Lenkeliste";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
-import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
+import Disclaimerpanel from "../../disclaimer/disclaimerpanel/Disclaimerpanel";
 
 const toListElements = (journalpost) => {
   if (journalpost.harVedlegg) {
@@ -62,14 +63,13 @@ const DokumentListe = ({ sakstemaKey, temakode }) => {
             </Liste>
           </section>
           <section id="dokumentliste">
-            <Liste
+            <ListeMedDokumenter
               tittel={translate.formatMessage({ id: defaultListeTittel, defaultMessage: "Dokumentliste" })}
-              ikon={<DokumentIkon />}
               isLoading={isLoading}
             >
               {journalposter?.map(toListElements)}
-              <InlineListeDisclaimer parentComponent="dokumentliste"/>
-            </Liste>
+              <Disclaimerpanel />
+            </ListeMedDokumenter>
           </section>
         </React.Fragment>
       )}

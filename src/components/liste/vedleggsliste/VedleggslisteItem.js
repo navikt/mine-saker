@@ -1,26 +1,26 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Lenke from "nav-frontend-lenker";
 import { HoyreChevron } from "nav-frontend-chevron";
-import { Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { dokumentUrl } from "../../../urls";
+import { Ingress } from "nav-frontend-typografi";
 
 const VedleggslisteItem = ({ journalpostId, dokumentId, brukerHarTilgang, tittel, children }) => {
   if (brukerHarTilgang === true) {
     return (
-      <li className="vedleggsliste-item">
-        <Lenke className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
-          <HoyreChevron className="vedleggslenke__chevron" /> {children}
-        </Lenke>
+      <li>
+        <a className="vedleggslenke" href={`${dokumentUrl}/${journalpostId}/${dokumentId}`}>
+          <Ingress>{`${children} (PDF)`}</Ingress> 
+          <HoyreChevron className="vedleggslenke__chevron" />
+        </a>
       </li>
     );
   } else {
     return (
       <li className="vedleggsliste-item">
-        <Undertekst className="vedleggsliste-item-undertekst">{tittel}</Undertekst>
+        <Ingress className="vedleggsliste-item-ingress">{tittel + " (PDF)"}</Ingress>
         <EtikettAdvarsel className="maskert-etiketter__advarsel" mini>
-          Vedlegget kan ikke vises
+            Vedlegget kan ikke vises
         </EtikettAdvarsel>
       </li>
     );
