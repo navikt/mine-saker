@@ -5,7 +5,7 @@ import "./Disclaimerpanel.less"
 
 const Disclaimerpanel = () => {
     return (
-        <Panel>
+        <Panel className="dokumentvisning-info">
             <Undertittel className="dokumentvisning-info-tittel">
             Derfor kan du ikke se alle dokumentene
             </Undertittel>
