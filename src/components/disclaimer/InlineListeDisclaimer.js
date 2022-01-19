@@ -7,14 +7,11 @@ import { logAmplitudeEvent, listOfComponentNames, listOfActions } from '../../ut
 import "./InlineListeDisclaimer.less";
 
 
-const InlineListeDisclaimer = ({ parentComponent }) => {
+const InlineListeDisclaimer = () => {
 
   const translate = useIntl();
   const tekstBidrag = "disclaimer.tekst-bidrag";
   const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
-
-  
-  if(parentComponent === "sakstemaliste") {
     return (
       <div className="dokumentvisning-info">
         <Undertittel className="dokumentvisning-info-tittel">
@@ -48,25 +45,6 @@ const InlineListeDisclaimer = ({ parentComponent }) => {
         </Normaltekst>
       </div>
     )
-  } else {
-    return (
-      <div className="dokumentvisning-info">
-        <Undertittel className="dokumentvisning-info-tittel">
-          Derfor kan du ikke se alle dokumentene
-        </Undertittel>
-        <Normaltekst>
-          Det er to typer dokumenter vi foreløpig ikke kan vise deg:
-
-          <ul className="tekst-dokumentliste">
-            <li>Papirer du har sendt til NAV i posten</li>
-            <li>Dokumenter som gjelder saken din, men som er sendt av andre på vegne av deg. Det kan for eksempel være en lege, advokat, verge eller fullmektig.</li>
-          </ul>
-
-          Vi beklager ulempene dette medfører.
-        </Normaltekst>
-      </div>
-    )
-  }
 }
 
 export default InlineListeDisclaimer;
