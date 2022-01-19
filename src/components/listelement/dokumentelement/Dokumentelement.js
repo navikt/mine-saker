@@ -48,7 +48,7 @@ const DokumentInnholdUtenTilgang = ({journalpost, dokument}) => {
   return (
     <Panel
     id={journalpost.journalpostId}
-    className="dokumentpanel">
+    className="dokumentpanel dokumentpanel__uten_link">
       <div className="dokumentpanel__innhold" >
       <div className="dokumentpanel__ikon" >
         <MaskertIkon/>
