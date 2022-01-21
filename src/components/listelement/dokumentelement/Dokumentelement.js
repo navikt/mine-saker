@@ -4,7 +4,7 @@ import { Undertekst, Ingress } from "nav-frontend-typografi";
 import Panel from 'nav-frontend-paneler';
 import  { LenkepanelBase } from "nav-frontend-lenkepanel";
 
-import { formatToReadableDate } from "../../../utils/date";
+import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
 import { dokumentUrl } from "../../../urls";
 import { useIntl } from "react-intl";
 
@@ -19,6 +19,7 @@ import DokumentType from "../../../types/DokumentType";
 const DokumentInnholdMedTilgang = ({journalpost, dokument}) => {
   const url = `${dokumentUrl}/${journalpost.journalpostId}/${dokument.dokumentInfoId}`;
   const translate = useIntl();
+  setLocaleDate();
 
   return (
     <LenkepanelBase
@@ -44,6 +45,7 @@ const DokumentInnholdMedTilgang = ({journalpost, dokument}) => {
 
 const DokumentInnholdUtenTilgang = ({journalpost, dokument}) => {
   const translate = useIntl();
+  setLocaleDate();
 
   return (
     <Panel
