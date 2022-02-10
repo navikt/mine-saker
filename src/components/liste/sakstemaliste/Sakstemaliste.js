@@ -6,7 +6,6 @@ import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
 import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
-import HotjarTilbakemeldingsboks from "../../../components/hotjarkomponenter/HotjarTilbakemeldingsboks";
 import "./Sakstemaliste.less";
 
 const Sakstemaliste = () => {
@@ -38,10 +37,8 @@ const Sakstemaliste = () => {
             }
             <InlineListeDisclaimer parentComponent="sakstemaliste"/>
           </Liste>
-          <HotjarTilbakemeldingsboks />
         </div>
-      )}            
-      
+      )}                  
     </>
   );
 };
