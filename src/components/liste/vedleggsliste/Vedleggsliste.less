@@ -1,3 +1,6 @@
+@import "~@navikt/ds-tokens/dist/tokens.less";
+
+
 .vedleggsliste {
   list-style-type: none;
   padding-inline-start: 0;
@@ -11,10 +14,10 @@
 }
 
 .vedleggsliste-item {
-  border-top: 2px solid #c9c9c9;
+  border-top: 2px solid @navds-semantic-color-divider;
   padding: 1.125rem 0 1.125rem 0em;
   .vedleggsliste-item-ingress {
-    color: #6a6a6a;
+    color: @navds-semantic-color-text-muted;
   }
   .maskert-etiketter__advarsel{
     margin-bottom: 0.5rem;
@@ -28,15 +31,15 @@
   justify-content: space-between;
 
   border: 2px solid transparent;
-  border-top: 2px solid #c9c9c9;
+  border-top: 2px solid @navds-semantic-color-divider;
   border-radius: 4px;
 
   padding: 1.125rem 0 1.125rem 0em;
   text-decoration: none;
-  color: black;
+  color: @navds-semantic-color-text;
 
   &:hover {
-    border: 2px solid #0056b4;
+    border: 2px solid @navds-semantic-color-interaction-primary-hover;
     .vedleggslenke__chevron {
       left: 0.25em;
     }
