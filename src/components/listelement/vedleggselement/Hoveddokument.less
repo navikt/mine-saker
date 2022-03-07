@@ -38,7 +38,6 @@
 
   &:hover,
   &:focus {
-    box-shadow: 0 0 0 4px #00347d;
     outline: none;
 
     .hoveddokument__ikon {
@@ -51,7 +50,12 @@
       fill: #ffffff;
     }
   }
-  &:hover {
+
+  &:focus{
+    box-shadow: 0 0 0 4px #00347d;
+  }
+  &:hover{
+    box-shadow: 0 0 0 2px #00347d;
     .hoveddokument__chevron {
       left: 0.25rem;
     }

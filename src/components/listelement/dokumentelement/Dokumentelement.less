@@ -32,19 +32,29 @@
   color: #6a6a6a;
 }
 
-.dokumentpanel__med__link:hover,
-.dokumentpanel__med__link:focus {
-  .dokumentpanel__ikon {
-    background-color: #0056b4;
+.dokumentpanel__med__link{
+
+  &:focus,&:hover{
+    outline: none;
+
+    .dokumentpanel__ikon {
+      background-color: #0056b4;
+    }
+
+    .typo-ingress {
+      color: #0056b4;
+    }
+    
+    path {
+      fill: white;
+    }
   }
-  .typo-ingress {
-    color: #0056b4;
+
+  &:hover{
+    box-shadow: 0 0 0 2px #00347d;
   }
-  path {
-    fill: white;
+
+  &:focus{
+    box-shadow: 0 0 0 4px #00347d;
   }
-}
-.dokumentpanel__med__link:hover {
-  box-shadow: 0 0 0 2px #00347d;
-  outline: none;
 }
