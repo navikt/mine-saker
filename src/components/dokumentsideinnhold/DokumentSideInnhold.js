@@ -46,8 +46,6 @@ const DokumentSideInnhold = ({ sakstemaKey, tittel, temakode, gjelendeJournalpos
         </React.Fragment>
       ) : (
         <React.Fragment>
-          <section>
-          </section>
           <section id="dokumentliste">
             <ListeMedDokumenter
               tittel={translate.formatMessage({ id: defaultListeTittel, defaultMessage: "Dokumentliste" })}
