@@ -4,7 +4,6 @@ import ScrollToTop from "./components/scroll/ScrollToTop";
 import MineSaker from "./pages/minesaker/MineSaker";
 import Sakstema from "./pages/sakstema/Sakstema";
 import Dokument from "./pages/dokument/Dokument";
-
 import "./App.less";
 
 const App = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import { useIntl } from "react-intl";
 import { string } from "prop-types";
 import ListeMedDokumenter from "../ListeMedDokumenter";
-
 import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
 import { useQuery } from "react-query";
