@@ -53,7 +53,7 @@ const DokumentSideInnhold = ({ sakstemaKey, tittel, temakode, gjelendeJournalpos
             >
               {Dokument ? Dokument :
                 <AlertStripeInfo >
-                  Vi fant ikke noen dokumenter på dette id-nummeret. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe         du trenger hjelp med.
+                  Vi fant ikke noen dokumenter på dette id-nummeret. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du trenger hjelp med.
                 </AlertStripeInfo>
               }
               <Lenke className="se-alle-dokumenter" href={`${mineSakerUrl}/tema/${temakode}`}>
