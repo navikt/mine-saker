@@ -4,8 +4,6 @@ import { useIntl } from "react-intl";
 import DokumentIkon from "../../../assets/DokumentIkon";
 import MaskertIkon from "../../../assets/MaskertIkon";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
-
-
 import { Ingress, Undertekst } from "nav-frontend-typografi";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { HoyreChevron } from "nav-frontend-chevron";
@@ -25,7 +23,7 @@ const Hoveddokument = ({ brukerHarTilgang, tittel, sisteEndret, url }) => {
 
         <div className="hoveddokument__info">
           <Undertekst>
-            {translate.formatMessage({ id:"dokument-sist-endret" }) + " " + formatToReadableDate(sisteEndret)}
+            {translate.formatMessage({ id: "dokument-sist-endret" }) + " " + formatToReadableDate(sisteEndret)}
           </Undertekst>
           <Ingress>{`${tittel}`}</Ingress>
         </div>
@@ -40,7 +38,7 @@ const Hoveddokument = ({ brukerHarTilgang, tittel, sisteEndret, url }) => {
 
       <div className="hoveddokument__info">
         <Undertekst>
-          {translate.formatMessage({ id:"dokument-sist-endret" }) + " " + formatToReadableDate(sisteEndret)}
+          {translate.formatMessage({ id: "dokument-sist-endret" }) + " " + formatToReadableDate(sisteEndret)}
         </Undertekst>
         <Ingress>{`${tittel}`}</Ingress>
         <EtikettAdvarsel className="maskert-etiketter__advarsel" mini>

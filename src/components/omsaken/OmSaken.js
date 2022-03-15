@@ -11,12 +11,12 @@ const OmSaken = ({ temakode }) => {
   const defaultLenkepanelTittel = "default.om-saken-panel-tittel";
   const defaultIngress = "default.ingress";
   let basePath = "sakstema." + temakode + ".ingress";
-
-
   const checkValue = translate.formatMessage({ id: basePath });
+
   if (checkValue === "default") {
     basePath = "default.ingress";
   }
+  
   return (
     <Liste
       tittel={translate.formatMessage({ id: defaultLenkepanelTittel, defaultMessage: "Om saken" })}

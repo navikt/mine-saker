@@ -5,7 +5,6 @@ import Hoveddokument from "./Hoveddokument";
 import "./Vedleggselement.less";
 import JournalpostType from "../../../types/JournalpostType";
 import { dokumentUrl } from "../../../urls";
-
 import Panel from 'nav-frontend-paneler';
 
 const Vedleggselement = ({ journalpost }) => {

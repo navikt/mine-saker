@@ -2,21 +2,17 @@ import React from "react";
 import { EtikettAdvarsel } from "nav-frontend-etiketter";
 import { Undertekst, Ingress } from "nav-frontend-typografi";
 import Panel from 'nav-frontend-paneler';
-import  { LenkepanelBase } from "nav-frontend-lenkepanel";
-
+import { LenkepanelBase } from "nav-frontend-lenkepanel";
 import { formatToReadableDate, setLocaleDate } from "../../../utils/date";
 import { dokumentUrl } from "../../../urls";
 import { useIntl } from "react-intl";
-
-
 import "./Dokumentelement.less";
 import DokumentIkon from "../../../assets/DokumentIkon"
 import MaskertIkon from "../../../assets/MaskertIkon"
-
 import JournalpostType from "../../../types/JournalpostType";
 import DokumentType from "../../../types/DokumentType";
 
-const DokumentInnholdMedTilgang = ({journalpost, dokument}) => {
+const DokumentInnholdMedTilgang = ({ journalpost, dokument }) => {
   const url = `${dokumentUrl}/${journalpost.journalpostId}/${dokument.dokumentInfoId}`;
   const translate = useIntl();
   setLocaleDate();
@@ -29,51 +25,51 @@ const DokumentInnholdMedTilgang = ({journalpost, dokument}) => {
       className="dokumentpanel__med__link dokumentpanel"
     >
       <div className="dokumentpanel__innhold" >
-      <div className="dokumentpanel__ikon" >
-        <DokumentIkon/>
+        <div className="dokumentpanel__ikon" >
+          <DokumentIkon />
+        </div>
+        <div>
+          <Undertekst>
+            {translate.formatMessage({ id: "dokument-sist-endret" }) + " " + formatToReadableDate(journalpost.sisteEndret)}
+          </Undertekst>
+          <Ingress>{`${dokument.tittel} (PDF)`}</Ingress>
+        </div>
       </div>
-      <div>
-        <Undertekst>
-        {translate.formatMessage({id:"dokument-sist-endret" })+ " " + formatToReadableDate(journalpost.sisteEndret)}
-        </Undertekst>
-        <Ingress>{`${dokument.tittel} (PDF)`}</Ingress>
-      </div>
-      </div>
-  </LenkepanelBase>
+    </LenkepanelBase>
   );
 };
 
-const DokumentInnholdUtenTilgang = ({journalpost, dokument}) => {
+const DokumentInnholdUtenTilgang = ({ journalpost, dokument }) => {
   const translate = useIntl();
   setLocaleDate();
 
   return (
     <Panel
-    id={journalpost.journalpostId}
-    className="dokumentpanel dokumentpanel__uten_link">
+      id={journalpost.journalpostId}
+      className="dokumentpanel dokumentpanel__uten_link">
       <div className="dokumentpanel__innhold" >
-      <div className="dokumentpanel__ikon" >
-        <MaskertIkon/>
-      </div>
+        <div className="dokumentpanel__ikon" >
+          <MaskertIkon />
+        </div>
         <div>
           <Undertekst>
-            {translate.formatMessage({id:"dokument-sist-endret" }) + " " + formatToReadableDate(journalpost.sisteEndret)}
+            {translate.formatMessage({ id: "dokument-sist-endret" }) + " " + formatToReadableDate(journalpost.sisteEndret)}
           </Undertekst>
           <Ingress>{`${dokument.tittel}`}</Ingress>
           <EtikettAdvarsel className="dokumentpanel__advarsel" mini>
             Dokumentet kan ikke vises
-        </EtikettAdvarsel>
+          </EtikettAdvarsel>
         </div>
       </div>
-  </Panel>
+    </Panel>
   );
 };
 
 
 const Dokumentelement = ({ journalpost, dokument }) => {
-  return (dokument.brukerHarTilgang ? 
-  <DokumentInnholdMedTilgang journalpost={journalpost} dokument={dokument} /> : 
-  <DokumentInnholdUtenTilgang journalpost={journalpost} dokument={dokument} />)
+  return (dokument.brukerHarTilgang ?
+    <DokumentInnholdMedTilgang journalpost={journalpost} dokument={dokument} /> :
+    <DokumentInnholdUtenTilgang journalpost={journalpost} dokument={dokument} />)
 };
 
 Dokumentelement.propTypes = {

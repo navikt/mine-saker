@@ -27,7 +27,6 @@ const hentGjelendeDokument = (journalposter, gjelendeJournalpostId) => {
   }
 }
 
-
 const DokumentSideInnhold = ({ sakstemaKey, tittel, temakode, gjelendeJournalpostId }) => {
   const { data, isLoading, isSuccess } = useQuery(sakstemaKey, fetchResponse);
   const visIngenSaker = data?.data?.length === 0 && isSuccess && data?.statusCode === 200;
