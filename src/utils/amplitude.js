@@ -32,7 +32,6 @@ export const initializeAmplitude = () => {
 };
 
 export function logAmplitudeEvent(amplitudeComponentName, amplitudeAction) {
-  console.log(amplitudeComponentName,amplitudeAction,"11111")
   amplitude.getInstance().logEvent("navigere", {
     amplitudeComponentName,
     amplitudeAction,
