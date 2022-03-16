@@ -10,6 +10,7 @@ import ListeMedDokumenter from '../liste/ListeMedDokumenter';
 import Lenke from "nav-frontend-lenker"
 import { AlertStripeInfo } from "nav-frontend-alertstriper";
 import "./DokumentSideInnhold.less";
+import { logAmplitudeEvent, listOfActions, listOfComponentNames } from '../../utils/amplitude';
 
 const hentGjelendeDokument = (journalposter, gjelendeJournalpostId) => {
   if (!journalposter) {
@@ -55,7 +56,9 @@ const DokumentSideInnhold = ({ sakstemaKey, tittel, temakode, gjelendeJournalpos
                   Vi fant ikke noen dokumenter på dette id-nummeret. Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du trenger hjelp med.
                 </AlertStripeInfo>
               }
-              <Lenke className="se-alle-dokumenter" href={`${mineSakerUrl}/tema/${temakode}`}>
+              <Lenke className="se-alle-dokumenter" href={`${mineSakerUrl}/tema/${temakode}`}
+                onClick={() => logAmplitudeEvent(listOfComponentNames.seAlleDokumenter, listOfActions.trykkPaaLenke)}
+              >
                 Se alle dine dokumenter for tema {tittel}
               </Lenke>
             </ListeMedDokumenter>

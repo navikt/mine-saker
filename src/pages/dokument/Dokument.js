@@ -6,7 +6,7 @@ import PageBase from "../pagebase/PageBase";
 import { createCrumb } from "../../hooks/breadcrumbs";
 import { redirectToIdPorten } from "../../utils/redirect";
 import { fetchResponse } from "../../api";
-import { journalposterUrl, mineSakerUrl } from "../../urls"
+import { journalposterUrl, mineSakerUrl } from "../../urls";
 import DokumentSideInnhold from '../../components/dokumentsideinnhold/DokumentSideInnhold';
 
 const Dokument = () => {
