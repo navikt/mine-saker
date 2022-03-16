@@ -5,11 +5,11 @@ import Dokumentelement from "./dokumentelement/Dokumentelement";
 import Vedleggselement from "./vedleggselement/Vedleggselement";
 
 const components = (type) =>
-  ({
-    sakstema: Sakstemaelement,
-    dokument: Dokumentelement,
-    vedlegg: Vedleggselement,
-  }[type]);
+({
+  sakstema: Sakstemaelement,
+  dokument: Dokumentelement,
+  vedlegg: Vedleggselement,
+}[type]);
 
 const ListeElement = ({ type, ...props }) => {
   const Component = components(type);

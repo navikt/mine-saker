@@ -1,25 +1,44 @@
+@import "~@navikt/ds-tokens/dist/tokens.less";
+
 .vedleggsliste {
   list-style-type: none;
   padding-inline-start: 0;
   margin: 0;
+  margin-top: 0.5rem;
+  .vedleggslenke {
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+  }
 }
 
 .vedleggsliste-item {
-  display: flex;
-  flex-direction: row;
-  padding-top: 0.25em;
-  flex-wrap: wrap;
-
-  .vedleggsliste-item-undertekst {
-    margin-right: 1em;
+  border-top: 2px solid @navds-semantic-color-divider;
+  padding: 1.125rem 0 1.125rem 0em;
+  .vedleggsliste-item-ingress {
+    color: @navds-semantic-color-text-muted;
+  }
+  .maskert-etiketter__advarsel{
+    margin-bottom: 0.5rem;
   }
 }
 
 .vedleggslenke {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 2px solid transparent;
+  border-top: 2px solid @navds-semantic-color-divider;
+  border-radius: 4px;
+
+  padding: 1.125rem 0 1.125rem 0em;
   text-decoration: none;
+  color: @navds-semantic-color-text;
 
   &:hover {
-    text-decoration: underline;
+    border: 2px solid @navds-semantic-color-interaction-primary-hover;
     .vedleggslenke__chevron {
       left: 0.25em;
     }
