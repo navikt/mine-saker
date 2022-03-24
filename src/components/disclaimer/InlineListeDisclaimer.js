@@ -1,9 +1,8 @@
 import React from 'react';
 import Lenke from "nav-frontend-lenker";
 import { Undertittel, Normaltekst } from "nav-frontend-typografi";
-import { kontaktOssUrl, gamleSaksoversiktTemaBidragUrl } from "../../urls";
+import { kontaktOssUrl } from "../../urls";
 import { useIntl } from "react-intl";
-import { logAmplitudeEvent, listOfComponentNames, listOfActions } from '../../utils/amplitude';
 import "./InlineListeDisclaimer.less";
 
 

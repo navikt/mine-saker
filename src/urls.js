@@ -98,7 +98,6 @@ export const soknadOgSkjemaUrl = SOKNAD_OG_SKJEMA[ENVIRONMENT];
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
 export const gamleSaksoversiktUrl = GAMLE_SAKSOVERSIKT[ENVIRONMENT];
-export const gamleSaksoversiktTemaBidragUrl = `${gamleSaksoversiktUrl}/tema/BID`
 
 export const kontaktOssUrl = "https://www.nav.no/person/kontakt-oss";
 export const tilbakemeldingerUrl = "https://www.nav.no/person/kontakt-oss/tilbakemeldinger";
