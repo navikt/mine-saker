@@ -6,7 +6,7 @@ import { dittNavUrl, soknadOgSkjemaUrl } from "../../urls";
 import { Undertittel, Normaltekst } from "nav-frontend-typografi";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
-import { kontaktOssUrl, gamleSaksoversiktTemaBidragUrl } from "../../urls";
+import { kontaktOssUrl } from "../../urls";
 import Lenke from "nav-frontend-lenker";
 import "./IngenSakerSide.less";
 
@@ -17,15 +17,14 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
   const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
   const tekstBidrag = "disclaimer.tekst-bidrag";
-  const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
   const tekstSoknadOgSkjema = "disclaimer.tekst-soknad-og-skjema";
   const lenketekstSoknadOgSkjema = "disclaimer.lenketekst-soknad-og-skjema";
 
   return (
     <section className="ingen-saker-wrapper">
-        
+
       <div className="tekstfelt">
-       <h2 className="ingen-saker-ingress">{ingress}</h2>  
+        <h2 className="ingen-saker-ingress">{ingress}</h2>
         <Undertittel className="tekstfelt-tittel">
           Finner du ikke det du leter etter?
         </Undertittel>
@@ -36,17 +35,8 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 {translate.formatMessage({
                   id: tekstBidrag,
                   defaultMessage:
-                    "For bidragssaker se ",
+                    "For bidragssaker er innsyn foreløpig ikke er tilgjengelig. Hvis du har søkt digitalt og fått kvittering, så har NAV fått søknaden.",
                 })}
-                <Lenke
-                  href={gamleSaksoversiktTemaBidragUrl}
-                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
-                >
-                  {translate.formatMessage({
-                    id: lenketekstBidrag,
-                    defaultMessage: "innsynstjenesten for bidrag.",
-                  })}
-                </Lenke>
               </div>
             </li>
             <li>
@@ -69,8 +59,8 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
             </li>
             <li>Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager ulempene dette medfører.</li>
           </ul>
-          
-          Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på. 
+
+          Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på.
         </Normaltekst>
       </div>
       <section className="button-section">
