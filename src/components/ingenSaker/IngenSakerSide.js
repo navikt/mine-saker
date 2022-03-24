@@ -17,7 +17,6 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
   const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
   const tekstBidrag = "disclaimer.tekst-bidrag";
-  const lenketekstBidrag = "disclaimer.lenketekst-bidrag";
   const tekstSoknadOgSkjema = "disclaimer.tekst-soknad-og-skjema";
   const lenketekstSoknadOgSkjema = "disclaimer.lenketekst-soknad-og-skjema";
 
@@ -36,17 +35,8 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 {translate.formatMessage({
                   id: tekstBidrag,
                   defaultMessage:
-                    "For bidragssaker se ",
+                    "For bidragssaker er innsyn foreløpig ikke er tilgjengelig. Hvis du har søkt digitalt og fått kvittering, så har NAV fått søknaden.",
                 })}
-                <Lenke
-                  href={gamleSaksoversiktTemaBidragUrl}
-                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
-                >
-                  {translate.formatMessage({
-                    id: lenketekstBidrag,
-                    defaultMessage: "innsynstjenesten for bidrag.",
-                  })}
-                </Lenke>
               </div>
             </li>
             <li>

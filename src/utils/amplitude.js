@@ -15,7 +15,6 @@ export const listOfComponentNames = {
   },
   disclaimerLenke:{
     tilGamleSaksoversikt: "Lenke til gamle saksoversikt i disclaimer",
-    tilGamleSaksoversiktTemaBidrag: "Lenke til bidrag i disclaimer",
   },
   hotjarComponent: "Hotjar tilbakemeldingsboks",
   seAlleDokumenter: "Lenke til alle dokumenter for gjelende tema",
