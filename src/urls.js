@@ -24,7 +24,7 @@ const DAGPENGER = {
 
 const ETTERSENDING = {
   local: "https://localhost:3000/arbeid/saksoversikt/ettersending",
-  development: "https://tjenester-q1.nav.no/saksoversikt/ettersending",
+  development: "https://www.dev.nav.no/saksoversikt/ettersending",
   production: "https://tjenester.nav.no/saksoversikt/ettersending",
 };
 
