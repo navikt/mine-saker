@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "6.4.0",
+    "@craco/craco": "6.4.3",
     "@navikt/ds-tokens": "0.8.4",
     "@navikt/nav-dekoratoren-moduler": "1.6.9",
     "@sentry/browser": "5.30.0",
