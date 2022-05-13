@@ -2,13 +2,13 @@ import React from "react";
 import { useIntl } from "react-intl";
 import { string } from "prop-types";
 import ListeMedDokumenter from "../ListeMedDokumenter";
-import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
+import IngenSakerSide from "../../ingen-saker/IngenSakerSide";
 import ListeElement from "../../listelement/ListeElement";
 import { useQuery } from "react-query";
 import { fetchResponse } from "../../../api";
 import "./Dokumentliste.less";
 import Disclaimerpanel from "../../disclaimer/disclaimerpanel/Disclaimerpanel";
-import OmSaken from "../../omsaken/OmSaken";
+import OmSaken from "../../om-saken/OmSaken";
 
 const toListElements = (journalpost) => {
   if (journalpost.harVedlegg) {

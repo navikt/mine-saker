@@ -22,12 +22,9 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
 
   return (
     <section className="ingen-saker-wrapper">
-
       <div className="tekstfelt">
         <h2 className="ingen-saker-ingress">{ingress}</h2>
-        <Undertittel className="tekstfelt-tittel">
-          Finner du ikke det du leter etter?
-        </Undertittel>
+        <Undertittel className="tekstfelt-tittel">Finner du ikke det du leter etter?</Undertittel>
         <Normaltekst>
           <ul className="tekstfelt-tekst">
             <li>
@@ -48,7 +45,12 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 })}
                 <Lenke
                   href={soknadOgSkjemaUrl}
-                  onClick={() => logAmplitudeEvent(listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag, listOfActions.trykkPaaLenke)}
+                  onClick={() =>
+                    logAmplitudeEvent(
+                      listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag,
+                      listOfActions.trykkPaaLenke
+                    )
+                  }
                 >
                   {translate.formatMessage({
                     id: lenketekstSoknadOgSkjema,
@@ -57,9 +59,11 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
                 </Lenke>
               </div>
             </li>
-            <li>Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager ulempene dette medfører.</li>
+            <li>
+              Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager
+              ulempene dette medfører.
+            </li>
           </ul>
-
           Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på.
         </Normaltekst>
       </div>
@@ -69,10 +73,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
             to="/mine-saker/"
             className="knapp knapp--hoved"
             onClick={() =>
-              logAmplitudeEvent(
-                listOfComponentNames.ingenSakerSide.tilMineSakerKnapp,
-                listOfActions.trykkPaaLenkeKnapp
-              )
+              logAmplitudeEvent(listOfComponentNames.ingenSakerSide.tilMineSakerKnapp, listOfActions.trykkPaaLenkeKnapp)
             }
           >
             {translate.formatMessage({ id: saksoversiktKnappTekst, defaultMessage: "Gå til Mine saker" })}

@@ -1,11 +1,11 @@
 import React from "react";
 import { Element } from "nav-frontend-typografi";
 import { AlertStripeInfo } from "nav-frontend-alertstriper";
-import "./HotjarTilbakemeldingsboks.less";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
+import "./Tilbakemeldingsboks.less";
 
-const HotjarTilbakemeldingsboks = () => {
+const Tilbakemeldingsboks = () => {
   const triggerHotJar = () => {
     window.hj("trigger", "trigger-tilbakemelding");
     logAmplitudeEvent(listOfComponentNames.hotjarComponent, listOfActions.aapnetHotjarTilbakemeldingsboks);
@@ -43,4 +43,4 @@ const HotjarTilbakemeldingsboks = () => {
   );
 };
 
-export default HotjarTilbakemeldingsboks;
+export default Tilbakemeldingsboks;
