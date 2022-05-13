@@ -4,7 +4,7 @@ import { fetchResponse } from "../../../api";
 import { sakstemaerUrl } from "../../../urls";
 import Liste from "../Liste";
 import ListeElement from "../../listelement/ListeElement";
-import IngenSakerSide from "../../ingenSaker/IngenSakerSide";
+import IngenSakerSide from "../../ingen-saker/IngenSakerSide";
 import InlineListeDisclaimer from "../../disclaimer/InlineListeDisclaimer";
 import "./Sakstemaliste.less";
 
@@ -18,9 +18,7 @@ const Sakstemaliste = () => {
         <IngenSakerSide useBothButtons={false} ingress="Du har foreløpig ingen registrerte saker" />
       ) : (
         <div>
-          <Liste
-            isLoading={isLoading}
-          >
+          <Liste isLoading={isLoading}>
             {sakstemaer &&
               sakstemaer?.data.map((sakstema) => (
                 <div key={sakstema.kode} role="link">
@@ -33,12 +31,11 @@ const Sakstemaliste = () => {
                     sakstemaUrl={sakstema.detaljvisningUrl}
                   />
                 </div>
-              ))
-            }
-            <InlineListeDisclaimer parentComponent="sakstemaliste"/>
+              ))}
+            <InlineListeDisclaimer parentComponent="sakstemaliste" />
           </Liste>
         </div>
-      )}                  
+      )}
     </>
   );
 };

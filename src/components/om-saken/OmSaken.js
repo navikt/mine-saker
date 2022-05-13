@@ -1,9 +1,9 @@
-import React from 'react';
-import { useIntl } from 'react-intl';
-import { string } from 'prop-types';
+import React from "react";
+import { useIntl } from "react-intl";
+import { string } from "prop-types";
 import { Normaltekst } from "nav-frontend-typografi";
 import Liste from "../liste/Liste";
-import Lenkeliste from '../liste/lenkeliste/Lenkeliste';
+import Lenkeliste from "../liste/lenkeliste/Lenkeliste";
 import InformasjoIkon from "../../assets/InformasjonIkon";
 
 const OmSaken = ({ temakode }) => {
@@ -16,7 +16,7 @@ const OmSaken = ({ temakode }) => {
   if (checkValue === "default") {
     basePath = "default.ingress";
   }
-  
+
   return (
     <Liste
       tittel={translate.formatMessage({ id: defaultLenkepanelTittel, defaultMessage: "Om saken" })}
@@ -27,11 +27,11 @@ const OmSaken = ({ temakode }) => {
       </Normaltekst>
       <Lenkeliste />
     </Liste>
-  )
-}
+  );
+};
 
 OmSaken.prototype = {
-  temakode: string.isRequired
-}
+  temakode: string.isRequired,
+};
 
-export default OmSaken
+export default OmSaken;
