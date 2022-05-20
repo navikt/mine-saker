@@ -23,9 +23,9 @@ const DAGPENGER = {
 };
 
 const ETTERSENDING = {
-  local: "https://localhost:3000/arbeid/saksoversikt/ettersending",
-  development: "https://www.dev.nav.no/saksoversikt/ettersending",
-  production: "https://tjenester.nav.no/saksoversikt/ettersending",
+  local: "https://localhost:3000/ettersendelse",
+  development: "https://www.dev.nav.no/ettersendelse",
+  production: "https://www.nav.no/ettersendelse",
 };
 
 const SOKNAD_OG_SKJEMA = {
