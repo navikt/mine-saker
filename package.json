@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "6.4.3",
-    "@navikt/ds-tokens": "0.8.7",
+    "@navikt/ds-tokens": "0.9.1",
     "@navikt/nav-dekoratoren-moduler": "1.6.9",
     "@sentry/browser": "5.30.0",
     "@types/react-modal": "3.13.1",
