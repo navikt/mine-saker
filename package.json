@@ -47,7 +47,7 @@
     "react-ga": "3.3.0",
     "react-intl": "5.25.1",
     "react-query": "3.39.1",
-    "react-router-dom": "5.3.1"
+    "react-router-dom": "5.3.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.10",
