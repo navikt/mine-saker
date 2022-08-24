@@ -1,7 +1,7 @@
 export const baseBreadcrumbs = [
   {
-    url: "https://www.nav.no/person/dittnav",
-    title: "Ditt NAV",
+    url: "https://www.nav.no/minside",
+    title: "Min side",
     handleInApp: false,
   },
   {
