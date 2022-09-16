@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "nav-frontend-knapper-style";
 import Dinosaur from "../../assets/Dinosaur";
-import { dittNavUrl, soknadOgSkjemaUrl } from "../../urls";
+import { minSideUrl, soknadOgSkjemaUrl } from "../../urls";
 import { Undertittel, Normaltekst } from "nav-frontend-typografi";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
@@ -80,7 +80,7 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
           </Link>
         ) : null}
         <a
-          href={dittNavUrl}
+          href={minSideUrl}
           className="knapp"
           onClick={() =>
             logAmplitudeEvent(

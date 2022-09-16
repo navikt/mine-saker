@@ -70,6 +70,12 @@ const UFORETRYGD= {
   production: "https://www.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1",
 };
 
+const MIN_SIDE= {
+  local: "https://localhost:3000/minside",
+  development: "https://www.dev.nav.no/minside",
+  production: "https://www.nav.no/minside",
+}
+
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
@@ -94,6 +100,7 @@ export const foreldrepengerUrl = FORELDREPENGER[ENVIRONMENT];
 export const pensjonsUrl = PENSJON[ENVIRONMENT];
 export const uforetrygdUrl = UFORETRYGD[ENVIRONMENT];
 export const soknadOgSkjemaUrl = SOKNAD_OG_SKJEMA[ENVIRONMENT];
+export const minSideUrl = MIN_SIDE[ENVIRONMENT];
 
 export const mineSakerRedirectUrl = MINE_SAKER_REDIRECT_URL[ENVIRONMENT];
 
