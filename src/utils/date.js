@@ -8,5 +8,5 @@ export const setLocaleDate = () => {
 };
 
 export const formatToReadableDate = (date) => {
-  return dayjs(date).format("DD. MMMM YYYY");
+  return dayjs(date).format("D. MMMM YYYY");
 };
