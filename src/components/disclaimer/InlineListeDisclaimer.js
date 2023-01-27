@@ -14,10 +14,10 @@ const InlineListeDisclaimer = () => {
       <Normaltekst>
         <ul className="tekst-sakstemaliste">
           <li>
-            Innhold som gjelder sykefravær er samlet under
+            Innhold som gjelder sykefravær er samlet under{" "}
             <Lenke href="https://www.nav.no/syk/sykefravaer">Ditt sykefravær</Lenke>. Det kan være noen dokumenter du
-            ikke finner der. Hvis du ikke finner det du leter etter kan du se dokumenter for
-            <Lenke href="https://person.nav.no/mine-saker/tema/SYK">sykepenger</Lenke> og
+            ikke finner der. Hvis du ikke finner det du leter etter kan du se dokumenter for{" "}
+            <Lenke href="https://person.nav.no/mine-saker/tema/SYK">sykepenger</Lenke> og{" "}
             <Lenke href="https://person.nav.no/mine-saker/tema/SYM">sykmelding</Lenke>.
           </li>
           <li className="bidragslosning">
