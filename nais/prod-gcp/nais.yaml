@@ -28,7 +28,6 @@ spec:
     outbound:
       external:
         - host: "person.nav.no"
-        - host: "nav.no/dekoratoren"
   ingresses:
     - "https://person.nav.no/mine-saker"
   resources:
