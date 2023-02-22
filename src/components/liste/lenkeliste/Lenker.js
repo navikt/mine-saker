@@ -9,6 +9,7 @@ import {
   stonadervedtiltakUrl,
   sykefravaerUrl,
   uforetrygdUrl,
+  pleiepengerEndringerUrl
 } from "../../../urls";
 import { kontaktOssUrl, lastOppVedleggUrl, opplysningspliktUrl, saksbehandlingstiderUrl } from "../../../urls";
 import { sosialhjelpAktivitetUrl, sosialhjelpVeiviserUrl, tilbakemeldingerUrl } from "../../../urls";
@@ -133,6 +134,39 @@ const sosialhjelpLenker = [
   },
 ];
 
+const omsorgspengerLenker = [
+  {
+    url: kontaktOssUrl,
+    tekst: "generelle-lenker.kontakt-oss", //Value: N: "Kontakt oss", E: "Contact us"
+    amplitudeIdentifier: "kontaktoss",
+  },
+  {
+    url: tilbakemeldingerUrl,
+    tekst: "generelle-lenker.send-klage", //Value: N: "Send klage", E: "Send complaint"
+    amplitudeIdentifier: "sendklage",
+  },
+  {
+    url: pleiepengerEndringerUrl,
+    tekst: "omsorgspenger-lenker.meld-fra-om-endringer-i-pleiepenger", //Value: N: "Meld fra om endringer i pleiepenger", E:
+    amplitudeIdentifier: "meldpleiepengerendringer",
+  },
+  {
+    url: opplysningspliktUrl,
+    tekst: "omsorgspenger-lenker.meld-fra-om-andre-endringer", //Value: N: "Meld fra om endringer", E:
+    amplitudeIdentifier: "meldendringer",
+  },
+  {
+    url: lastOppVedleggUrl,
+    tekst: "generelle-lenker.last-opp-vedlegg", //Value: N: "Last opp vedlegg", E:
+    amplitudeIdentifier: "lastoppvedlegg",
+  },
+  {
+    url: saksbehandlingstiderUrl,
+    tekst: "generelle-lenker.saksbehandlingstider", //Value: N: "Saksbehandlingstider"
+    amplitudeIdentifier: "saksbehandlingstider",
+  },
+];
+
 const tiltakspengerLenker = [
   {
     url: stonadervedtiltakUrl,
@@ -168,7 +202,8 @@ const lenker = {
   SYM: sykemeldingLenker,
   IND: tiltakspengerLenker,
   PEN: pensjonLenker,
-  UFO: uforetrygdLenker
+  UFO: uforetrygdLenker,
+  OMS: omsorgspengerLenker
 };
 
 export default lenker;
