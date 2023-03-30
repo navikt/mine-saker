@@ -7,10 +7,9 @@ import Spinner from "../spinner/Spinner";
 
 const Authentication = ({ children }) => {
   const { data: status, isLoading, isError } = useQuery(statusUrl, fetchData);
-  const { data: innloggingsstatus, isLoadingInnloggingsstatus } = useQuery(innloggingsstatusUrl, fetchData);
   const getPathName = mineSakerRedirectUrl + window.location.pathname;
 
-  if (isLoading || isLoadingInnloggingsstatus) {
+  if (isLoading) {
     return <Spinner message="Logger inn..." />;
   }
 
@@ -19,15 +18,6 @@ const Authentication = ({ children }) => {
     return null;
   }
 
-  if (innloggingsstatus?.authenticated === false && status?.authenticated === true) {
-    redirectToLoginService(mineSakerUrl);
-    return null;
-  }
-
-  if (innloggingsstatus?.securityLevel === "3") {
-    redirectToLoginService(mineSakerUrl);
-    return null;
-  }
 
   return <React.Fragment>{children}</React.Fragment>;
 };

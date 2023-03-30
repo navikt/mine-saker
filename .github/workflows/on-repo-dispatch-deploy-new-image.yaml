@@ -30,6 +30,10 @@ jobs:
         with:
           java-version: '17.x'
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
       - name: Bygg prosjekt
         uses: navikt/pb-common-gh-actions/build@v2
         with:

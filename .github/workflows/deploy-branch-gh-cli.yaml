@@ -44,6 +44,10 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: '17.x'
+          
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
       - name: 'Finn cache-variabler'
         uses: navikt/pb-common-gh-actions/cache-prep@v2
