@@ -29,7 +29,7 @@ spec:
       external:
         - host: "person.dev.nav.no"
   ingresses:
-    - "https://person.dev.nav.no/mine-saker"
+    - "https://www.intern.dev.nav.no/mine-saker"
   resources:
     limits:
       cpu: "3"

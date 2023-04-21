@@ -24,13 +24,13 @@ const DAGPENGER = {
 
 const ETTERSENDING = {
   local: "https://localhost:3000/ettersendelse",
-  development: "https://www.dev.nav.no/ettersendelse",
+  development: "https://www.intern.dev.nav.no/ettersendelse",
   production: "https://www.nav.no/ettersendelse",
 };
 
 const SOKNAD_OG_SKJEMA = {
   local: "https://localhost:3000/ettersendelse",
-  development: "https://www.dev.nav.no/ettersendelse",
+  development: "https://www.intern.dev.nav.no/ettersendelse",
   production: "https://www.nav.no/ettersendelse",
 };
 
@@ -44,37 +44,37 @@ const FORELDREPENGER = {
   local: "https://foreldrepenger.nav.no/",
   development: "https://foreldrepenger.dev.nav.no/",
   production: "https://foreldrepenger.nav.no/",
-}
+};
 
 const DITT_NAV = {
   local: "https://localhost:3000/person/dittnav/",
-  development: "https://www.dev.nav.no/person/dittnav/",
+  development: "https://www.intern.dev.nav.no/person/dittnav/",
   production: "https://www.nav.no/person/dittnav/",
 };
 
-const GAMLE_SAKSOVERSIKT= {
+const GAMLE_SAKSOVERSIKT = {
   local: "https://localhost:3000/saksoversikt",
-  development: "https://www.dev.nav.no/saksoversikt",
+  development: "https://www.intern.dev.nav.no/saksoversikt",
   production: "https://tjenester.nav.no/saksoversikt",
 };
 
-const PENSJON= {
+const PENSJON = {
   local: "https://localhost:3000/dinpensjon",
   development: "https://pensjon-pselv-q1.dev.nav.no/pselv/publisering/dinpensjon.jsf?execution=e1s1",
   production: "https://www.nav.no/pselv/publisering/dinpensjon.jsf?execution=e1s1",
 };
 
-const UFORETRYGD= {
+const UFORETRYGD = {
   local: "https://localhost:3000/uforetrygd",
   development: "https://pensjon-pselv-q1.dev.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1",
   production: "https://www.nav.no/pselv/publisering/uforetrygd.jsf?execution=e2s1",
 };
 
-const MIN_SIDE= {
+const MIN_SIDE = {
   local: "https://localhost:3000/minside",
-  development: "https://www.dev.nav.no/minside",
+  development: "https://www.intern.dev.nav.no/minside",
   production: "https://www.nav.no/minside",
-}
+};
 
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
