@@ -1,12 +1,12 @@
 const MINE_SAKER_URL = {
   local: "http://localhost:3000/mine-saker",
-  development: "https://person.dev.nav.no/mine-saker",
+  development: "https://www.intern.dev.nav.no/mine-saker",
   production: "https://person.nav.no/mine-saker",
 };
 
 const MINE_SAKER_REDIRECT_URL = {
   local: "http://localhost:3000",
-  development: "https://person.dev.nav.no",
+  development: "https://www.intern.dev.nav.no",
   production: "https://person.nav.no",
 };
 
