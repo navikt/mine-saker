@@ -18,7 +18,7 @@ const SOSIALHJELP = {
 
 const DAGPENGER = {
   local: "https://localhost:3000/arbeid/dagpenger/mine-dagpenger",
-  development: "https://arbeid.dev.nav.no/arbeid/dagpenger/mine-dagpenger",
+  development: "https://arbeid.intern.dev.nav.no/arbeid/dagpenger/mine-dagpenger",
   production: "https://www.nav.no/arbeid/dagpenger/mine-dagpenger",
 };
 
