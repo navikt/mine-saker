@@ -117,7 +117,6 @@ export const klagerettigheterUrl = "https://nav.no/no/nav-og-samfunn/kontakt-nav
 export const sosialhjelpAktivitetUrl = "https://nav.no/sosialhjelp";
 export const arbeidsavklaringspengerUrl = "https://www.nav.no/aap";
 export const lesmeromdagpengerUrl = "https://www.nav.no/arbeid/no";
-export const stonadervedtiltakUrl =
-  "https://www.nav.no/no/person/arbeid/oppfolging-og-tiltak-for-a-komme-i-jobb/stonader-ved-tiltak";
+export const stonadervedtiltakUrl = "https://www.nav.no/tiltakspenger";
 
 export const pleiepengerEndringerUrl = "https://www.nav.no/familie/sykdom-i-familien/soknad/innsyn";
