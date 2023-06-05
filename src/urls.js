@@ -79,8 +79,6 @@ const MIN_SIDE = {
 const ENVIRONMENT = window.env.ENVIRONMENT;
 
 export const mineSakerApiUrl = window.env.MINE_SAKER_API_URL;
-export const loginserviceUrl = window.env.LOGINSERVICE_URL;
-export const innloggingsstatusUrl = window.env.INNLOGGINGSSTATUS;
 
 export const sakstemaerUrl = `${mineSakerApiUrl}/sakstemaer`;
 export const journalposterUrl = `${mineSakerApiUrl}/journalposter`;
