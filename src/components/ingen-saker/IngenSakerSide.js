@@ -16,9 +16,6 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
   const translate = useIntl();
   const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
   const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
-  const tekstBidrag = "disclaimer.tekst-bidrag";
-  const tekstSoknadOgSkjema = "disclaimer.tekst-soknad-og-skjema";
-  const lenketekstSoknadOgSkjema = "disclaimer.lenketekst-soknad-og-skjema";
 
   return (
     <section className="ingen-saker-wrapper">
@@ -28,41 +25,14 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
         <Normaltekst>
           <ul className="tekstfelt-tekst">
             <li>
-              <div className="bidragslosning">
-                {translate.formatMessage({
-                  id: tekstBidrag,
-                  defaultMessage:
-                    "For bidragssaker er innsyn foreløpig ikke er tilgjengelig. Hvis du har søkt digitalt og fått kvittering, så har NAV fått søknaden.",
-                })}
-              </div>
-            </li>
-            <li>
-              <div className="soknad-og-skjema">
-                {translate.formatMessage({
-                  id: tekstSoknadOgSkjema,
-                  defaultMessage:
-                    "Har du sendt inn en søknad per post tar det litt tid før saken vises her. Du kan likevel ",
-                })}
-                <Lenke
-                  href={soknadOgSkjemaUrl}
-                  onClick={() =>
-                    logAmplitudeEvent(
-                      listOfComponentNames.disclaimerLenke.tilGamleSaksoversiktTemaBidrag,
-                      listOfActions.trykkPaaLenke
-                    )
-                  }
-                >
-                  {translate.formatMessage({
-                    id: lenketekstSoknadOgSkjema,
-                    defaultMessage: "ettersende dokumenter via søknad og skjema.",
-                  })}
-                </Lenke>
-              </div>
+              Har du sendt inn en søknad per post tar det litt tid før saken vises her. Du kan likevel{" "}
+              {<Lenke href={soknadOgSkjemaUrl}> ettersende dokumenter</Lenke>}.
             </li>
             <li>
               Dersom du har sendt inn en søknad på vegne av en annen person, vil ikke saken vises her. Vi beklager
               ulempene dette medfører.
             </li>
+            <li>For bidragssaker kan du kun se dokumenter fra starten av 2022.</li>
           </ul>
           Ta <Lenke href={kontaktOssUrl}>kontakt</Lenke> dersom det er noe du lurer på.
         </Normaltekst>

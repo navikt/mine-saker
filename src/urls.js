@@ -30,8 +30,8 @@ const ETTERSENDING = {
 
 const SOKNAD_OG_SKJEMA = {
   local: "https://localhost:3000/ettersendelse",
-  development: "https://www.intern.dev.nav.no/ettersendelse",
-  production: "https://www.nav.no/ettersendelse",
+  development: "https://www.intern.dev.nav.no/ettersende",
+  production: "https://www.nav.no/ettersende",
 };
 
 const HJELPEMIDLER = {
