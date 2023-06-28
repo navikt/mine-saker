@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "nav-frontend-knapper-style";
-import Dinosaur from "../../assets/Dinosaur";
 import { minSideUrl, soknadOgSkjemaUrl } from "../../urls";
-import { Undertittel, Normaltekst } from "nav-frontend-typografi";
+import { Normaltekst } from "nav-frontend-typografi";
 import { useIntl } from "react-intl";
 import { listOfActions, listOfComponentNames, logAmplitudeEvent } from "../../utils/amplitude";
 import { kontaktOssUrl } from "../../urls";
@@ -15,13 +14,11 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
 
   const translate = useIntl();
   const saksoversiktKnappTekst = "ingen-saker.saksoversikt-knapp";
-  const dittNavKnappTekst = "ingen-saker.ditt-nav-knapp";
 
   return (
     <section className="ingen-saker-wrapper">
       <div className="tekstfelt">
         <h2 className="ingen-saker-ingress">{ingress}</h2>
-        <Undertittel className="tekstfelt-tittel">Finner du ikke det du leter etter?</Undertittel>
         <Normaltekst>
           <ul className="tekstfelt-tekst">
             <li>
@@ -59,11 +56,8 @@ const IngenSakerSide = ({ ingress, useBothButtons }) => {
             )
           }
         >
-          {translate.formatMessage({ id: dittNavKnappTekst, defaultMessage: "Gå til forsiden av Ditt NAV" })}
+          Gå til Min side
         </a>
-      </section>
-      <section className="dinosaur-wrapper">
-        <Dinosaur />
       </section>
     </section>
   );
