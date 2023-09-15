@@ -62,7 +62,7 @@
   },
   "scripts": {
     "start": "cross-env PUBLIC_URL=/ craco start",
-    "build": "craco build",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && craco build",
     "test": "node --version",
     "test-ci": "npm run lint && CI=true craco test",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
