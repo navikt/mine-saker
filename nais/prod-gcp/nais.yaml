@@ -29,8 +29,6 @@ spec:
       external:
         - host: "person.nav.no"
         - host: "www.nav.no"
-  ingresses:
-    - "https://person.nav.no/mine-saker"
   resources:
     limits:
       cpu: "3"

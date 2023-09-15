@@ -30,8 +30,6 @@ spec:
         - host: "www.intern.dev.nav.no"
         - host: "dekoratoren.dev.nav.no"
         - host: "dekoratoren.ekstern.dev.nav.no"
-  ingresses:
-    - "https://www.intern.dev.nav.no/mine-saker"
   resources:
     limits:
       cpu: "3"
